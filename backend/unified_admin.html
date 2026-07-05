@@ -997,7 +997,7 @@
                 <span style="font-weight: 800; font-size: 0.95rem; color: var(--text-secondary);">Active Pipeline:</span>
                 <select id="game-pipeline-select" onchange="switchPipeline(this.value)" style="padding: 8px 16px; border: 2px solid #2D3436; border-radius: 6px; font-weight: 800; font-family: inherit; font-size: 0.9rem; cursor: pointer; box-shadow: 2px 2px 0 #2D3436;">
                     <option value="boxoffice">Box Office Blunders 🎬</option>
-                    <option value="touristtraps">Tourist Traps 🗺️</option>
+                    <option value="travelreviews">1-Star Travel Reviews 🗺️</option>
                 </select>
                 <button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" onclick="openActiveGame()">🎮 Play Active Game</button>
             </div>
@@ -1022,8 +1022,8 @@
             </button>
         </nav>
 
-        <!-- Tourist Traps Navigation -->
-        <nav class="pipeline-nav" id="nav-touristtraps" style="width: 100%; display: none;">
+        <!-- 1-Star Travel Reviews Navigation -->
+        <nav class="pipeline-nav" id="nav-travelreviews" style="width: 100%; display: none;">
             <button class="pipeline-btn active" data-tab="tt-landmarks">
                 📍 Landmarks
             </button>
@@ -1242,7 +1242,7 @@
 
         </div> <!-- /#boxoffice-pipeline-views -->
 
-        <div id="touristtraps-pipeline-views" style="display: none;">
+        <div id="travelreviews-pipeline-views" style="display: none;">
 
         <!-- ================= TOURIST TRAPS TABS ================= -->
         <!-- 1. LANDMARKS TAB -->
@@ -1397,7 +1397,7 @@
             </div>
         </div>
 
-        </div> <!-- /#touristtraps-pipeline-views -->
+        </div> <!-- /#travelreviews-pipeline-views -->
     </div> <!-- /container -->
 
     <!-- Image lightbox modal for postcards preview zoom -->
@@ -3350,9 +3350,9 @@
             
             if (game === 'boxoffice') {
                 document.getElementById('nav-boxoffice').style.display = 'flex';
-                document.getElementById('nav-touristtraps').style.display = 'none';
+                document.getElementById('nav-travelreviews').style.display = 'none';
                 document.getElementById('boxoffice-pipeline-views').style.display = 'block';
-                document.getElementById('touristtraps-pipeline-views').style.display = 'none';
+                document.getElementById('travelreviews-pipeline-views').style.display = 'none';
                 
                 // Toggle active buttons inside nav-boxoffice
                 const activeBtn = document.querySelector('#nav-boxoffice .pipeline-btn.active');
@@ -3363,18 +3363,18 @@
                     if (defaultBtn) defaultBtn.click();
                 }
                 loadAllData();
-            } else if (game === 'touristtraps') {
+            } else if (game === 'travelreviews') {
                 document.getElementById('nav-boxoffice').style.display = 'none';
-                document.getElementById('nav-touristtraps').style.display = 'flex';
+                document.getElementById('nav-travelreviews').style.display = 'flex';
                 document.getElementById('boxoffice-pipeline-views').style.display = 'none';
-                document.getElementById('touristtraps-pipeline-views').style.display = 'block';
+                document.getElementById('travelreviews-pipeline-views').style.display = 'block';
                 
-                // Toggle active buttons inside nav-touristtraps
-                const activeBtn = document.querySelector('#nav-touristtraps .pipeline-btn.active');
+                // Toggle active buttons inside nav-travelreviews
+                const activeBtn = document.querySelector('#nav-travelreviews .pipeline-btn.active');
                 if (activeBtn) {
                     activeBtn.click();
                 } else {
-                    const defaultBtn = document.querySelector('#nav-touristtraps .pipeline-btn[data-tab="tt-landmarks"]');
+                    const defaultBtn = document.querySelector('#nav-travelreviews .pipeline-btn[data-tab="tt-landmarks"]');
                     if (defaultBtn) defaultBtn.click();
                 }
                 tt_init();
@@ -3385,7 +3385,7 @@
             if (currentPipeline === 'boxoffice') {
                 window.open('/', '_blank');
             } else {
-                window.open('/touristtraps/', '_blank');
+                window.open('/travelreviews/', '_blank');
             }
         }
 
@@ -3403,7 +3403,7 @@
                     if (currentPipeline === 'boxoffice') {
                         document.querySelectorAll('#nav-boxoffice .pipeline-btn').forEach(b => b.classList.remove('active'));
                     } else {
-                        document.querySelectorAll('#nav-touristtraps .pipeline-btn').forEach(b => b.classList.remove('active'));
+                        document.querySelectorAll('#nav-travelreviews .pipeline-btn').forEach(b => b.classList.remove('active'));
                     }
                     btn.classList.add('active');
 
@@ -3423,9 +3423,9 @@
                 });
             });
 
-            // Read starting pipeline from query param or default to touristtraps
+            // Read starting pipeline from query param or default to travelreviews
             const urlParams = new URLSearchParams(window.location.search);
-            const game = urlParams.get('game') || 'touristtraps';
+            const game = urlParams.get('game') || 'travelreviews';
             switchPipeline(game);
         });
 
@@ -3451,7 +3451,7 @@
         async function tt_loadData(type) {
             try {
                 let apiType = type.startsWith('tt_') ? type.replace('tt_', '') : type;
-                let res = await fetch(`/api/touristtraps/${apiType}`);
+                let res = await fetch(`/api/travelreviews/${apiType}`);
                 let data = await res.json();
                 if (type === 'tt_landmarks') tt_landmarks = data;
                 else if (type === 'tt_puns') tt_puns = data;
@@ -3466,7 +3466,7 @@
         async function tt_saveData(type, data) {
             try {
                 let apiType = type.startsWith('tt_') ? type.replace('tt_', '') : type;
-                await fetch(`/api/touristtraps/${apiType}`, {
+                await fetch(`/api/travelreviews/${apiType}`, {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify(data)
@@ -3566,14 +3566,14 @@
 
         // --- GENERATION CALLS ---
         async function tt_generatePuns() {
-            let res = await fetch('/api/touristtraps/generate_puns', {method: 'POST'});
+            let res = await fetch('/api/travelreviews/generate_puns', {method: 'POST'});
             let data = await res.json();
             alert(`Puns generated! New tt_puns added: ${data.generated_count}`);
             await tt_init();
         }
 
         async function tt_generateClues() {
-            let res = await fetch('/api/touristtraps/generate_clues', {method: 'POST'});
+            let res = await fetch('/api/travelreviews/generate_clues', {method: 'POST'});
             let data = await res.json();
             alert(`Reviews and Clues generated! New items: ${data.generated_count}`);
             await tt_init();
@@ -3581,7 +3581,7 @@
 
         async function tt_generatePostcards() {
             const style = document.getElementById('tt_art_style_select').value;
-            let res = await fetch('/api/touristtraps/generate_postcards', {
+            let res = await fetch('/api/travelreviews/generate_postcards', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({ art_style: style })
@@ -3717,7 +3717,7 @@
             btn.innerText = "⏳ Writing...";
             
             try {
-                let res = await fetch('/api/touristtraps/regenerate_owner_reply', {
+                let res = await fetch('/api/travelreviews/regenerate_owner_reply', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({ clue_id: clueId })
@@ -3751,7 +3751,7 @@
             btn.innerText = "⏳ Generating...";
             
             try {
-                let res = await fetch('/api/touristtraps/generate_postcards', {
+                let res = await fetch('/api/travelreviews/generate_postcards', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({ clue_id: clueId, art_style: artStyle })

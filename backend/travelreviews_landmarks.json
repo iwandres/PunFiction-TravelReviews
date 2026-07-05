@@ -1,0 +1,230 @@
+[
+  {
+    "id": "landmark_1783200000001",
+    "name": "Eiffel Tower",
+    "location": "Paris, France",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000002",
+    "name": "Great Wall of China",
+    "location": "Huairou, China",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000003",
+    "name": "Taj Mahal",
+    "location": "Agra, India",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000004",
+    "name": "Machu Picchu",
+    "location": "Cusco Region, Peru",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000005",
+    "name": "Colosseum",
+    "location": "Rome, Italy",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000006",
+    "name": "Statue of Liberty",
+    "location": "New York, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000007",
+    "name": "Pyramids of Giza",
+    "location": "Giza, Egypt",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000008",
+    "name": "Grand Canyon",
+    "location": "Arizona, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000009",
+    "name": "Sydney Opera House",
+    "location": "Sydney, Australia",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000010",
+    "name": "Christ the Redeemer",
+    "location": "Rio de Janeiro, Brazil",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000011",
+    "name": "Louvre Museum",
+    "location": "Paris, France",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000012",
+    "name": "Stonehenge",
+    "location": "Wiltshire, England",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000013",
+    "name": "Mount Everest",
+    "location": "Nepal/China",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000014",
+    "name": "Mount Fuji",
+    "location": "Honshu, Japan",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000015",
+    "name": "Petra",
+    "location": "Ma'an, Jordan",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000016",
+    "name": "Sagrada Família",
+    "location": "Barcelona, Spain",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000017",
+    "name": "Golden Gate Bridge",
+    "location": "San Francisco, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000018",
+    "name": "Acropolis of Athens",
+    "location": "Athens, Greece",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000019",
+    "name": "Angkor Wat",
+    "location": "Siem Reap, Cambodia",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000020",
+    "name": "Niagara Falls",
+    "location": "Ontario, Canada / New York, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000021",
+    "name": "Chichen Itza",
+    "location": "Yucatan, Mexico",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000022",
+    "name": "Burj Khalifa",
+    "location": "Dubai, UAE",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000023",
+    "name": "Tower Bridge",
+    "location": "London, UK",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000024",
+    "name": "St. Peter's Basilica",
+    "location": "Vatican City",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000025",
+    "name": "Alcatraz Island",
+    "location": "San Francisco, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000026",
+    "name": "Empire State Building",
+    "location": "New York, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000027",
+    "name": "Times Square",
+    "location": "New York, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000028",
+    "name": "Mount Rushmore",
+    "location": "South Dakota, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000029",
+    "name": "Leaning Tower of Pisa",
+    "location": "Pisa, Italy",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000030",
+    "name": "Trevi Fountain",
+    "location": "Rome, Italy",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000031",
+    "name": "Neuschwanstein Castle",
+    "location": "Bavaria, Germany",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000032",
+    "name": "Great Barrier Reef",
+    "location": "Queensland, Australia",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000033",
+    "name": "Loch Ness",
+    "location": "Highlands, Scotland",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000034",
+    "name": "Mount Kilimanjaro",
+    "location": "Kilimanjaro Region, Tanzania",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000035",
+    "name": "Big Ben",
+    "location": "London, UK",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000036",
+    "name": "Yellowstone National Park",
+    "location": "Wyoming, USA",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000037",
+    "name": "Palace of Versailles",
+    "location": "Versailles, France",
+    "status": "approved"
+  },
+  {
+    "id": "landmark_1783200000038",
+    "name": "Panama Canal",
+    "location": "Panama",
+    "status": "approved"
+  }
+]
