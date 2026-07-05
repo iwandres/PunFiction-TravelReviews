@@ -101,6 +101,9 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
         if req_path == '/':
             self.send_response(200)
             self.send_header('Content-type', 'text/html')
+            self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+            self.send_header('Pragma', 'no-cache')
+            self.send_header('Expires', '0')
             self.end_headers()
             with open(UNIFIED_HTML_FILE, 'rb') as f:
                 self.wfile.write(f.read())

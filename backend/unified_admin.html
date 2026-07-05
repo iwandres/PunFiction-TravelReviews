@@ -3347,6 +3347,9 @@
         function switchPipeline(game) {
             currentPipeline = game;
             document.getElementById('game-pipeline-select').value = game;
+            try {
+                localStorage.setItem('punfiction_curation_active_pipeline', game);
+            } catch (e) {}
             
             if (game === 'boxoffice') {
                 document.getElementById('nav-boxoffice').style.display = 'flex';
@@ -3423,9 +3426,17 @@
                 });
             });
 
-            // Read starting pipeline from query param or default to travelreviews
+            // Read starting pipeline: URL query param > localStorage > default ('travelreviews')
             const urlParams = new URLSearchParams(window.location.search);
-            const game = urlParams.get('game') || 'travelreviews';
+            let game = urlParams.get('game');
+            if (!game) {
+                try {
+                    game = localStorage.getItem('punfiction_curation_active_pipeline');
+                } catch (e) {}
+            }
+            if (!game) {
+                game = 'travelreviews';
+            }
             switchPipeline(game);
         });
 
