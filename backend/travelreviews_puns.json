@@ -159,5 +159,103 @@
     "location": "Nepal/China",
     "pun_name": "Mount Cleverest",
     "status": "approved"
+  },
+  {
+    "id": "pun_mount_fuji_1783295351_575",
+    "original_name": "Mount Fuji",
+    "location": "Honshu, Japan",
+    "pun_name": "Mount Fudge-y",
+    "status": "pending"
+  },
+  {
+    "id": "pun_mount_fuji_1783295351_791",
+    "original_name": "Mount Fuji",
+    "location": "Honshu, Japan",
+    "pun_name": "Mount Fuzzy",
+    "status": "pending"
+  },
+  {
+    "id": "pun_mount_fuji_1783295351_705",
+    "original_name": "Mount Fuji",
+    "location": "Honshu, Japan",
+    "pun_name": "Mount Fooey",
+    "status": "pending"
+  },
+  {
+    "id": "pun_petra_1783295360_968",
+    "original_name": "Petra",
+    "location": "Ma'an, Jordan",
+    "pun_name": "Pet Rock-a",
+    "status": "pending"
+  },
+  {
+    "id": "pun_petra_1783295360_584",
+    "original_name": "Petra",
+    "location": "Ma'an, Jordan",
+    "pun_name": "Pet Troll-a",
+    "status": "pending"
+  },
+  {
+    "id": "pun_sagrada_fam\u00edlia_1783295364_613",
+    "original_name": "Sagrada Fam\u00edlia",
+    "location": "Barcelona, Spain",
+    "pun_name": "Sangria Fam\u00edlia",
+    "status": "pending"
+  },
+  {
+    "id": "pun_sagrada_fam\u00edlia_1783295364_533",
+    "original_name": "Sagrada Fam\u00edlia",
+    "location": "Barcelona, Spain",
+    "pun_name": "Sad Grada Fam\u00edlia",
+    "status": "pending"
+  },
+  {
+    "id": "pun_sagrada_fam\u00edlia_1783295364_269",
+    "original_name": "Sagrada Fam\u00edlia",
+    "location": "Barcelona, Spain",
+    "pun_name": "Sagrada Formula",
+    "status": "pending"
+  },
+  {
+    "id": "pun_golden_gate_bridge_1783295368_180",
+    "original_name": "Golden Gate Bridge",
+    "location": "San Francisco, USA",
+    "pun_name": "Golden Gate Fridge",
+    "status": "pending"
+  },
+  {
+    "id": "pun_golden_gate_bridge_1783295368_304",
+    "original_name": "Golden Gate Bridge",
+    "location": "San Francisco, USA",
+    "pun_name": "Golden Grate Bridge",
+    "status": "pending"
+  },
+  {
+    "id": "pun_golden_gate_bridge_1783295368_876",
+    "original_name": "Golden Gate Bridge",
+    "location": "San Francisco, USA",
+    "pun_name": "Golden Bait Bridge",
+    "status": "pending"
+  },
+  {
+    "id": "pun_acropolis_of_athens_1783295377_189",
+    "original_name": "Acropolis of Athens",
+    "location": "Athens, Greece",
+    "pun_name": "A Crooked Police of Athens",
+    "status": "pending"
+  },
+  {
+    "id": "pun_acropolis_of_athens_1783295377_607",
+    "original_name": "Acropolis of Athens",
+    "location": "Athens, Greece",
+    "pun_name": "A Crop-a-List of Athens",
+    "status": "pending"
+  },
+  {
+    "id": "pun_acropolis_of_athens_1783295377_944",
+    "original_name": "Acropolis of Athens",
+    "location": "Athens, Greece",
+    "pun_name": "A Cappella-Polis of Athens",
+    "status": "pending"
   }
 ]
