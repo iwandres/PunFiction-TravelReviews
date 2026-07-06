@@ -86,5 +86,77 @@
     "art_style": "wpa",
     "owner_response": "Dear Esteemed Guest, we're sorry your visit left you feeling... gastronomically challenged. Our unique architecture certainly has a knack for engaging all senses, including those of hunger and disorientation. Perhaps next time you'll bring your own slice of perspective to truly appreciate our 'Leaning' artistry!",
     "status": "pending"
+  },
+  {
+    "id": "postcard_clue_great_waffle_of_china_1783298506_1783313304",
+    "clue_id": "clue_great_waffle_of_china_1783298506",
+    "pun_name": "Great Waffle of China",
+    "original_name": "Great Wall of China",
+    "image_prompt": "A comically colossal, ancient-looking waffle, textured like aged stone, snaking majestically across a dramatic Chinese mountain range with tiny tourists exploring its buttery peaks, rendered in a classic distressed linen texture vintage postcard style with a hand-colored photo print aesthetic reminiscent of 1930s travel.",
+    "image_path": "/assets/cartoons/great_waffle_of_china_1783313298.png",
+    "art_style": "vintage",
+    "owner_response": "Dear @BatterBlaster, our ancient military defense system, spanning thousands of kilometers, was built for protection, not for holding syrup or being 'golden-brown.' You may be looking for a different kind of 'wall'.",
+    "page_theme": "sightseeing",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_great_whale_of_china_1783298514_1783313405",
+    "clue_id": "clue_great_whale_of_china_1783298514",
+    "pun_name": "Great Whale of China",
+    "original_name": "Great Wall of China",
+    "image_prompt": "A gigantic, goofy cartoon whale comically undulates across a vast, stylized Chinese landscape, its enormous body forming a living, winding 'Great Wall' that tiny, surprised tourists explore, rendered in a vibrant Pop Art style with bold outlines, screen print dot texture, retro comic book feel, and high contrast colors.",
+    "image_path": "/assets/cartoons/great_whale_of_china_1783313400.png",
+    "art_style": "pop-art",
+    "owner_response": "Dear @FlippyFlop, our centuries-old defensive fortification is made of stone and brick, not blubber, and it certainly doesn't 'breach'. If you're looking for a giant, spouting mammal, you've taken a very wrong turn in China.",
+    "page_theme": "sightseeing",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_taj_mahal_1783281654_846_1783298980_566_1783313416",
+    "clue_id": "clue_pun_taj_mahal_1783281654_846_1783298980_566",
+    "pun_name": "Taj Ma-Haul",
+    "original_name": "Taj Mahal",
+    "image_prompt": "A gigantic, comically exaggerated Taj Mahal structure reimagined as a hauling semi-truck, its iconic dome serving as the trailer overflowing with a ridiculous 'haul' of mismatched items, depicted in a vibrant Pop Art style with bold outlines, screen print dot texture, and a retro comic book feel.",
+    "image_path": "/assets/cartoons/taj_ma_haul_1783313411.png",
+    "art_style": "pop-art",
+    "owner_response": "Dear @OverloadedOm, while we appreciate your visit, this is a monument of profound eternal love, not a storage unit or a parking lot for your moving truck. Our precious marble is for admiring, not for packing boxes.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_taj_mahal_1783281654_245_1783298990_130_1783313432",
+    "clue_id": "clue_pun_taj_mahal_1783281654_245_1783298990_130",
+    "pun_name": "Jazz Mahal",
+    "original_name": "Taj Mahal",
+    "image_prompt": "A humorous travel postcard illustration of the 'Jazz Mahal,' featuring the Taj Mahal transformed into a grand jazz club with its domes as giant saxophones and its minarets as gleaming trumpets, surrounded by floating musical notes, rendered in an old-school 1930s WPA-era silk-screened travel poster style with bold shapes, muted nature-inspired colors, and hand-drawn typography.",
+    "image_path": "/assets/cartoons/jazz_mahal_1783313426.png",
+    "art_style": "wpa",
+    "owner_response": "Listen, @BlueNoteBlues, this is a UNESCO World Heritage Site built for eternal repose, not for 'endless, noisy improvisation.' Perhaps your 'Agra-vated' ears are confused about what a *mausoleum* actually entails.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_machu_picchu_1783281661_502_1783298997_992_1783313443",
+    "clue_id": "clue_pun_machu_picchu_1783281661_502_1783298997_992",
+    "pun_name": "Macho Picchu",
+    "original_name": "Machu Picchu",
+    "image_prompt": "A comical illustration of burly, comically flexing men in tiny loincloths striking dramatic poses amidst the ancient, terraced ruins of 'Macho Picchu', with the background showing exaggeratedly rugged mountain peaks, comical cartoon illustration, bold lines, bright vibrant colors, humorous caricature, white postcard border.",
+    "image_path": "/assets/cartoons/macho_picchu_1783313436.png",
+    "art_style": "cartoon",
+    "owner_response": "Dear @FlexingFiasco, it seems you've confused our ancient Incan citadel with a gym. We are a UNESCO World Heritage site and a wonder of engineering, not a place for 'flexing' or 'abs competitions'.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_statue_of_liberty_1783282169_333_1783299019_669_1783313456",
+    "clue_id": "clue_pun_statue_of_liberty_1783282169_333_1783299019_669",
+    "pun_name": "Statue of Liver Tea",
+    "original_name": "Statue of Liberty",
+    "image_prompt": "A comical 'Statue of Liberty' figure holding a steaming teacup of 'liver tea' and a giant liver-shaped biscuit, rendered in a vibrant Pop Art style with bold outlines, screen print dot texture, retro comic book feel, and high contrast colors.",
+    "image_path": "/assets/cartoons/statue_of_liver_tea_1783313450.png",
+    "art_style": "pop-art",
+    "owner_response": "Dear @BitterBrew, our magnificent 305-foot monument, a gift from France, symbolizes liberty, not a drive-through tea service. We are quite certain our copper structure does not brew or serve anything, let alone 'liver tea'.",
+    "page_theme": "road_trip",
+    "status": "pending"
   }
 ]

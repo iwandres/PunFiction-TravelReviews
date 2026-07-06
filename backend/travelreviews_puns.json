@@ -161,101 +161,367 @@
     "status": "approved"
   },
   {
-    "id": "pun_mount_fuji_1783295351_575",
-    "original_name": "Mount Fuji",
-    "location": "Honshu, Japan",
-    "pun_name": "Mount Fudge-y",
-    "status": "pending"
-  },
-  {
     "id": "pun_mount_fuji_1783295351_791",
     "original_name": "Mount Fuji",
     "location": "Honshu, Japan",
     "pun_name": "Mount Fuzzy",
-    "status": "pending"
-  },
-  {
-    "id": "pun_mount_fuji_1783295351_705",
-    "original_name": "Mount Fuji",
-    "location": "Honshu, Japan",
-    "pun_name": "Mount Fooey",
-    "status": "pending"
-  },
-  {
-    "id": "pun_petra_1783295360_968",
-    "original_name": "Petra",
-    "location": "Ma'an, Jordan",
-    "pun_name": "Pet Rock-a",
-    "status": "pending"
-  },
-  {
-    "id": "pun_petra_1783295360_584",
-    "original_name": "Petra",
-    "location": "Ma'an, Jordan",
-    "pun_name": "Pet Troll-a",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "pun_sagrada_fam\u00edlia_1783295364_613",
     "original_name": "Sagrada Fam\u00edlia",
     "location": "Barcelona, Spain",
     "pun_name": "Sangria Fam\u00edlia",
-    "status": "pending"
-  },
-  {
-    "id": "pun_sagrada_fam\u00edlia_1783295364_533",
-    "original_name": "Sagrada Fam\u00edlia",
-    "location": "Barcelona, Spain",
-    "pun_name": "Sad Grada Fam\u00edlia",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "pun_sagrada_fam\u00edlia_1783295364_269",
     "original_name": "Sagrada Fam\u00edlia",
     "location": "Barcelona, Spain",
     "pun_name": "Sagrada Formula",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "pun_golden_gate_bridge_1783295368_180",
     "original_name": "Golden Gate Bridge",
     "location": "San Francisco, USA",
     "pun_name": "Golden Gate Fridge",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "pun_golden_gate_bridge_1783295368_304",
     "original_name": "Golden Gate Bridge",
     "location": "San Francisco, USA",
     "pun_name": "Golden Grate Bridge",
-    "status": "pending"
-  },
-  {
-    "id": "pun_golden_gate_bridge_1783295368_876",
-    "original_name": "Golden Gate Bridge",
-    "location": "San Francisco, USA",
-    "pun_name": "Golden Bait Bridge",
-    "status": "pending"
-  },
-  {
-    "id": "pun_acropolis_of_athens_1783295377_189",
-    "original_name": "Acropolis of Athens",
-    "location": "Athens, Greece",
-    "pun_name": "A Crooked Police of Athens",
-    "status": "pending"
-  },
-  {
-    "id": "pun_acropolis_of_athens_1783295377_607",
-    "original_name": "Acropolis of Athens",
-    "location": "Athens, Greece",
-    "pun_name": "A Crop-a-List of Athens",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "pun_acropolis_of_athens_1783295377_944",
     "original_name": "Acropolis of Athens",
     "location": "Athens, Greece",
     "pun_name": "A Cappella-Polis of Athens",
+    "status": "approved"
+  },
+  {
+    "id": "pun_petra_1783298842_465",
+    "original_name": "Petra",
+    "location": "Ma'an, Jordan",
+    "pun_name": "Pie-tra",
+    "status": "approved"
+  },
+  {
+    "id": "pun_angkor_wat_1783298848_578",
+    "original_name": "Angkor Wat",
+    "location": "Siem Reap, Cambodia",
+    "pun_name": "Anchor Wat",
+    "status": "approved"
+  },
+  {
+    "id": "pun_niagara_falls_1783298853_701",
+    "original_name": "Niagara Falls",
+    "location": "Ontario, Canada / New York, USA",
+    "pun_name": "Niagara Fails",
+    "status": "approved"
+  },
+  {
+    "id": "pun_niagara_falls_1783298853_274",
+    "original_name": "Niagara Falls",
+    "location": "Ontario, Canada / New York, USA",
+    "pun_name": "Niagara Calls",
+    "status": "approved"
+  },
+  {
+    "id": "pun_chichen_itza_1783298859_788",
+    "original_name": "Chichen Itza",
+    "location": "Yucatan, Mexico",
+    "pun_name": "Chicken Pizza",
+    "status": "approved"
+  },
+  {
+    "id": "pun_chichen_itza_1783298859_579",
+    "original_name": "Chichen Itza",
+    "location": "Yucatan, Mexico",
+    "pun_name": "Kitchen Pizza",
+    "status": "approved"
+  },
+  {
+    "id": "pun_chichen_itza_1783298859_956",
+    "original_name": "Chichen Itza",
+    "location": "Yucatan, Mexico",
+    "pun_name": "Itchin' Itza",
+    "status": "approved"
+  },
+  {
+    "id": "pun_burj_khalifa_1783298862_522",
+    "original_name": "Burj Khalifa",
+    "location": "Dubai, UAE",
+    "pun_name": "Burger Khalifa",
+    "status": "pending"
+  },
+  {
+    "id": "pun_burj_khalifa_1783298862_372",
+    "original_name": "Burj Khalifa",
+    "location": "Dubai, UAE",
+    "pun_name": "Burj Khaleesi",
+    "status": "pending"
+  },
+  {
+    "id": "pun_burj_khalifa_1783298862_490",
+    "original_name": "Burj Khalifa",
+    "location": "Dubai, UAE",
+    "pun_name": "Burp Khalifa",
+    "status": "pending"
+  },
+  {
+    "id": "pun_tower_bridge_1783298870_706",
+    "original_name": "Tower Bridge",
+    "location": "London, UK",
+    "pun_name": "Shower Bridge",
+    "status": "pending"
+  },
+  {
+    "id": "pun_tower_bridge_1783298870_114",
+    "original_name": "Tower Bridge",
+    "location": "London, UK",
+    "pun_name": "Sour Bridge",
+    "status": "pending"
+  },
+  {
+    "id": "pun_tower_bridge_1783298870_707",
+    "original_name": "Tower Bridge",
+    "location": "London, UK",
+    "pun_name": "Power Fridge",
+    "status": "pending"
+  },
+  {
+    "id": "pun_st._peter's_basilica_1783298874_182",
+    "original_name": "St. Peter's Basilica",
+    "location": "Vatican City",
+    "pun_name": "St. Peter's Bazooka",
+    "status": "pending"
+  },
+  {
+    "id": "pun_st._peter's_basilica_1783298874_821",
+    "original_name": "St. Peter's Basilica",
+    "location": "Vatican City",
+    "pun_name": "St. Peter's Basilisk-a",
+    "status": "pending"
+  },
+  {
+    "id": "pun_st._peter's_basilica_1783298874_739",
+    "original_name": "St. Peter's Basilica",
+    "location": "Vatican City",
+    "pun_name": "St. Peter's Basic-a",
+    "status": "pending"
+  },
+  {
+    "id": "pun_empire_state_building_1783298887_454",
+    "original_name": "Empire State Building",
+    "location": "New York, USA",
+    "pun_name": "Vampire State Building",
+    "status": "approved"
+  },
+  {
+    "id": "pun_empire_state_building_1783298887_875",
+    "original_name": "Empire State Building",
+    "location": "New York, USA",
+    "pun_name": "Empire State Bouldering",
+    "status": "approved"
+  },
+  {
+    "id": "pun_times_square_1783298889_391",
+    "original_name": "Times Square",
+    "location": "New York, USA",
+    "pun_name": "Limes Square",
+    "status": "approved"
+  },
+  {
+    "id": "pun_times_square_1783298889_443",
+    "original_name": "Times Square",
+    "location": "New York, USA",
+    "pun_name": "Mimes Square",
+    "status": "approved"
+  },
+  {
+    "id": "pun_times_square_1783298889_595",
+    "original_name": "Times Square",
+    "location": "New York, USA",
+    "pun_name": "Times Scare",
+    "status": "approved"
+  },
+  {
+    "id": "pun_mount_rushmore_1783298897_107",
+    "original_name": "Mount Rushmore",
+    "location": "South Dakota, USA",
+    "pun_name": "Mount Crushmore",
+    "status": "approved"
+  },
+  {
+    "id": "pun_mount_rushmore_1783298897_250",
+    "original_name": "Mount Rushmore",
+    "location": "South Dakota, USA",
+    "pun_name": "Mount Lushmore",
+    "status": "approved"
+  },
+  {
+    "id": "pun_leaning_tower_of_pisa_1783298900_532",
+    "original_name": "Leaning Tower of Pisa",
+    "location": "Pisa, Italy",
+    "pun_name": "Leaning Tower of Pizza",
+    "status": "approved"
+  },
+  {
+    "id": "pun_leaning_tower_of_pisa_1783298900_537",
+    "original_name": "Leaning Tower of Pisa",
+    "location": "Pisa, Italy",
+    "pun_name": "Cleaning Tower of Pisa",
+    "status": "approved"
+  },
+  {
+    "id": "pun_trevi_fountain_1783298906_593",
+    "original_name": "Trevi Fountain",
+    "location": "Rome, Italy",
+    "pun_name": "Trevi Fortune",
+    "status": "approved"
+  },
+  {
+    "id": "pun_neuschwanstein_castle_1783298915_674",
+    "original_name": "Neuschwanstein Castle",
+    "location": "Bavaria, Germany",
+    "pun_name": "New Swan-Stain Castle",
+    "status": "pending"
+  },
+  {
+    "id": "pun_neuschwanstein_castle_1783298915_975",
+    "original_name": "Neuschwanstein Castle",
+    "location": "Bavaria, Germany",
+    "pun_name": "No-Swine-Stain Castle",
+    "status": "approved"
+  },
+  {
+    "id": "pun_great_barrier_reef_1783298920_577",
+    "original_name": "Great Barrier Reef",
+    "location": "Queensland, Australia",
+    "pun_name": "Great Beer Reef",
+    "status": "pending"
+  },
+  {
+    "id": "pun_great_barrier_reef_1783298920_807",
+    "original_name": "Great Barrier Reef",
+    "location": "Queensland, Australia",
+    "pun_name": "Great Berry Reef",
+    "status": "approved"
+  },
+  {
+    "id": "pun_loch_ness_1783298929_764",
+    "original_name": "Loch Ness",
+    "location": "Highlands, Scotland",
+    "pun_name": "Loch Mess",
+    "status": "pending"
+  },
+  {
+    "id": "pun_loch_ness_1783298929_678",
+    "original_name": "Loch Ness",
+    "location": "Highlands, Scotland",
+    "pun_name": "Mock Ness",
+    "status": "pending"
+  },
+  {
+    "id": "pun_loch_ness_1783298929_522",
+    "original_name": "Loch Ness",
+    "location": "Highlands, Scotland",
+    "pun_name": "Loch Guess",
+    "status": "pending"
+  },
+  {
+    "id": "pun_mount_kilimanjaro_1783298934_350",
+    "original_name": "Mount Kilimanjaro",
+    "location": "Kilimanjaro Region, Tanzania",
+    "pun_name": "Mount Killy-Many-Jars-Oh!",
+    "status": "pending"
+  },
+  {
+    "id": "pun_big_ben_1783298937_847",
+    "original_name": "Big Ben",
+    "location": "London, UK",
+    "pun_name": "Pig Pen",
+    "status": "approved"
+  },
+  {
+    "id": "pun_big_ben_1783298937_929",
+    "original_name": "Big Ben",
+    "location": "London, UK",
+    "pun_name": "Wig Ben",
+    "status": "approved"
+  },
+  {
+    "id": "pun_big_ben_1783298937_759",
+    "original_name": "Big Ben",
+    "location": "London, UK",
+    "pun_name": "Big Zen",
+    "status": "approved"
+  },
+  {
+    "id": "pun_yellowstone_national_park_1783298941_942",
+    "original_name": "Yellowstone National Park",
+    "location": "Wyoming, USA",
+    "pun_name": "Mellowstone National Park",
+    "status": "approved"
+  },
+  {
+    "id": "pun_yellowstone_national_park_1783298941_390",
+    "original_name": "Yellowstone National Park",
+    "location": "Wyoming, USA",
+    "pun_name": "Bellowstone National Park",
+    "status": "approved"
+  },
+  {
+    "id": "pun_palace_of_versailles_1783298947_921",
+    "original_name": "Palace of Versailles",
+    "location": "Versailles, France",
+    "pun_name": "Palace of Ver-sighs",
+    "status": "pending"
+  },
+  {
+    "id": "pun_palace_of_versailles_1783298947_521",
+    "original_name": "Palace of Versailles",
+    "location": "Versailles, France",
+    "pun_name": "Palace of Ver-size",
+    "status": "pending"
+  },
+  {
+    "id": "pun_panama_canal_1783298954_571",
+    "original_name": "Panama Canal",
+    "location": "Panama",
+    "pun_name": "Pajama Canal",
+    "status": "approved"
+  },
+  {
+    "id": "pun_panama_canal_1783298954_518",
+    "original_name": "Panama Canal",
+    "location": "Panama",
+    "pun_name": "Banana Canal",
+    "status": "approved"
+  },
+  {
+    "id": "pun_alcatraz_island_1783312897_829",
+    "original_name": "Alcatraz Island",
+    "location": "San Francisco, USA",
+    "pun_name": "Alca-trousers Island",
+    "status": "pending"
+  },
+  {
+    "id": "pun_alcatraz_island_1783312897_470",
+    "original_name": "Alcatraz Island",
+    "location": "San Francisco, USA",
+    "pun_name": "Alcohol-traz Island",
+    "status": "pending"
+  },
+  {
+    "id": "pun_alcatraz_island_1783312897_582",
+    "original_name": "Alcatraz Island",
+    "location": "San Francisco, USA",
+    "pun_name": "Alka-razz Island",
     "status": "pending"
   }
 ]
