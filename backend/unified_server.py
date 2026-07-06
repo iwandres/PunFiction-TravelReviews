@@ -842,23 +842,27 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                     image_path = f"/assets/cartoons/{safe_filename}"
                     local_image_path = os.path.join(CARTOONS_DIR, safe_filename)
                     
-                    print(f"Generating postcard for '{c['pun_name']}' in style '{style_key}' using gemini-3-pro-image-preview...")
-                    response = client.models.generate_content(
-                        model='models/gemini-3-pro-image-preview',
-                        contents=[f"{style_prompt} {image_prompt}"]
+                    print(f"Generating postcard for '{c['pun_name']}' in style '{style_key}' using imagen-3.0-generate-002...")
+                    response = client.models.generate_images(
+                        model='imagen-3.0-generate-002',
+                        prompt=f"{style_prompt} {image_prompt}",
+                        config=types.GenerateImagesConfig(
+                            number_of_images=1,
+                            output_mime_type="image/png",
+                            aspect_ratio="3:2"
+                        )
                     )
                     
                     saved_image = False
-                    for part in response.parts:
-                        if part.inline_data:
-                            image_bytes = part.inline_data.data
-                            image = Image.open(io.BytesIO(image_bytes))
-                            image.save(local_image_path)
-                            print(f"Saved generated image: {local_image_path}")
-                            saved_image = True
-                            break
+                    for generated_image in response.generated_images:
+                        image_bytes = generated_image.image.image_bytes
+                        image = Image.open(io.BytesIO(image_bytes))
+                        image.save(local_image_path)
+                        print(f"Saved generated image: {local_image_path}")
+                        saved_image = True
+                        break
                     if not saved_image:
-                        raise Exception("No image returned in response parts from gemini-3-pro-image-preview")
+                        raise Exception("No image returned in response parts from imagen-3.0-generate-002")
                         
                     existing_idx = next((i for i, p in enumerate(postcards) if p['clue_id'] == c['id']), None)
                     postcard_entry = {
@@ -1099,7 +1103,8 @@ def pipeline_listener():
                         "clue2": generated.get("clue2", ""),
                         "clue3": generated.get("clue3", ""),
                         "clue4": generated.get("clue4", ""),
-                        "owner_response": generated.get("owner_response", "")
+                        "owner_response": generated.get("owner_response", ""),
+                        "status": "pending"
                     })
                     new_clues_count += 1
                 save_json(CLUES_FILE, clues)
