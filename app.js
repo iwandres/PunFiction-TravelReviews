@@ -1165,23 +1165,29 @@ function updateBackgroundStamps(puzzleNum) {
         { name: 'metro_transit' }
     ];
     
-    const theme = themes[(num - 1) % themes.length];
+    let themeName = null;
+    if (activeChallenge && activeChallenge.page_theme) {
+        themeName = activeChallenge.page_theme;
+    } else {
+        const theme = themes[(num - 1) % themes.length];
+        themeName = theme.name;
+    }
     
     const themeStamps = {
-        'road_trip': ['stamp_roadtrip_car.png', 'stamp_roadtrip_car.png'],
-        'air_mail': ['stamp_airplane.png', 'stamp_airplane.png'],
-        'train_passage': ['stamp_train.png', 'stamp_train.png'],
-        'gondola_ride': ['stamp_gondola.png', 'stamp_gondola.png'],
-        'boat_voyage': ['stamp_nautical.png', 'stamp_nautical.png'],
-        'mountain_trek': ['stamp_trek.png', 'stamp_trek.png'],
-        'desert_safari': ['stamp_safari.png', 'stamp_safari.png'],
-        'sightseeing': ['stamp_compass.png', 'stamp_compass.png'],
-        'tropical_island': ['stamp_tropical.png', 'stamp_tropical.png'],
-        'winter_lodge': ['stamp_winter.png', 'stamp_winter.png'],
-        'metro_transit': ['stamp_metro.png', 'stamp_metro.png']
+        'road_trip': ['stamp_roadtrip_car.png', 'stamp_compass.png'],
+        'air_mail': ['stamp_airplane.png', 'stamp_compass.png'],
+        'train_passage': ['stamp_train.png', 'stamp_compass.png'],
+        'gondola_ride': ['stamp_gondola.png', 'stamp_compass.png'],
+        'boat_voyage': ['stamp_nautical.png', 'stamp_compass.png'],
+        'mountain_trek': ['stamp_trek.png', 'stamp_compass.png'],
+        'desert_safari': ['stamp_safari.png', 'stamp_compass.png'],
+        'sightseeing': ['stamp_compass.png', 'stamp_airplane.png'],
+        'tropical_island': ['stamp_tropical.png', 'stamp_compass.png'],
+        'winter_lodge': ['stamp_winter.png', 'stamp_compass.png'],
+        'metro_transit': ['stamp_metro.png', 'stamp_compass.png']
     };
     
-    const files = themeStamps[theme.name];
+    const files = themeStamps[themeName] || themeStamps['road_trip'];
     const leftFile = files[0];
     const rightFile = files[1];
     
