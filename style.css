@@ -2071,7 +2071,7 @@ body.crazygames-env .settings-footer-tos {
     background-repeat: no-repeat;
     pointer-events: none;
     z-index: 0; /* floating above body background but behind main layout cards */
-    opacity: 0.7;
+    opacity: 0.18;
     transition: opacity 0.8s ease, transform 0.8s ease, background-image 0.8s ease;
 }
 
