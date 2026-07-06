@@ -1122,11 +1122,17 @@ function updateBackgroundGradient(puzzleNum) {
     // Premium, ultra-soft travel pastel gradients (lightness ~96-98%)
     // reflecting different vacation resort aesthetics (alpine, coastal, desert, etc.)
     const themes = [
-        { bg: '#FAF8F5', end: '#E6F4EA', accent: '#00AA6C' }, // Alpine Forest / TripAdvisor Green
-        { bg: '#FAF8F5', end: '#E8F0FE', accent: '#1A73E8' }, // Coastal Resort / Google Blue
-        { bg: '#FAF8F5', end: '#FDF2E9', accent: '#E67E22' }, // Desert Oasis / Terracotta
-        { bg: '#FAF8F5', end: '#F3E5F5', accent: '#9B59B6' }, // Lavender Field / Violet
-        { bg: '#FAF8F5', end: '#FEF9E7', accent: '#F1C40F' }  // Sunny Beach / Golden Amber
+        { name: 'road_trip', bg: '#FAF8F5', end: '#E6F4EA', accent: '#00AA6C' },       // Road Trip / Alpine Green
+        { name: 'air_mail', bg: '#FAF8F5', end: '#E8F0FE', accent: '#1A73E8' },        // Air Mail / Coastal Blue
+        { name: 'train_passage', bg: '#FAF8F5', end: '#FDF2E9', accent: '#E67E22' },   // Train Passage / Terracotta Orange
+        { name: 'gondola_ride', bg: '#FAF8F5', end: '#F3E5F5', accent: '#9B59B6' },    // Gondola Ride / Lavender Violet
+        { name: 'boat_voyage', bg: '#FAF8F5', end: '#FEF9E7', accent: '#F1C40F' },     // Boat Voyage / Golden Amber
+        { name: 'mountain_trek', bg: '#FAF8F5', end: '#E8EFE9', accent: '#3E6B4B' },    // Mountain Trek / Sage Green
+        { name: 'desert_safari', bg: '#FAF8F5', end: '#F7EFE2', accent: '#D48D3B' },    // Desert Safari / Warm Sand
+        { name: 'sightseeing', bg: '#FAF8F5', end: '#ECEFF1', accent: '#607D8B' },      // Sightseeing / Slate Gray
+        { name: 'tropical_island', bg: '#FAF8F5', end: '#E0F7FA', accent: '#00ACC1' },  // Tropical Island / Turquoise Blue
+        { name: 'winter_lodge', bg: '#FAF8F5', end: '#E3F2FD', accent: '#0288D1' },     // Winter Lodge / Frost Blue
+        { name: 'metro_transit', bg: '#FAF8F5', end: '#EFEBE9', accent: '#5D4037' }     // Metro Transit / Charcoal Brown
     ];
     
     const theme = themes[(num - 1) % themes.length];
@@ -1139,16 +1145,39 @@ function updateBackgroundGradient(puzzleNum) {
 function updateBackgroundStamps(puzzleNum) {
     const num = parseInt(puzzleNum) || 1;
     
-    // Cycle through generated stamp assets
-    const stampFiles = [
-        'stamp_airplane.png',
-        'stamp_nautical.png',
-        'stamp_compass.png'
+    const themes = [
+        { name: 'road_trip' },
+        { name: 'air_mail' },
+        { name: 'train_passage' },
+        { name: 'gondola_ride' },
+        { name: 'boat_voyage' },
+        { name: 'mountain_trek' },
+        { name: 'desert_safari' },
+        { name: 'sightseeing' },
+        { name: 'tropical_island' },
+        { name: 'winter_lodge' },
+        { name: 'metro_transit' }
     ];
     
-    // Select different stamps for left and right based on challenge number
-    const leftFile = stampFiles[(num - 1) % stampFiles.length];
-    const rightFile = stampFiles[num % stampFiles.length];
+    const theme = themes[(num - 1) % themes.length];
+    
+    const themeStamps = {
+        'road_trip': ['stamp_roadtrip_car.png', 'stamp_roadtrip_car.png'],
+        'air_mail': ['stamp_airplane.png', 'stamp_airplane.png'],
+        'train_passage': ['stamp_train.png', 'stamp_train.png'],
+        'gondola_ride': ['stamp_gondola.png', 'stamp_gondola.png'],
+        'boat_voyage': ['stamp_nautical.png', 'stamp_nautical.png'],
+        'mountain_trek': ['stamp_trek.png', 'stamp_trek.png'],
+        'desert_safari': ['stamp_safari.png', 'stamp_safari.png'],
+        'sightseeing': ['stamp_compass.png', 'stamp_compass.png'],
+        'tropical_island': ['stamp_tropical.png', 'stamp_tropical.png'],
+        'winter_lodge': ['stamp_winter.png', 'stamp_winter.png'],
+        'metro_transit': ['stamp_metro.png', 'stamp_metro.png']
+    };
+    
+    const files = themeStamps[theme.name];
+    const leftFile = files[0];
+    const rightFile = files[1];
     
     // Resolve correct paths for raw GitHub CDN or local development
     const leftUrl = getCorrectPosterUrl(`assets/stamps/${leftFile}`);
