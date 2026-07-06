@@ -30,40 +30,7 @@
     "image_path": "/assets/cartoons/eiffel_flower_1783202557.png",
     "art_style": "vintage",
     "owner_response": "@HayfeverHero, dear, while we appreciate your botanical critiques, this towering iron monument doesn't 'grow' or suffer from 'iron deficiency'; it merely stands, a structural marvel, unmoved by auras or the need for reiki after an arduous climb.",
-    "status": "pending"
-  },
-  {
-    "id": "postcard_clue_pun_landmark_2_1783199003_1_1783199795_1783200928_1783201932",
-    "clue_id": "clue_pun_landmark_2_1783199003_1_1783199795_1783200928",
-    "pun_name": "Lover Museum",
-    "original_name": "Louvre Museum",
-    "image_prompt": "A comical vintage postcard illustrating a bustling 'Lover Museum' where classical statues are shown passionately embracing and sharing oversized chocolates, all in a classic distressed linen texture vintage postcard style, hand-colored photo print aesthetic, 1930s travel style.",
-    "image_path": "/assets/cartoons/lover_museum_1783201916.png",
-    "art_style": "vintage",
-    "owner_response": "Listen, @LonelyHeart, while we do house millennia of human achievement and a famously smiling lady, perhaps you've mistaken a historic fine art museum for a literal romantic advice center or a gallery purely for couples to make out in.",
-    "status": "pending"
-  },
-  {
-    "id": "postcard_clue_pun_landmark_12_1783199003_0_1783199821_1783200939_1783201957",
-    "clue_id": "clue_pun_landmark_12_1783199003_0_1783199821_1783200939",
-    "pun_name": "St. Peter's Bazooka",
-    "original_name": "St. Peter's Basilica",
-    "image_prompt": "A whimsical watercolor and ink sketch, detailed storybook-style travel postcard depicts a comically grand, pastel-colored bazooka, adorned with tiny cherubs and doves, majestically replacing St. Peter's Basilica within an artistically detailed Vatican City landscape featuring soft textures.",
-    "image_path": "/assets/cartoons/st._peter's_bazooka_1783201939.png",
-    "art_style": "watercolor",
-    "owner_response": "Dear Valued Pilgrim, We're truly sorry St. Peter's Bazooper didn't quite *launch* your spiritual journey as you'd hoped. Our cherubs are simply discerning art critics, and our acoustics are designed for maximum divine impact, not for the faint of ear. Perhaps a guided meditation in a soundproof booth would better suit your delicate sensibilities? Blessings (and earplugs) on your next adventure!",
-    "status": "pending"
-  },
-  {
-    "id": "postcard_clue_pun_landmark_14_1783199003_0_1783199826_1783200956_1783201983",
-    "clue_id": "clue_pun_landmark_14_1783199003_0_1783199826_1783200956",
-    "pun_name": "Trevi Mountain",
-    "original_name": "Trevi Fountain",
-    "image_prompt": "A colossal, craggy mountain peak comically shaped like the Baroque sculptures of the Trevi Fountain, featuring exaggerated water features cascading down its rocky face and giant golden coins spilling from its base, all in a vintage 1950s travel poster style with bold, flat vector design.",
-    "image_path": "/assets/cartoons/trevi_mountain_1783201967.png",
-    "art_style": "retro",
-    "owner_response": "Dear Valued Adventurer, we're truly sorry Trevi Mountain didn't meet your... unique expectations for a water feature. We often find that a clear understanding of geographical nomenclature can greatly enhance one's travel experience. Our 'rocks' are indeed very authentic, and our 'elevation' provides quite a vigorous workout. Perhaps a gentle stream in a local park would be more to your liking?",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_landmark_14_1783199003_1_1783199826_1783200966_1783202012",
@@ -97,7 +64,7 @@
     "art_style": "vintage",
     "owner_response": "Dear @BatterBlaster, our ancient military defense system, spanning thousands of kilometers, was built for protection, not for holding syrup or being 'golden-brown.' You may be looking for a different kind of 'wall'.",
     "page_theme": "sightseeing",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_great_whale_of_china_1783298514_1783313405",
@@ -109,7 +76,7 @@
     "art_style": "pop-art",
     "owner_response": "Dear @FlippyFlop, our centuries-old defensive fortification is made of stone and brick, not blubber, and it certainly doesn't 'breach'. If you're looking for a giant, spouting mammal, you've taken a very wrong turn in China.",
     "page_theme": "sightseeing",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_taj_mahal_1783281654_846_1783298980_566_1783313416",
@@ -121,28 +88,16 @@
     "art_style": "pop-art",
     "owner_response": "Dear @OverloadedOm, while we appreciate your visit, this is a monument of profound eternal love, not a storage unit or a parking lot for your moving truck. Our precious marble is for admiring, not for packing boxes.",
     "page_theme": "road_trip",
-    "status": "pending"
-  },
-  {
-    "id": "postcard_clue_pun_taj_mahal_1783281654_245_1783298990_130_1783313432",
-    "clue_id": "clue_pun_taj_mahal_1783281654_245_1783298990_130",
-    "pun_name": "Jazz Mahal",
-    "original_name": "Taj Mahal",
-    "image_prompt": "A humorous travel postcard illustration of the 'Jazz Mahal,' featuring the Taj Mahal transformed into a grand jazz club with its domes as giant saxophones and its minarets as gleaming trumpets, surrounded by floating musical notes, rendered in an old-school 1930s WPA-era silk-screened travel poster style with bold shapes, muted nature-inspired colors, and hand-drawn typography.",
-    "image_path": "/assets/cartoons/jazz_mahal_1783313426.png",
-    "art_style": "wpa",
-    "owner_response": "Listen, @BlueNoteBlues, this is a UNESCO World Heritage Site built for eternal repose, not for 'endless, noisy improvisation.' Perhaps your 'Agra-vated' ears are confused about what a *mausoleum* actually entails.",
-    "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_machu_picchu_1783281661_502_1783298997_992_1783313443",
     "clue_id": "clue_pun_machu_picchu_1783281661_502_1783298997_992",
     "pun_name": "Macho Picchu",
     "original_name": "Machu Picchu",
-    "image_prompt": "A comical illustration of burly, comically flexing men in tiny loincloths striking dramatic poses amidst the ancient, terraced ruins of 'Macho Picchu', with the background showing exaggeratedly rugged mountain peaks, comical cartoon illustration, bold lines, bright vibrant colors, humorous caricature, white postcard border.",
-    "image_path": "/assets/cartoons/macho_picchu_1783313436.png",
-    "art_style": "cartoon",
+    "image_prompt": "A comical vintage travel postcard depicting overly muscular men striking exaggerated poses on the ancient terraces of 'Macho Picchu,' while bewildered llamas curiously watch, in a classic distressed linen texture, hand-colored photo print, 1930s travel style.",
+    "image_path": "/assets/cartoons/macho_picchu_1783313604.png",
+    "art_style": "vintage",
     "owner_response": "Dear @FlexingFiasco, it seems you've confused our ancient Incan citadel with a gym. We are a UNESCO World Heritage site and a wonder of engineering, not a place for 'flexing' or 'abs competitions'.",
     "page_theme": "road_trip",
     "status": "pending"
@@ -156,6 +111,66 @@
     "image_path": "/assets/cartoons/statue_of_liver_tea_1783313450.png",
     "art_style": "pop-art",
     "owner_response": "Dear @BitterBrew, our magnificent 305-foot monument, a gift from France, symbolizes liberty, not a drive-through tea service. We are quite certain our copper structure does not brew or serve anything, let alone 'liver tea'.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_taj_mahal_1783281654_245_1783298990_130_1783314121",
+    "clue_id": "clue_pun_taj_mahal_1783281654_245_1783298990_130",
+    "pun_name": "Jazz Mahal",
+    "original_name": "Taj Mahal",
+    "image_prompt": "A comical vintage postcard shows the 'Jazz Mahal,' a whimsical Taj Mahal-like monument cleverly constructed from musical instruments, with exaggerated jazz musicians jamming lively on its steps, rendered in a hand-colored photo print, distressed linen texture, 1930s travel style.",
+    "image_path": "/assets/cartoons/jazz_mahal_1783314113.png",
+    "art_style": "vintage",
+    "owner_response": "Listen, @BlueNoteBlues, this is a UNESCO World Heritage Site built for eternal repose, not for 'endless, noisy improvisation.' Perhaps your 'Agra-vated' ears are confused about what a *mausoleum* actually entails.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_pyramids_of_giza_1783282174_215_1783299036_220_1783314136",
+    "clue_id": "clue_pun_pyramids_of_giza_1783282174_215_1783299036_220",
+    "pun_name": "Pyramids of Geezer",
+    "original_name": "Pyramids of Giza",
+    "image_prompt": "A whimsical watercolor and ink sketch, detailed storybook style, portraying the 'Pyramids of Geezer' as three comical pyramids built entirely from stacks of grumpy old men napping and playing checkers, set in a sandy desert with soft textures, pastel colors, and artistically detailed elements.",
+    "image_path": "/assets/cartoons/pyramids_of_geezer_1783314129.png",
+    "art_style": "watercolor",
+    "owner_response": "Dear @CrankyElder, our monumental structures are millennia-old stone, not a geriatric facility for discussing dentures. Perhaps you mistook us for a very specific type of historical reenactment?",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_grand_canyon_1783282176_513_1783299047_977_1783314153",
+    "clue_id": "clue_pun_grand_canyon_1783282176_513_1783299047_977",
+    "pun_name": "Grand Crayon",
+    "original_name": "Grand Canyon",
+    "image_prompt": "A humorous travel postcard illustration for 'Grand Crayon,' depicting a vast canyon landscape intricately sculpted from colossal, brightly colored crayons, with tiny, stylized visitors exploring the waxy terrain, all rendered in an old school nature park illustration style, rooted in 1930s WPA-era silk-screened travel posters and 1960s lithographs, featuring bold shapes and a muted, nature-inspired color palette.",
+    "image_path": "/assets/cartoons/grand_crayon_1783314145.png",
+    "art_style": "wpa",
+    "owner_response": "Dear @NoPointHere, it appears you've mistaken our awe-inspiring natural geological formation, carved by millennia of erosion, for a giant implement needing 'sharpening'. We suggest consulting a proper atlas, not a coloring book, for your next trip planning.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_grand_canyon_1783282176_351_1783299083_402_1783314166",
+    "clue_id": "clue_pun_grand_canyon_1783282176_351_1783299083_402",
+    "pun_name": "Grand Cannon",
+    "original_name": "Grand Canyon",
+    "image_prompt": "A humorous vintage travel poster shows a massive, comically designed cannon dominating a simplified, flat-vector Grand Canyon vista, depicted with bold colors and a screen-printed aesthetic.",
+    "image_path": "/assets/cartoons/grand_cannon_1783314157.png",
+    "art_style": "retro",
+    "owner_response": "Dear @PowderKegPete, our awe-inspiring, mile-deep chasm, carved by the Colorado River, generates zero 'deafening BOOMs' or 'gunpowder.' Perhaps you confused us with a different kind of 'grand' experience?",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_sydney_opera_house_1783282181_553_1783299090_873_1783314179",
+    "clue_id": "clue_pun_sydney_opera_house_1783282181_553_1783299090_873",
+    "pun_name": "Sydney Opera Blouse",
+    "original_name": "Sydney Opera House",
+    "image_prompt": "A comically oversized, vibrant blouse with billowing sleeves whimsically replaces the iconic structure of the Sydney Opera House on its peninsula, depicted in a vintage 1950s travel poster style with retro flat vector design, bold colors, and a screen-printed poster aesthetic.",
+    "image_path": "/assets/cartoons/sydney_opera_blouse_1783314171.png",
+    "art_style": "retro",
+    "owner_response": "Dear @LooseSeamLucy, our architectural masterpiece is a UNESCO World Heritage site and a world-class performing arts center, not an item of clothing. We assure you, our majestic 'shells' are made of concrete and tiles, not ruffles for your arms!",
     "page_theme": "road_trip",
     "status": "pending"
   }

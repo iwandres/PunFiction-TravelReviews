@@ -1,20 +1,8 @@
 [
   {
-    "id": "landmark_1783200000001",
-    "name": "Eiffel Tower",
-    "location": "Paris, France",
-    "status": "approved"
-  },
-  {
     "id": "landmark_1783200000002",
     "name": "Great Wall of China",
     "location": "Huairou, China",
-    "status": "approved"
-  },
-  {
-    "id": "landmark_1783200000003",
-    "name": "Taj Mahal",
-    "location": "Agra, India",
     "status": "approved"
   },
   {
@@ -91,7 +79,7 @@
   },
   {
     "id": "landmark_1783200000016",
-    "name": "Sagrada Família",
+    "name": "Sagrada Fam\u00edlia",
     "location": "Barcelona, Spain",
     "status": "approved"
   },
@@ -243,19 +231,19 @@
     "id": "landmark_3_1783199003",
     "name": "Notre-Dame Cathedral",
     "location": "Paris, France",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_4_1783199003",
     "name": "Palace of Versailles",
     "location": "Versailles, France",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_5_1783199003",
     "name": "Arc de Triomphe",
     "location": "Paris, France",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_6_1783199003",
@@ -265,7 +253,7 @@
   },
   {
     "id": "landmark_7_1783199003",
-    "name": "Château de Chambord",
+    "name": "Ch\u00e2teau de Chambord",
     "location": "Chambord, France",
     "status": "pending"
   },
@@ -277,13 +265,13 @@
   },
   {
     "id": "landmark_9_1783199003",
-    "name": "Musée d'Orsay",
+    "name": "Mus\u00e9e d'Orsay",
     "location": "Paris, France",
     "status": "pending"
   },
   {
     "id": "landmark_10_1783199003",
-    "name": "Sacré-Cœur Basilica",
+    "name": "Sacr\u00e9-C\u0153ur Basilica",
     "location": "Paris, France",
     "status": "pending"
   },
@@ -463,7 +451,7 @@
   },
   {
     "id": "landmark_40_1783199003",
-    "name": "Sagrada Família",
+    "name": "Sagrada Fam\u00edlia",
     "location": "Barcelona, Spain",
     "status": "approved"
   },
@@ -475,7 +463,7 @@
   },
   {
     "id": "landmark_42_1783199003",
-    "name": "Park Güell",
+    "name": "Park G\u00fcell",
     "location": "Barcelona, Spain",
     "status": "pending"
   },
@@ -505,8 +493,8 @@
   },
   {
     "id": "landmark_47_1783199003",
-    "name": "Mezquita-Cathedral of Córdoba",
-    "location": "Córdoba, Spain",
+    "name": "Mezquita-Cathedral of C\u00f3rdoba",
+    "location": "C\u00f3rdoba, Spain",
     "status": "pending"
   },
   {
@@ -517,7 +505,7 @@
   },
   {
     "id": "landmark_49_1783199003",
-    "name": "Alcázar of Seville",
+    "name": "Alc\u00e1zar of Seville",
     "location": "Seville, Spain",
     "status": "pending"
   },
@@ -554,12 +542,12 @@
   {
     "id": "landmark_55_1783199003",
     "name": "Black Forest",
-    "location": "Baden-Württemberg, Germany",
+    "location": "Baden-W\u00fcrttemberg, Germany",
     "status": "approved"
   },
   {
     "id": "landmark_56_1783199003",
-    "name": "Hofbräuhaus München",
+    "name": "Hofbr\u00e4uhaus M\u00fcnchen",
     "location": "Munich, Germany",
     "status": "pending"
   },
@@ -619,13 +607,13 @@
   },
   {
     "id": "landmark_66_1783199003",
-    "name": "Belém Tower",
+    "name": "Bel\u00e9m Tower",
     "location": "Lisbon, Portugal",
     "status": "pending"
   },
   {
     "id": "landmark_67_1783199003",
-    "name": "Jerónimos Monastery",
+    "name": "Jer\u00f3nimos Monastery",
     "location": "Lisbon, Portugal",
     "status": "pending"
   },
@@ -709,7 +697,7 @@
   },
   {
     "id": "landmark_81_1783199003",
-    "name": "Schönbrunn Palace",
+    "name": "Sch\u00f6nbrunn Palace",
     "location": "Vienna, Austria",
     "status": "pending"
   },
@@ -854,7 +842,7 @@
   {
     "id": "landmark_105_1783199003",
     "name": "Geirangerfjord",
-    "location": "Møre og Romsdal, Norway",
+    "location": "M\u00f8re og Romsdal, Norway",
     "status": "pending"
   },
   {
@@ -896,13 +884,13 @@
   {
     "id": "landmark_112_1783199003",
     "name": "Wawel Castle",
-    "location": "Kraków, Poland",
+    "location": "Krak\u00f3w, Poland",
     "status": "pending"
   },
   {
     "id": "landmark_113_1783199003",
     "name": "Auschwitz-Birkenau Memorial and Museum",
-    "location": "Oświęcim, Poland",
+    "location": "O\u015bwi\u0119cim, Poland",
     "status": "pending"
   },
   {
@@ -914,7 +902,7 @@
   {
     "id": "landmark_115_1783199003",
     "name": "Plitvice Lakes National Park",
-    "location": "Plitvička Jezera, Croatia",
+    "location": "Plitvi\u010dka Jezera, Croatia",
     "status": "pending"
   },
   {
@@ -1346,7 +1334,7 @@
   {
     "id": "landmark_187_1783199069",
     "name": "Iguazu Falls",
-    "location": "Foz do Iguaçu, Brazil",
+    "location": "Foz do Igua\u00e7u, Brazil",
     "status": "pending"
   },
   {
@@ -1363,8 +1351,8 @@
   },
   {
     "id": "landmark_190_1783199069",
-    "name": "Lençóis Maranhenses National Park",
-    "location": "Maranhão, Brazil",
+    "name": "Len\u00e7\u00f3is Maranhenses National Park",
+    "location": "Maranh\u00e3o, Brazil",
     "status": "pending"
   },
   {
@@ -1471,7 +1459,7 @@
   },
   {
     "id": "landmark_208_1783199069",
-    "name": "Valdés Peninsula",
+    "name": "Vald\u00e9s Peninsula",
     "location": "Chubut, Argentina",
     "status": "pending"
   },
@@ -1507,8 +1495,8 @@
   },
   {
     "id": "landmark_214_1783199069",
-    "name": "Valparaíso Historic Quarter",
-    "location": "Valparaíso, Chile",
+    "name": "Valpara\u00edso Historic Quarter",
+    "location": "Valpara\u00edso, Chile",
     "status": "pending"
   },
   {
@@ -1574,7 +1562,7 @@
   {
     "id": "landmark_225_1783199069",
     "name": "Ingapirca Ruins",
-    "location": "Cañar Province, Ecuador",
+    "location": "Ca\u00f1ar Province, Ecuador",
     "status": "pending"
   },
   {
@@ -1591,19 +1579,19 @@
   },
   {
     "id": "landmark_228_1783199069",
-    "name": "El Peñón de Guatapé",
+    "name": "El Pe\u00f1\u00f3n de Guatap\u00e9",
     "location": "Antioquia, Colombia",
     "status": "pending"
   },
   {
     "id": "landmark_229_1783199069",
     "name": "Cocora Valley",
-    "location": "Quindío, Colombia",
+    "location": "Quind\u00edo, Colombia",
     "status": "pending"
   },
   {
     "id": "landmark_230_1783199069",
-    "name": "Caño Cristales",
+    "name": "Ca\u00f1o Cristales",
     "location": "Meta, Colombia",
     "status": "pending"
   },
@@ -1633,8 +1621,8 @@
   },
   {
     "id": "landmark_235_1783199069",
-    "name": "Jesuit Missions of La Santísima Trinidad de Paraná",
-    "location": "Itapúa, Paraguay",
+    "name": "Jesuit Missions of La Sant\u00edsima Trinidad de Paran\u00e1",
+    "location": "Itap\u00faa, Paraguay",
     "status": "pending"
   },
   {
@@ -2449,8 +2437,8 @@
   },
   {
     "id": "landmark_371_1783199138",
-    "name": "Great Mosque of Djenné",
-    "location": "Djenné, Mali",
+    "name": "Great Mosque of Djenn\u00e9",
+    "location": "Djenn\u00e9, Mali",
     "status": "pending"
   },
   {
@@ -2545,7 +2533,7 @@
   },
   {
     "id": "landmark_387_1783199138",
-    "name": "Pyramids of Meroë",
+    "name": "Pyramids of Mero\u00eb",
     "location": "Shendi, Sudan",
     "status": "pending"
   },
@@ -2714,7 +2702,7 @@
   {
     "id": "landmark_415_1783199138",
     "name": "Goreme National Park and the Rock Sites of Cappadocia",
-    "location": "Nevşehir, Turkey",
+    "location": "Nev\u015fehir, Turkey",
     "status": "pending"
   },
   {
@@ -2774,7 +2762,7 @@
   {
     "id": "landmark_425_1783199138",
     "name": "Ganvie",
-    "location": "Ouémé Department, Benin",
+    "location": "Ou\u00e9m\u00e9 Department, Benin",
     "status": "pending"
   },
   {
@@ -3026,7 +3014,7 @@
   {
     "id": "landmark_467_1783199162",
     "name": "Jean-Marie Tjibaou Cultural Centre",
-    "location": "Nouméa, New Caledonia",
+    "location": "Noum\u00e9a, New Caledonia",
     "status": "pending"
   },
   {
@@ -3085,7 +3073,7 @@
   },
   {
     "id": "landmark_477_1783199162",
-    "name": "Pu'uhonua o Hōnaunau National Historical Park",
+    "name": "Pu'uhonua o H\u014dnaunau National Historical Park",
     "location": "Hawaii (Big Island), USA",
     "status": "pending"
   },
@@ -3199,7 +3187,7 @@
   },
   {
     "id": "landmark_496_1783199193",
-    "name": "Kapellbrücke (Chapel Bridge)",
+    "name": "Kapellbr\u00fccke (Chapel Bridge)",
     "location": "Lucerne, Switzerland",
     "status": "pending"
   },
