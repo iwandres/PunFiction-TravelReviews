@@ -1864,7 +1864,7 @@ function triggerVictory() {
         if (hintsUsed === 0) {
             nudgeEl.innerText = "Show off your perfect score to friends! 🏆";
         } else {
-            nudgeEl.innerText = "Show off your score to friends! 🍿";
+            nudgeEl.innerText = "Show off your score to friends! 🗺️";
         }
     }
 
