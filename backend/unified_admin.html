@@ -3743,32 +3743,26 @@
             if (showPendingOnly) {
                 displayList = tt_puns.filter(p => p.status === 'pending' || !p.status);
             }
-            el.innerHTML = displayList.map((p, idx) => `
+            el.innerHTML = displayList.map(p => `
                 <div class="tt-list-item" style="gap: 15px;">
                     <div class="item-details" style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
                         <div style="font-size: 0.85rem; color: var(--text-secondary); font-weight: bold;">Original: ${p.original_name}</div>
-                        <input type="text" value="${p.pun_name}" onchange="updatePunName(${idx}, this.value)" style="width: 100%; max-width: 400px; padding: 6px 10px; border: 2px solid #2D3436; border-radius: 6px; font-weight: bold; font-family: inherit;">
+                        <input type="text" value="${p.pun_name}" onchange="updatePunName('${p.id}', this.value)" style="width: 100%; max-width: 400px; padding: 6px 10px; border: 2px solid #2D3436; border-radius: 6px; font-weight: bold; font-family: inherit;">
                     </div>
                     <div class="item-actions" style="align-items: center; gap: 8px;">
                         <span class="status-badge status-${p.status || 'pending'}">${p.status || 'pending'}</span>
                         <button class="btn btn-secondary" onclick="tt_setStatus(tt_puns, '${p.id}', 'approved', 'tt_puns')">Approve</button>
                         <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus(tt_puns, '${p.id}', 'rejected', 'tt_puns')">Reject</button>
-                        <button class="btn btn-danger" style="padding: 10px 14px; background-color: #d63031; font-size: 0.85rem;" onclick="deletePun(${idx})">Delete</button>
                     </div>
                 </div>
             `).join('');
         }
 
-        function updatePunName(idx, newValue) {
-            tt_puns[idx].pun_name = newValue.trim();
-            tt_saveData('tt_puns', tt_puns);
-        }
-
-        function deletePun(idx) {
-            if (confirm("Are you sure you want to permanently delete this pun suggestion?")) {
-                tt_puns.splice(idx, 1);
+        function updatePunName(id, newValue) {
+            let p = tt_puns.find(x => x.id === id);
+            if (p) {
+                p.pun_name = newValue.trim();
                 tt_saveData('tt_puns', tt_puns);
-                tt_renderPuns();
             }
         }
 
