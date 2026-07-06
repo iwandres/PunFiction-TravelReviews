@@ -1,0 +1,90 @@
+[
+  {
+    "id": "postcard_clue_pun_landmark_1_1783199003_0_1783199786_1783200897_1783201867",
+    "clue_id": "clue_pun_landmark_1_1783199003_0_1783199786_1783200897",
+    "pun_name": "Waffle Tower",
+    "original_name": "Eiffel Tower",
+    "image_prompt": "A comical travel postcard featuring the 'Waffle Tower,' a towering structure built from golden-brown waffles with syrup cascading down and butter pats on top, set within a whimsical, pastel Parisian landscape, rendered in a whimsical watercolor and ink sketch, detailed storybook style, soft textures, pastel colors, artistically detailed.",
+    "image_path": "/assets/cartoons/waffle_tower_1783201852.png",
+    "art_style": "watercolor",
+    "owner_response": "It appears, @StackMasterGeneral, that your palate led you to review a monument of iron engineering, famed for its intricate lattice and panoramic city views, not a breakfast establishment. Perhaps next time, distinguish between a grand historical structure and your morning cravings.",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_1_1783199003_1_1783199786_1783200906_1783201887",
+    "clue_id": "clue_pun_landmark_1_1783199003_1_1783199786_1783200906",
+    "pun_name": "Eiffel Shower",
+    "original_name": "Eiffel Tower",
+    "image_prompt": "A giant Eiffel Tower humorously transformed into an oversized shower head, spraying water onto tiny, comical tourists below, in a classic distressed linen texture vintage postcard style, hand-colored photo print aesthetic, 1930s travel style.",
+    "image_path": "/assets/cartoons/eiffel_shower_1783201872.png",
+    "art_style": "vintage",
+    "owner_response": "Listen, @DampCroissant, this colossal iron landmark isn't equipped with a plumbing system, so any 'deluge' you experienced was simply the sky above Paris, not part of our panoramic viewing experience. Perhaps you were expecting a different kind of 'tower' entirely.",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_1_1783199003_2_1783199786_1783200915_1783201908",
+    "clue_id": "clue_pun_landmark_1_1783199003_2_1783199786_1783200915",
+    "pun_name": "Eiffel Flower",
+    "original_name": "Eiffel Tower",
+    "image_prompt": "A gigantic, comically overgrown flower with intricate, wrought-iron-like petals stands majestically in place of the Eiffel Tower in a Parisian vista, depicted in a classic distressed linen texture vintage postcard style with a hand-colored photo print aesthetic, 1930s travel style.",
+    "image_path": "/assets/cartoons/eiffel_flower_1783202557.png",
+    "art_style": "vintage",
+    "owner_response": "@HayfeverHero, dear, while we appreciate your botanical critiques, this towering iron monument doesn't 'grow' or suffer from 'iron deficiency'; it merely stands, a structural marvel, unmoved by auras or the need for reiki after an arduous climb.",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_2_1783199003_1_1783199795_1783200928_1783201932",
+    "clue_id": "clue_pun_landmark_2_1783199003_1_1783199795_1783200928",
+    "pun_name": "Lover Museum",
+    "original_name": "Louvre Museum",
+    "image_prompt": "A comical vintage postcard illustrating a bustling 'Lover Museum' where classical statues are shown passionately embracing and sharing oversized chocolates, all in a classic distressed linen texture vintage postcard style, hand-colored photo print aesthetic, 1930s travel style.",
+    "image_path": "/assets/cartoons/lover_museum_1783201916.png",
+    "art_style": "vintage",
+    "owner_response": "Listen, @LonelyHeart, while we do house millennia of human achievement and a famously smiling lady, perhaps you've mistaken a historic fine art museum for a literal romantic advice center or a gallery purely for couples to make out in.",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_12_1783199003_0_1783199821_1783200939_1783201957",
+    "clue_id": "clue_pun_landmark_12_1783199003_0_1783199821_1783200939",
+    "pun_name": "St. Peter's Bazooka",
+    "original_name": "St. Peter's Basilica",
+    "image_prompt": "A whimsical watercolor and ink sketch, detailed storybook-style travel postcard depicts a comically grand, pastel-colored bazooka, adorned with tiny cherubs and doves, majestically replacing St. Peter's Basilica within an artistically detailed Vatican City landscape featuring soft textures.",
+    "image_path": "/assets/cartoons/st._peter's_bazooka_1783201939.png",
+    "art_style": "watercolor",
+    "owner_response": "Dear Valued Pilgrim, We're truly sorry St. Peter's Bazooper didn't quite *launch* your spiritual journey as you'd hoped. Our cherubs are simply discerning art critics, and our acoustics are designed for maximum divine impact, not for the faint of ear. Perhaps a guided meditation in a soundproof booth would better suit your delicate sensibilities? Blessings (and earplugs) on your next adventure!",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_14_1783199003_0_1783199826_1783200956_1783201983",
+    "clue_id": "clue_pun_landmark_14_1783199003_0_1783199826_1783200956",
+    "pun_name": "Trevi Mountain",
+    "original_name": "Trevi Fountain",
+    "image_prompt": "A colossal, craggy mountain peak comically shaped like the Baroque sculptures of the Trevi Fountain, featuring exaggerated water features cascading down its rocky face and giant golden coins spilling from its base, all in a vintage 1950s travel poster style with bold, flat vector design.",
+    "image_path": "/assets/cartoons/trevi_mountain_1783201967.png",
+    "art_style": "retro",
+    "owner_response": "Dear Valued Adventurer, we're truly sorry Trevi Mountain didn't meet your... unique expectations for a water feature. We often find that a clear understanding of geographical nomenclature can greatly enhance one's travel experience. Our 'rocks' are indeed very authentic, and our 'elevation' provides quite a vigorous workout. Perhaps a gentle stream in a local park would be more to your liking?",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_14_1783199003_1_1783199826_1783200966_1783202012",
+    "clue_id": "clue_pun_landmark_14_1783199003_1_1783199826_1783200966",
+    "pun_name": "Heavy Fountain",
+    "original_name": "Trevi Fountain",
+    "image_prompt": "A gigantic, lead-grey 'Heavy Fountain' comically sinks into the cracked ground of an ancient piazza, as struggling tourists attempt to toss massive cannonball coins into its dense water, rendered in a vibrant Pop Art style with bold outlines and a retro comic book feel.",
+    "image_path": "/assets/cartoons/heavy_fountain_1783201997.png",
+    "art_style": "pop-art",
+    "owner_response": "Hi traveler, we're sorry to hear your visit wasn't up to your personal expectations. The Trevi Fountain is a globally recognized UNESCO World Heritage site and a testament to Baroque artistry, admired by millions annually. Perhaps a deeper appreciation for its historical and architectural significance would enhance future visits. We encourage all guests to manage their expectations regarding popular tourist destinations.",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_landmark_17_1783199003_0_1783199839_1783200985_1783202031",
+    "clue_id": "clue_pun_landmark_17_1783199003_0_1783199839_1783200985",
+    "pun_name": "Leaning Tower of Pizza",
+    "original_name": "Leaning Tower of Pisa",
+    "image_prompt": "A comical travel postcard illustration featuring a colossal, precariously balanced tower constructed entirely of pepperoni pizza slices, leaning dramatically over a bustling Italian piazza, rendered in a bold, silk-screened 1930s WPA-era travel poster style with muted nature-inspired colors and hand-drawn typography.",
+    "image_path": "/assets/cartoons/leaning_tower_of_pizza_1783202016.png",
+    "art_style": "wpa",
+    "owner_response": "Dear Esteemed Guest, we're sorry your visit left you feeling... gastronomically challenged. Our unique architecture certainly has a knack for engaging all senses, including those of hunger and disorientation. Perhaps next time you'll bring your own slice of perspective to truly appreciate our 'Leaning' artistry!",
+    "status": "pending"
+  }
+]
