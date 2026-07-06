@@ -1250,7 +1250,6 @@
             <div class="card">
                 <div class="card-header">
                     <h2>📍 Landmark Seed Database</h2>
-                    <button class="btn btn-primary" onclick="tt_saveData('landmarks', tt_landmarks)">💾 Save Landmarks</button>
                 </div>
                 
                 <div style="margin-bottom: 20px; display: flex; gap: 10px;">
@@ -1270,7 +1269,6 @@
                     <h2>🌭 Location Pun Candidates</h2>
                     <div style="display: flex; gap: 10px;">
                         <button class="btn btn-secondary" onclick="tt_generatePuns()">⚡ Generate Puns (Gemini)</button>
-                        <button class="btn btn-primary" onclick="tt_savePuns()">💾 Save Puns</button>
                     </div>
                 </div>
                 <div class="item-list" id="tt_puns-list"></div>
@@ -1284,7 +1282,6 @@
                     <h2>✍️ progressive Clues Generator</h2>
                     <div style="display: flex; gap: 10px;">
                         <button class="btn btn-secondary" onclick="tt_generateClues()">⚡ Generate Clues (Gemini)</button>
-                        <button class="btn btn-primary" onclick="tt_saveClues()">💾 Save Clues</button>
                     </div>
                 </div>
                 <div class="item-list" id="tt_clues-list"></div>
@@ -1299,7 +1296,6 @@
                     <div style="display: flex; align-items: center; gap: 15px;">
 
                         <button class="btn btn-secondary" onclick="tt_generatePostcards()">⚡ Generate Postcards</button>
-                        <button class="btn btn-primary" onclick="tt_savePostcards()">💾 Save Postcards</button>
                     </div>
                 </div>
                 <div class="item-list" id="tt_postcards-list"></div>
@@ -3505,6 +3501,29 @@
         }
 
         function tt_setStatus(list, id, status, type) {
+            if (status === 'rejected') {
+                if (type === 'tt_puns') {
+                    tt_puns = tt_puns.filter(x => x.id !== id);
+                    tt_saveData(type, tt_puns);
+                } else if (type === 'tt_clues') {
+                    tt_clues = tt_clues.filter(x => x.id !== id);
+                    tt_saveData(type, tt_clues);
+                } else if (type === 'tt_postcards') {
+                    tt_postcards = tt_postcards.filter(x => x.id !== id);
+                    tt_puzzles = tt_puzzles.filter(pz => pz.puzzle_id !== id);
+                    tt_puzzles.forEach((pz, idx) => {
+                        pz.puzzle_number = String(idx + 1).padStart(3, '0');
+                    });
+                    tt_saveData('tt_puzzles', tt_puzzles);
+                    tt_saveData(type, tt_postcards);
+                } else if (type === 'tt_landmarks') {
+                    tt_landmarks = tt_landmarks.filter(x => x.id !== id);
+                    tt_saveData(type, tt_landmarks);
+                }
+                tt_renderAll();
+                return;
+            }
+
             let item = list.find(x => x.id === id);
             if (item) {
                 item.status = status;
@@ -3514,7 +3533,7 @@
                 if (type === 'tt_postcards' && status === 'approved') {
                     tt_compilePuzzleFromPostcard(item);
                 } else if (type === 'tt_postcards' && status !== 'approved') {
-                    // Remove from daily queue if unapproved or rejected
+                    // Remove from daily queue if unapproved
                     tt_puzzles = tt_puzzles.filter(pz => pz.puzzle_id !== item.clue_id);
                     // Recalculate daily challenge numbers sequentially
                     tt_puzzles.forEach((pz, idx) => {
