@@ -1297,18 +1297,7 @@
                 <div class="card-header">
                     <h2>🎨 Postcard Art & Owner Replies</h2>
                     <div style="display: flex; align-items: center; gap: 15px;">
-                        <div style="display: flex; align-items: center; gap: 6px;">
-                            <label for="tt_art_style_select" style="font-weight: 700; font-size: 0.9rem; color: var(--text-secondary);">Style:</label>
-                            <select id="tt_art_style_select" style="width: auto; padding: 8px 16px;">
-                                <option value="cartoon">Comical Cartoon</option>
-                                <option value="watercolor">Whimsical Watercolor</option>
-                                <option value="retro">1950s Travel Poster</option>
-                                <option value="wpa">WPA Nature Park Illustration</option>
-                                <option value="pop-art">Vibrant Pop Art</option>
-                                <option value="vintage">Linen Distressed Vintage</option>
-                                <option value="random">Randomize styles</option>
-                            </select>
-                        </div>
+
                         <button class="btn btn-secondary" onclick="tt_generatePostcards()">⚡ Generate Postcards</button>
                         <button class="btn btn-primary" onclick="tt_savePostcards()">💾 Save Postcards</button>
                     </div>
@@ -3592,11 +3581,10 @@
         }
 
         async function tt_generatePostcards() {
-            const style = document.getElementById('tt_art_style_select').value;
             let res = await fetch('/api/travelreviews/generate_postcards', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({ art_style: style })
+                body: JSON.stringify({ art_style: 'random' })
             });
             let data = await res.json();
             alert(`Postcards and Owner Responses generated! New items: ${data.generated_count}`);

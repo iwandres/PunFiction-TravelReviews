@@ -812,9 +812,7 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                 
                 new_postcards_count = 0
                 for c in approved_clues[:5]:
-                    style_key = selected_style
-                    if style_key == 'random' or style_key not in styles_dict:
-                        style_key = random.choice(list(styles_dict.keys()))
+                    style_key = random.choice(list(styles_dict.keys()))
                     style_prompt = styles_dict[style_key]
                     
                     prompt_gen = f"""
