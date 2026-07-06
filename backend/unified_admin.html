@@ -3688,18 +3688,10 @@
                     <div class="item-actions">
                         <span class="status-badge status-${lm.status || 'pending'}">${lm.status || 'pending'}</span>
                         <button class="btn btn-secondary" onclick="tt_setStatus(tt_landmarks, '${lm.id}', 'approved', 'tt_landmarks')">Approve</button>
-                        <button class="btn btn-danger" style="padding: 10px;" onclick="tt_deleteLandmark(${idx})">X</button>
+                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus(tt_landmarks, '${lm.id}', 'rejected', 'tt_landmarks')">Reject</button>
                     </div>
                 </div>
             `).join('');
-        }
-
-        function tt_deleteLandmark(idx) {
-            if (confirm("Are you sure you want to permanently delete this landmark?")) {
-                tt_landmarks.splice(idx, 1);
-                tt_saveData('tt_landmarks', tt_landmarks);
-                tt_renderAll();
-            }
         }
 
         function tt_renderPuns() {
