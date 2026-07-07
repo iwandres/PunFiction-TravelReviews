@@ -3542,7 +3542,16 @@
             tt_renderLandmarks();
         }
 
-        function tt_setStatus(list, id, status, type) {
+        function tt_setStatus(type, id, status) {
+            let list;
+            if (type === 'tt_landmarks') list = tt_landmarks;
+            else if (type === 'tt_puns') list = tt_puns;
+            else if (type === 'tt_clues') list = tt_clues;
+            else if (type === 'tt_postcards') list = tt_postcards;
+            else if (type === 'tt_puzzles') list = tt_puzzles;
+
+            if (!list) return;
+
             if (status === 'rejected') {
                 if (type === 'tt_puns') {
                     tt_puns = tt_puns.filter(x => x.id !== id);
@@ -3733,8 +3742,8 @@
                     </div>
                     <div class="item-actions">
                         <span class="status-badge status-${lm.status || 'pending'}">${lm.status || 'pending'}</span>
-                        <button class="btn btn-secondary" onclick="tt_setStatus(tt_landmarks, '${eq(lm.id)}', 'approved', 'tt_landmarks')">Approve</button>
-                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus(tt_landmarks, '${eq(lm.id)}', 'rejected', 'tt_landmarks')">Reject</button>
+                        <button class="btn btn-secondary" onclick="tt_setStatus('tt_landmarks', '${eq(lm.id)}', 'approved')">Approve</button>
+                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus('tt_landmarks', '${eq(lm.id)}', 'rejected')">Reject</button>
                     </div>
                 </div>
             `).join('');
@@ -3755,8 +3764,8 @@
                     </div>
                     <div class="item-actions" style="align-items: center; gap: 8px;">
                         <span class="status-badge status-${p.status || 'pending'}">${p.status || 'pending'}</span>
-                        <button class="btn btn-secondary" onclick="tt_setStatus(tt_puns, '${eq(p.id)}', 'approved', 'tt_puns')">Approve</button>
-                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus(tt_puns, '${eq(p.id)}', 'rejected', 'tt_puns')">Reject</button>
+                        <button class="btn btn-secondary" onclick="tt_setStatus('tt_puns', '${eq(p.id)}', 'approved')">Approve</button>
+                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus('tt_puns', '${eq(p.id)}', 'rejected')">Reject</button>
                     </div>
                 </div>
             `).join('');
@@ -3783,8 +3792,8 @@
                         <strong>${c.pun_name} (from ${c.original_name})</strong>
                         <div>
                             <span class="status-badge status-${c.status || 'pending'}">${c.status || 'pending'}</span>
-                            <button class="btn btn-secondary" onclick="tt_setStatus(tt_clues, '${eq(c.id)}', 'approved', 'tt_clues')">Approve</button>
-                            <button class="btn btn-danger" style="padding: 10px;" onclick="tt_setStatus(tt_clues, '${eq(c.id)}', 'rejected', 'tt_clues')">X</button>
+                            <button class="btn btn-secondary" onclick="tt_setStatus('tt_clues', '${eq(c.id)}', 'approved')">Approve</button>
+                            <button class="btn btn-danger" style="padding: 10px;" onclick="tt_setStatus('tt_clues', '${eq(c.id)}', 'rejected')">X</button>
                         </div>
                     </div>
                     <div style="background: rgba(8, 12, 20, 0.4); border: 1px solid var(--border-base); padding: 12px 15px; border-radius: 8px; width: 100%; font-size: 0.9rem; color: var(--text-secondary); margin-top: 8px;">
@@ -3841,9 +3850,9 @@
                     </div>
                     <div class="item-actions" style="gap: 8px;">
                         <span class="status-badge status-${p.status || 'pending'}">${p.status || 'pending'}</span>
-                        <button class="btn btn-secondary" onclick="tt_setStatus(tt_postcards, '${eq(p.id)}', 'approved', 'tt_postcards')">Approve</button>
+                        <button class="btn btn-secondary" onclick="tt_setStatus('tt_postcards', '${eq(p.id)}', 'approved')">Approve</button>
                         <button class="btn btn-secondary" style="" onclick="tt_regeneratePostcard('${eq(p.clue_id)}', '${eq(p.art_style)}')">🔄 Regenerate Image</button>
-                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus(tt_postcards, '${eq(p.id)}', 'rejected', 'tt_postcards')">X</button>
+                        <button class="btn btn-danger" style="padding: 10px 14px;" onclick="tt_setStatus('tt_postcards', '${eq(p.id)}', 'rejected')">X</button>
                     </div>
                 </div>
             `).join('');
