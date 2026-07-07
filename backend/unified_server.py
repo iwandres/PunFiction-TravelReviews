@@ -1097,7 +1097,8 @@ def pipeline_listener():
                       "clue1": "Clue 1 text",
                       "clue2": "Clue 2 text",
                       "clue3": "Clue 3 text",
-                      "owner_response": "Owner response here"
+                      "owner_response": "Owner response here",
+                      "page_theme": "The most appropriate travel theme name for this location out of: road_trip, air_mail, train_passage, gondola_ride, boat_voyage, mountain_trek, desert_safari, sightseeing, tropical_island, winter_lodge, metro_transit"
                     }}
                     """
                     response = client.models.generate_content(
@@ -1120,6 +1121,7 @@ def pipeline_listener():
                         "clue3": generated.get("clue3", ""),
                         "clue4": generated.get("clue4", ""),
                         "owner_response": generated.get("owner_response", ""),
+                        "page_theme": generated.get("page_theme", "road_trip"),
                         "status": "pending"
                     })
                     new_clues_count += 1
