@@ -180,20 +180,6 @@
     "status": "approved"
   },
   {
-    "id": "clue_pun_stonehenge_1783294558_261_1783299150_156",
-    "pun_id": "pun_stonehenge_1783294558_261",
-    "pun_name": "Conehenge",
-    "original_name": "Stonehenge",
-    "reviewer_name": "OrangeTrafficCone",
-    "review_title": "More Like 'Con-Job-henge'!",
-    "clue1": "Expected ancient stones in Wiltshire... found only construction grade orange!",
-    "clue2": "Hardly 'megalithic'... kept kicking over their ridiculous, flimsy bases.",
-    "clue3": "Just a vast, circular field of bright orange road cones. Seriously?",
-    "clue4": "",
-    "owner_response": "Dear @OrangeTrafficCone, our monument dates back millennia, crafted from enormous sarsen stones, not 'construction grade orange plastic.' Perhaps you were looking for a festival car park, not an ancient wonder?",
-    "status": "approved"
-  },
-  {
     "id": "clue_pun_mount_everest_1783294561_980_1783299248_107",
     "pun_id": "pun_mount_everest_1783294561_980",
     "pun_name": "Mount Cleverest",
@@ -373,21 +359,7 @@
     "clue3": "Hard to find your inner peace with a giant, noisy clock right there.",
     "clue4": "",
     "owner_response": "Dear @NoInnerPeaceNed, it seems you've mistaken a historical clock tower for a quiet yoga retreat. Our primary function is telling time, not facilitating chakra alignment; the chimes are rather essential for that.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_yellowstone_national_park_1783298941_942_1783312760_276",
-    "pun_id": "pun_yellowstone_national_park_1783298941_942",
-    "pun_name": "Mellowstone National Park",
-    "original_name": "Yellowstone National Park",
-    "reviewer_name": "ZenSeeker",
-    "review_title": "Warning: Extreme Calm Ahead!",
-    "clue1": "America's 'fiery' nature? More like a weighted blanket. So. Very. Mild.",
-    "clue2": "Geysers were barely a shrug. The 'stone' parts felt strangely... squishy.",
-    "clue3": "My adventurous spirit was completely... *pacified*. Needs a kick!",
-    "clue4": "",
-    "owner_response": "Dear @ZenSeeker, while we're glad you found some tranquility, our geysers and rugged terrain are rarely described as 'mild' or 'squishy.' Perhaps you're looking for a different kind of 'park' entirely.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_yellowstone_national_park_1783298941_390_1783312772_737",
@@ -401,7 +373,7 @@
     "clue3": "Constantly being blown away... my \"yellow\" raincoat was useless.",
     "clue4": "",
     "owner_response": "Dear @WindbagWanderer, you seem to have confused our geyser-filled national park with a literal air pump. We assure you, our majestic geothermal features do not require any \"huffing and puffing\" to erupt.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_great_barrier_reef_1783298920_807_1783312782_417",
@@ -415,7 +387,7 @@
     "clue3": "Hardly a *barrier* to anything; just squishy fruit chunks!",
     "clue4": "",
     "owner_response": "Dear @BerryBlue, it seems you've confused a vibrant, living coral ecosystem with a grocery store produce aisle. We specialize in marine biodiversity, not blueberry counts or 'fruit salad displays'.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_big_ben_1783298937_847_1783312791_669",
@@ -429,21 +401,7 @@
     "clue3": "Not so Big... just a muddy pen for some messy inhabitants.",
     "clue4": "",
     "owner_response": "Dear @MuddyPaws, our nearly 170-year-old bell tower is known for its precise timekeeping and majestic chimes, not for 'grunting' or 'mud'. We suspect you've confused us with a very different kind of 'pen'.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_big_ben_1783298937_929_1783312801_685",
-    "pun_id": "pun_big_ben_1783298937_929",
-    "pun_name": "Wig Ben",
-    "original_name": "Big Ben",
-    "reviewer_name": "BadHairDayBrit",
-    "review_title": "Time for a new look, London!",
-    "clue1": "So much static... my proper British hair stood on end!",
-    "clue2": "Couldn't tell the time... kept slipping down over my eyes!",
-    "clue3": "Expected a grand chime... got a lopsided, frizzy hair hat!",
-    "clue4": "",
-    "owner_response": "My dear @BadHairDayBrit, while we appreciate the creative review, our 96-meter clock tower is an architectural marvel housing a magnificent bell, not a 'frizzy hair hat' causing static. We recommend visiting a milliner if you're looking for headwear.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_leaning_tower_of_pisa_1783298900_537_1783312812_726",
@@ -457,35 +415,7 @@
     "clue3": "Still leaning, never cleaning. What a dusty disappointment!",
     "clue4": "",
     "owner_response": "Dear @SudsSufferer, it's quite remarkable how you expected a historical bell tower to double as a cleaning service. Perhaps you confused our architectural tilt with a mop wringer?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_trevi_fountain_1783298906_593_1783312820_721",
-    "pun_id": "pun_trevi_fountain_1783298906_593",
-    "pun_name": "Trevi Fortune",
-    "original_name": "Trevi Fountain",
-    "reviewer_name": "BadBetBetty",
-    "review_title": "My Wishes Never Came True!",
-    "clue1": "This Italian 'luck' spot just drained my wallet dry!",
-    "clue2": "No gushing water, just gushing bills! No coins for wishes!",
-    "clue3": "Wanted to toss coins in for luck... manager just stared!",
-    "clue4": "",
-    "owner_response": "Dear @BadBetBetty, our monumental Baroque fountain is celebrated for its artistry and history, not for dispensing financial advice or holding your 'gushing bills'. Perhaps consult a real investment banker next time.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_neuschwanstein_castle_1783298915_975_1783312833_661",
-    "pun_id": "pun_neuschwanstein_castle_1783298915_975",
-    "pun_name": "No-Swine-Stain Castle",
-    "original_name": "Neuschwanstein Castle",
-    "reviewer_name": "PorkBellyPete",
-    "review_title": "Filthy and Deceiving! Where are the pigs?!",
-    "clue1": "Alpine air, but no oink... nor a decent pretzel for my palate!",
-    "clue2": "So many grand turrets, yet not a single smudge-free zone to be found!",
-    "clue3": "Its majestic swan inspiration totally wasted... and truly quite mucky!",
-    "clue4": "",
-    "owner_response": "Dear @PorkBellyPete, this is a centuries-old royal residence, not a livestock pen or a car wash. We are quite certain no one promised you 'oinkers' or 'smudge-free zones' for anything other than art and history.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_vampire_state_building_1783312880",
@@ -498,20 +428,7 @@
     "clue3": "This 'state' of affairs truly sucks... and not in a good, historic way!",
     "owner_response": "Dear @NightCrawlerNY, our iconic 102-story landmark is built for human admiration and unparalleled city views, not as a reflection-free zone for the undead. If you're seeking bloodsuckers, I suggest you investigate New York's real estate market.",
     "page_theme": "sightseeing",
-    "status": "pending"
-  },
-  {
-    "id": "clue_empire_state_bouldering_1783312887",
-    "original_name": "Empire State Building",
-    "pun_name": "Empire State Bouldering",
-    "reviewer_name": "VertigoVic",
-    "review_title": "My skyscraper became a scrape-knee-er!",
-    "clue1": "Expected a view from the top, found only rough rock surfaces.",
-    "clue2": "The King Kong experience was just me scaling a wall. So rude!",
-    "clue3": "Wanted a building with floors, got a colossal rock puzzle instead!",
-    "owner_response": "Dear @VertigoVic, our magnificent Art Deco monument is known for its iconic views from 102 stories, not for its 'rock surfaces' or as a personal 'climbing puzzle'. Perhaps you confused us with a gym?",
-    "page_theme": "sightseeing",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_limes_square_1783312896",
@@ -524,7 +441,7 @@
     "clue3": "This central 'Square' was totally full of citrus time!",
     "owner_response": "Dear @SourPuss, Times Square is a global icon of commerce and culture, not a citrus grove. While we appreciate your concern for public health, our dazzling billboards don't dispense Vitamin C.",
     "page_theme": "sightseeing",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_mimes_square_1783312901",
@@ -537,90 +454,7 @@
     "clue3": "Every passing moment... felt trapped in a silent, gesturing crowd.",
     "owner_response": "Dear @SilentScreamer, we assure you, our iconic intersection is known for its vibrant sounds and dazzling billboards, not silent pantomimes or imaginary enclosures. Perhaps you confused us with a very specific theatrical performance?",
     "page_theme": "sightseeing",
-    "status": "pending"
-  },
-  {
-    "id": "clue_times_scare_1783312908",
-    "original_name": "Times Square",
-    "pun_name": "Times Scare",
-    "reviewer_name": "PanicPete",
-    "review_title": "Cardiac Arrest Corner!",
-    "clue1": "Too many flashing lights\u2026 lost all sense of time\u2026 constantly startled!",
-    "clue2": "Thought the ball would drop... nearly had a heart attack!",
-    "clue3": "Giant screens everywhere\u2026 my blood pressure is through the roof!",
-    "owner_response": "Dear @PanicPete, it sounds like you\u2019re confusing a major global intersection with a theme park fright-ride. Our giant screens aren't for jump scares, and the 'ball drop' isn't meant to stop your heart!",
-    "page_theme": "sightseeing",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_eiffel_tower_1783281643_844_1783313372_655",
-    "pun_id": "pun_eiffel_tower_1783281643_844",
-    "pun_name": "Eyeful Tower",
-    "original_name": "Eiffel Tower",
-    "reviewer_name": "StaringSarah",
-    "review_title": "Too Much to See! Literally!",
-    "clue1": "Mon Dieu! What an eyeful... felt completely exposed to everyone!",
-    "clue2": "Constant peepers everywhere... and so many levels of viewing platforms!",
-    "clue3": "This enormous metal structure... designed purely for being stared at!",
-    "clue4": "",
-    "owner_response": "Listen, @StaringSarah, our iconic iron lattice tower is a breathtaking monument, not a voyeuristic stage for your personal drama. Perhaps you mistook it for a reality TV set?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_eiffel_tower_1783281643_147_1783313383_672",
-    "pun_id": "pun_eiffel_tower_1783281643_147",
-    "pun_name": "Baffle Tower",
-    "original_name": "Eiffel Tower",
-    "reviewer_name": "MindMeltedMax",
-    "review_title": "My Brain Is Twisted!",
-    "clue1": "This Parisian enigma... left my mind utterly twisted!",
-    "clue2": "All those perplexing angles... utterly blocked my view!",
-    "clue3": "This towering structure... a monumental mind-bender!",
-    "clue4": "",
-    "owner_response": "Dear @MindMeltedMax, our iconic 330-meter wrought-iron monument offers breathtaking views, not existential 'mind-bending'. Perhaps you were seeking a philosophy lecture rather than a Parisian landmark?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_machu_picchu_1783281661_692_1783313392_241",
-    "pun_id": "pun_machu_picchu_1783281661_692",
-    "pun_name": "My Shoe Picchu",
-    "original_name": "Machu Picchu",
-    "reviewer_name": "SoleSurvivor",
-    "review_title": "Sole-ly Disappointing Ascent!",
-    "clue1": "Peruvian heights... my shoes just fell apart! Totally unsupportive.",
-    "clue2": "My feet suffered... climbing these ancient, ill-fitting structures. Total discomfort.",
-    "clue3": "After this trek, my footwear literally became the destination. Unbelievable!",
-    "clue4": "",
-    "owner_response": "Dear @SoleSurvivor, our revered Incan citadel is an archaeological marvel of stone and history, not a communal footwear collection. Perhaps you misunderstood the concept of a 'ruin,' which typically doesn't include discarded shoes.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_statue_of_liberty_1783282169_216_1783313402_471",
-    "pun_id": "pun_statue_of_liberty_1783282169_216",
-    "pun_name": "Stash-you of Liberty",
-    "original_name": "Statue of Liberty",
-    "reviewer_name": "SecretSquirrel",
-    "review_title": "Seriously, where's my stuff?!",
-    "clue1": "French origin, but this 'liberty stash' holds nothing securely!",
-    "clue2": "Tried to stash my emergency cash in the tablet. Useless!",
-    "clue3": "This colossal green lady offers no actual 'liberty' for your belongings!",
-    "clue4": "",
-    "owner_response": "Dear @SecretSquirrel, we regret you mistook a 300-foot copper monument to freedom for a giant piggy bank. Our tablets are for inscribed laws, not illicit funds.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_grand_canyon_1783282176_613_1783313409_276",
-    "pun_id": "pun_grand_canyon_1783282176_613",
-    "pun_name": "Granny Canyon",
-    "original_name": "Grand Canyon",
-    "reviewer_name": "WrinklyWanderer",
-    "review_title": "Where's the Adventure, Dearie?",
-    "clue1": "Thought I'd see desert vistas... just faded photos and doilies!",
-    "clue2": "Layers of dusty afghans... too many steep drops for tea time!",
-    "clue3": "Expected something *grand*... only found a gigantic, napping, ancient relative!",
-    "clue4": "",
-    "owner_response": "Dear @WrinklyWanderer, it seems you've mistaken a billion-year-old geological marvel for your family reunion. We apologize if our immense, layered rock formations didn't offer enough afghans or tea service.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_colosseum_1783294547_796_1783313422_940",
@@ -634,21 +468,7 @@
     "clue3": "An arena of fermenting cabbage! Where are the lions and emperors?",
     "clue4": "",
     "owner_response": "Dear @MayoMess, it seems you've confused our ancient Flavian Amphitheatre, a monumental testament to Roman engineering, with... a salad bar? We do not serve fermented cabbage, only history.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_mount_rushmore_1783298897_107_1783313430_114",
-    "pun_id": "pun_mount_rushmore_1783298897_107",
-    "pun_name": "Mount Crushmore",
-    "original_name": "Mount Rushmore",
-    "reviewer_name": "CrushedSpirit",
-    "review_title": "Peak of Despair!",
-    "clue1": "Presidents stared... while my heart endured a crushing defeat.",
-    "clue2": "Those stone faces judged my failed romantic endeavors, crushing!",
-    "clue3": "Four faces, one mountain, maximum crushing heartbreak, and more!",
-    "clue4": "",
-    "owner_response": "Dear Traveler, our colossal presidential carvings are meant to inspire patriotism, not mend broken hearts or witness \"crushing defeats,\" @CrushedSpirit. Perhaps try a relationship counselor next time.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_mount_rushmore_1783298897_250_1783313441_402",
@@ -662,7 +482,7 @@
     "clue3": "So *much more* green than granite... totally *lush*!",
     "clue4": "",
     "owner_response": "Dear @MossMiser, this site is a national memorial featuring four iconic 60-foot presidential carvings in solid granite, not a botanical preserve or 'jungle'. Perhaps your expectations of 'green' were misplaced at a rock monument.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_leaning_tower_of_pisa_1783298900_532_1783313448_255",
@@ -676,35 +496,7 @@
     "clue3": "It\u2019s shaped like a massive round pie... and definitely needs straightening!",
     "clue4": "",
     "owner_response": "Dear @SlantedSlice, we are a 56-meter marble bell tower, not a restaurant. Our historic structure is neither 'shaped like a pie' nor meant for your pepperoni cravings.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_niagara_falls_1783298853_701_1783313811_674",
-    "pun_id": "pun_niagara_falls_1783298853_701",
-    "pun_name": "Niagara Fails",
-    "original_name": "Niagara Falls",
-    "reviewer_name": "BrokenBarrelBetty",
-    "review_title": "More like Niagara Flops!",
-    "clue1": "North American border? More like a barrier... water just stops.",
-    "clue2": "Absolutely no roar... just a pathetic little drip. So weak!",
-    "clue3": "Huge drop? Nope. Just a damp ledge and a sad little puddle.",
-    "clue4": "",
-    "owner_response": "Dear @BrokenBarrelBetty, it seems you've confused one of the world's most powerful natural wonders with a leaky garden hose. Our millions of gallons per second assure us nothing here 'just stops' or forms a 'sad little puddle'.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_niagara_falls_1783298853_274_1783313819_485",
-    "pun_id": "pun_niagara_falls_1783298853_274",
-    "pun_name": "Niagara Calls",
-    "original_name": "Niagara Falls",
-    "reviewer_name": "DisconnectedDialer",
-    "review_title": "Dropped Connection!",
-    "clue1": "Couldn't get a signal... even right by the border water.",
-    "clue2": "No customer service... just a thunderous roar, deafening!",
-    "clue3": "Expected important messages... just a massive, constant drop!",
-    "clue4": "",
-    "owner_response": "Dear @DisconnectedDialer, our majestic cascades are a testament to nature's power, not a customer service hotline. Expecting 'important messages' from us shows a profound misunderstanding.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_chichen_itza_1783298859_579_1783313828_680",
@@ -718,21 +510,7 @@
     "clue3": "Called it 'chicken eats a'... but no food, just stone steps!",
     "clue4": "",
     "owner_response": "Dear @CrustyCritic, this is a UNESCO World Heritage Site, not a pizzeria. We specialize in ancient Mayan architecture, not raw 'Mayan toppings' or stale dough.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_chichen_itza_1783298859_956_1783313837_719",
-    "pun_id": "pun_chichen_itza_1783298859_956",
-    "pun_name": "Itchin' Itza",
-    "original_name": "Chichen Itza",
-    "reviewer_name": "PricklyPete",
-    "review_title": "Worst. Itch. Ever.",
-    "clue1": "Jungle pyramid tour... left me with a million bites, so itchy!",
-    "clue2": "Even the great serpent shadow... couldn't distract from the constant scratching.",
-    "clue3": "Seriously needs some anti-histamine... this 'Chicken Itza' is a nightmare!",
-    "clue4": "",
-    "owner_response": "Dear @PricklyPete, we are an ancient ceremonial center, not a mosquito breeding farm. Perhaps your 'itch' is from confusing millennia-old limestone with insect repellent?",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_burj_khalifa_1783298862_522_1783313846_377",
@@ -746,7 +524,7 @@
     "clue3": "Not a towering marvel... just a cold, greasy meat patty between two buns.",
     "clue4": "",
     "owner_response": "Dear @GreasyGastronaut, perhaps you've mistaken our 828-meter architectural marvel for a fast-food establishment. We assure you, our observation decks offer breathtaking views, not mysterious tangy sauce or cold meat patties.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_tower_bridge_1783298870_706_1783313977_579",
@@ -760,7 +538,7 @@
     "clue3": "Soaked from above... definitely not the majestic 'bridge' I anticipated!",
     "clue4": "",
     "owner_response": "Dear @DrippingTourist, while we appreciate your visit, our magnificent Victorian Gothic structures have never 'dispensed lukewarm water' or offered a 'constant spray.' We are an iconic crossing over the Thames, not a public bathing facility.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_tower_bridge_1783298870_114_1783313984_866",
@@ -774,35 +552,7 @@
     "clue3": "It's a huge, acidic bridge with towers that sting!",
     "clue4": "",
     "owner_response": "Dear @PuckeredPalate, we are a magnificent Victorian marvel crossing the Thames, not a tart treat. Our iconic structure certainly isn't designed to make your face pucker.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_landmark_1_1783199003_0_1783199786_1783313994_353",
-    "pun_id": "pun_landmark_1_1783199003_0_1783199786",
-    "pun_name": "Waffle Tower",
-    "original_name": "Eiffel Tower",
-    "reviewer_name": "SyrupSlinger",
-    "review_title": "Sticky Situation!",
-    "clue1": "My baguette stuck to the gridded structure... Tr\u00e8s sticky experience!",
-    "clue2": "Climbing this metal grid for views? Only found crumbs and syrup stains.",
-    "clue3": "Seriously? A giant, cold waffle? And no jam at the top!",
-    "clue4": "",
-    "owner_response": "Dear @SyrupSlinger, our 330-meter wrought iron monument is not a breakfast item for your fork and knife. Perhaps you're confusing us with a very large Parisian patisserie?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_landmark_1_1783199003_1_1783199786_1783314002_241",
-    "pun_id": "pun_landmark_1_1783199003_1_1783199786",
-    "pun_name": "Eiffel Shower",
-    "original_name": "Eiffel Tower",
-    "reviewer_name": "DampFrenchman",
-    "review_title": "A Monumental Mis-Shower-standing!",
-    "clue1": "Oh l\u00e0 l\u00e0, my croissant is soaked! Total downpour!",
-    "clue2": "Expected romantic views, got an unexpected, cold rinse instead!",
-    "clue3": "That iconic tall, metal landmark... now just a giant leaky faucet!",
-    "clue4": "",
-    "owner_response": "Dear @DampFrenchman, while we appreciate your review, our 300-meter iron monument is not equipped with 'faucets' or designed for 'rinses'. Perhaps you mistook a very tall building for a very large bathroom?",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_1_1783199003_2_1783199786_1783314010_894",
@@ -816,7 +566,7 @@
     "clue3": "Definitely not a pretty blossom; it's just a tall, rusty, iconic landmark.",
     "clue4": "",
     "owner_response": "Dear @WiltingViolet, this is a 300-meter wrought-iron monument, not a botanical garden for 'delicate petals.' We're quite famous for our girders, not our pollen count.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_12_1783199003_0_1783199821_1783314026_698",
@@ -830,35 +580,7 @@
     "clue3": "Less a sacred building... more a massive, saint-themed ordnance.",
     "clue4": "",
     "owner_response": "Dear @DeaconOfDetonation, it appears you\u2019ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_landmark_14_1783199003_0_1783199826_1783314036_793",
-    "pun_id": "pun_landmark_14_1783199003_0_1783199826",
-    "pun_name": "Trevi Mountain",
-    "original_name": "Trevi Fountain",
-    "reviewer_name": "ParchedPilgrim",
-    "review_title": "Absolutely bone-dry! What a rip-off!",
-    "clue1": "No flowing water here, just... a rocky, Italian hump!",
-    "clue2": "Tried to toss a coin, but just hit\u2026 solid rock! My wish is parched!",
-    "clue3": "Where's the gushing liquid? Just a giant, thirsty heap of stone!",
-    "clue4": "",
-    "owner_response": "Dear @ParchedPilgrim, it appears you've mistaken our iconic Baroque *fountain* for a geological formation. We assure you, we have plenty of water for wishes, not just 'solid rock' for coin-tossing.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_landmark_14_1783199003_1_1783199826_1783314044_186",
-    "pun_id": "pun_landmark_14_1783199003_1_1783199826",
-    "pun_name": "Heavy Fountain",
-    "original_name": "Trevi Fountain",
-    "reviewer_name": "WaterWeightWatcher",
-    "review_title": "My Back Hates Me Now!",
-    "clue1": "Italian journey... the sheer weight of it all! Couldn't lift a coin.",
-    "clue2": "Too massive to appreciate. My neck hurts from the sheer bulk.",
-    "clue3": "Forget 'Trevi'... This fountain's name should be 'HEAVY'!",
-    "clue4": "",
-    "owner_response": "Dear @WaterWeightWatcher, our landmark is renowned for its Baroque artistry and historical significance, not as a test of strength. Perhaps you confused us with a gym, as many enjoy admiring the sculptures, not attempting to lift them.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_15_1783199003_1_1783199835_1783314052_528",
@@ -872,7 +594,7 @@
     "clue3": "So many historic figures... stuck inside a giant tin!",
     "clue4": "",
     "owner_response": "Dear @CannedCritique, our ancient temple, designed for gods and emperors, was never intended for 'sealing freshness' or storing processed peas. We are an architectural masterpiece, not a giant food container.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_17_1783199003_1_1783199839_1783314058_828",
@@ -886,7 +608,7 @@
     "clue3": "Honestly, who designed a leaning monument that just... sprays water?",
     "clue4": "",
     "owner_response": "Dear @SoggyTourist, it seems you've mistaken our 55-meter marble bell tower for some kind of communal bathing facility. We certainly don't \"spray water,\" nor do we provide towels for travelers who've attempted to shower on ancient monuments.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_20_1783199003_1_1783199843_1783314071_124",
@@ -900,7 +622,7 @@
     "clue3": "This whole Italian waterway is just one giant, obnoxious *brand* exposition.",
     "clue4": "",
     "owner_response": "Listen, @AdNauseam, our historic Venetian waterway, a centuries-old marvel of architecture and culture, does not feature 'floating billboards' or 'branded gondolas'. Perhaps you need to adjust your spectacles before visiting a real canal.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_20_1783199003_2_1783199843_1783314081_723",
@@ -914,21 +636,7 @@
     "clue3": "Definitely more sand than grandeur; completely mis-labeled waterway.",
     "clue4": "",
     "owner_response": "Dear @SiltSurfer, our *Grand* Canal has been a vibrant, watery thoroughfare for centuries, not a desert dune for camel rides. Perhaps you've confused us with a very literal translation error.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_landmark_22_1783199003_0_1783199852_1783314091_520",
-    "pun_id": "pun_landmark_22_1783199003_0_1783199852",
-    "pun_name": "Pomp-Play",
-    "original_name": "Pompeii",
-    "reviewer_name": "GrandeurGrump",
-    "review_title": "This historical 'stage' needs an intermission!",
-    "clue1": "Too much ancient pomp for this Italian play... very dusty.",
-    "clue2": "All those stone 'props' and a dramatic 'curtain call' from Vesuvius!",
-    "clue3": "Honestly, the biggest 'act' in history, quite a showy ending.",
-    "clue4": "",
-    "owner_response": "Dear @GrandeurGrump, it seems you've confused a meticulously preserved ancient Roman city for a theatrical production. While our historical site certainly has 'pomp' and a dramatic history, we're not quite a 'play' needing an intermission.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_landmark_23_1783199003_0_1783199856_1783314101_368",
@@ -942,21 +650,7 @@
     "clue3": "Couldn't *step* over them; just kept folding and flopping down the piazza.",
     "clue4": "",
     "owner_response": "Dear @BatterBummer, perhaps you've confused our historic 135-step staircase with a pancake. Our landmark certainly doesn't 'fold and flop down the piazza,' and we don't serve syrup.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_landmark_23_1783199003_1_1783199856_1783314113_561",
-    "pun_id": "pun_landmark_23_1783199003_1_1783199856",
-    "pun_name": "Famish Steps",
-    "original_name": "Spanish Steps",
-    "reviewer_name": "HangryHiker",
-    "review_title": "Steps to Starvation!",
-    "clue1": "My Iberian journey led to sheer famishment... in Rome!",
-    "clue2": "So many steps, just amplified my hunger pangs.",
-    "clue3": "These beautiful ascending terraces only made me starve!",
-    "clue4": "",
-    "owner_response": "Dear @HangryHiker, these 135 monumental Baroque steps are for public ascension, not a culinary expedition. Complaining about 'famish' here is quite the mistaken assumption, even for Rome.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_loch_ness_1783298929_764_1783314590_866",
@@ -970,21 +664,7 @@
     "clue3": "Definitely not 'Ness'... more like 'What-A-Disgusting-Mass!'",
     "clue4": "",
     "owner_response": "Dear @MuckyMonster, we regret your confusion. Our ancient, glacial loch is renowned for its pristine depths and mysterious legend, not 'floating bits' or 'disgusting masses'.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_palace_of_versailles_1783298947_521_1783314812_619",
-    "pun_id": "pun_palace_of_versailles_1783298947_521",
-    "pun_name": "Palace of Ver-size",
-    "original_name": "Palace of Versailles",
-    "reviewer_name": "ShrunkenSuitcase",
-    "review_title": "Not to my standards... or size!",
-    "clue1": "Felt very French... but completely the wrong size!",
-    "clue2": "Hall of Mirrors? More like hall of mis-sized reflections!",
-    "clue3": "Definitely felt grand, but needed some serious re-sizing.",
-    "clue4": "",
-    "owner_response": "Dear @ShrunkenSuitcase, while our historic palace boasts unparalleled grandeur, we assure you it was designed to exacting royal standards, not for 're-sizing' to your personal specifications. Perhaps a tailor, not a historical site, would better serve your needs.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_alcatraz_island_1783312897_829_1783314819_958",
@@ -998,21 +678,7 @@
     "clue3": "Felt imprisoned... these pants are impossible to get out of!",
     "clue4": "",
     "owner_response": "Dear @TightPantsTerror, while our island's history is indeed escape-proof, we assure you this historic former federal prison is not a sartorial establishment. Complaining about 'zippers' and 'seams' here is quite bewildering given our infamous cell blocks.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_alcatraz_island_1783312897_470_1783314827_145",
-    "pun_id": "pun_alcatraz_island_1783312897_470",
-    "pun_name": "Alcohol-traz Island",
-    "original_name": "Alcatraz Island",
-    "reviewer_name": "HangoverHarry",
-    "review_title": "Escaped, but regret it!",
-    "clue1": "That *golden gate* led to *liquid* misery; truly inescapable.",
-    "clue2": "Thought it was a prison, but these *bars* just served more *spirits*.",
-    "clue3": "Worst *lock-up* ever; no escape from these *proof*-positive consequences!",
-    "clue4": "",
-    "owner_response": "Dear @HangoverHarry, it seems you've confused our historic maximum-security federal prison with a rather unfortunate watering hole. Our facility is renowned for its inescapable concrete cells and chilling past, not 'liquid misery' of the alcoholic kind.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_amalfi_coast_1783313857_196_1783314837_681",
@@ -1026,21 +692,7 @@
     "clue3": "No villas here, just a burnt crumb on a plate.",
     "clue4": "",
     "owner_response": "Dear @CrumblyCrumpet, while our lemons are exquisite, they aren't meant for charring, nor is our entire dramatic coastline a 'burnt crumb.' You clearly have the wrong destination; perhaps a local bakery could assist?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_amalfi_coast_1783313857_963_1783314845_233",
-    "pun_id": "pun_amalfi_coast_1783313857_963",
-    "pun_name": "A Mighty Roast",
-    "original_name": "Amalfi Coast",
-    "reviewer_name": "OverRoastedRonnie",
-    "review_title": "Scalding, Overpriced & Utterly Burnt!",
-    "clue1": "Italian inferno! More char than charm, absolutely no beach.",
-    "clue2": "My entire soul feels over-roasted; the 'view' is just smoky haze.",
-    "clue3": "Seriously, it's just one giant, powerful coffee brewing operation!",
-    "clue4": "",
-    "owner_response": "Dear @OverRoastedRonnie, our stunning Mediterranean coastline offers breathtaking vistas and azure waters, not 'char' or 'smoky haze.' We're quite certain we don't operate a 'coffee brewing operation' here.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_machu_picchu_1783281661_502_1783315263_620",
@@ -1054,21 +706,7 @@
     "clue3": "Advertised as 'Peak Physique,' but it's just a mountain with old walls.",
     "clue4": "",
     "owner_response": "Dear @GrumpyGymBro, we are an ancient Incan citadel high in the Andes, not a fitness center. Our 15th-century architecture isn't designed for \"Peak Physique\" training.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_neuschwanstein_castle_1783298915_674_1783315271_883",
-    "pun_id": "pun_neuschwanstein_castle_1783298915_674",
-    "pun_name": "New Swan-Stain Castle",
-    "original_name": "Neuschwanstein Castle",
-    "reviewer_name": "StainSeeker",
-    "review_title": "My fairytale dream... Stained!",
-    "clue1": "Bavarian 'new' build? Just feathered mess and inexplicable stains.",
-    "clue2": "Forget picturesque white walls, this place is just... swan-poo chic.",
-    "clue3": "A 'new' castle... covered in undeniable swan stains.",
-    "clue4": "",
-    "owner_response": "Dear @StainSeeker, perhaps you\u2019ve confused our majestic 19th-century royal palace with a very poorly maintained bird bath. We assure you, our historic white walls are not \"swan-poo chic.\"",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_tower_of_london_1783313863_403_1783315279_513",
@@ -1082,7 +720,7 @@
     "clue3": "Couldn't even hold water... and the ravens kept trying to peck it!",
     "clue4": "",
     "owner_response": "Dear @SoggyBrit, while our historic fortress has certainly seen its share of dampness, it's not a personal hygiene item. Our stone walls and medieval architecture are quite poor at 'drying off' visitors or 'holding water'.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_buckingham_palace_1783313870_147_1783315286_648",
@@ -1110,35 +748,7 @@
     "clue3": "Forget conquering armies... it just dangles from the window!",
     "clue4": "",
     "owner_response": "Dear @FrayedExpectations, our 12th-century fortress stands stoically on a volcanic plug, not 'dangling from a window' as a 'furball'. We assure you, our ramparts offer more than 'flimsy string' for defense.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_windsor_castle_1783313889_500_1783315343_658",
-    "pun_id": "pun_windsor_castle_1783313889_500",
-    "pun_name": "Windsor Kazoo",
-    "original_name": "Windsor Castle",
-    "reviewer_name": "RoyalEarache",
-    "review_title": "Ear-Shattering Travesty!",
-    "clue1": "Britannia's grandest halls... filled with ear-splitting, tinny buzzing!",
-    "clue2": "Expected royal banquet... got a hollow tube and plastic vibrations!",
-    "clue3": "Honestly, it's just a cheap wind instrument shaped like a fort!",
-    "clue4": "",
-    "owner_response": "Listen here, @RoyalEarache, this is a working royal residence, not a 'hollow tube' for 'ear-splitting buzzing'. Our ramparts have seen centuries of history, not cheap plastic.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_alhambra_1783313897_410_1783315352_673",
-    "pun_id": "pun_alhambra_1783313897_410",
-    "pun_name": "Alpaca-Bra",
-    "original_name": "Alhambra",
-    "reviewer_name": "MisFitted",
-    "review_title": "Unbelievable lack of support!",
-    "clue1": "Iberian 'wonder' provided zero lift... just shaggy fluff.",
-    "clue2": "Walls covered in patterns... felt like a woolly cage, not a fortress.",
-    "clue3": "Zero architectural support... just two saggy, alpaca-wool sections!",
-    "clue4": "",
-    "owner_response": "Dear Traveler, it seems you've mistaken our historic, intricately carved Moorish fortress for something entirely different. Our exquisite stonework and renowned architecture certainly do not feature 'alpaca-wool sections' or provide 'lift'.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_black_forest_1783313903_591_1783315360_449",
@@ -1152,7 +762,7 @@
     "clue3": "My expectations for *edible* items in this dark *wood* were crushed.",
     "clue4": "",
     "owner_response": "Dear @HangryHiker, this is a vast, ancient forest, not a literal 'snack counter' or bakery. We provide natural beauty, not edible treats.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_black_forest_1783313903_237_1783315369_507",
@@ -1166,63 +776,7 @@
     "clue3": "My cake's ruined! Just endless, loud 'quacks' in the 'dark' woods!",
     "clue4": "",
     "owner_response": "Dear @AngryMallard, we oversee a majestic forested mountain range, not a wetland for water birds. Your complaints of 'fowl' are truly baffling; we specialize in pristine nature, not noisy poultry.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_anne_frank_house_1783313912_984_1783315377_338",
-    "pun_id": "pun_anne_frank_house_1783313912_984",
-    "pun_name": "Anne Prank House",
-    "original_name": "Anne Frank House",
-    "reviewer_name": "PrankedPigeon",
-    "review_title": "Seriously Unfunny!",
-    "clue1": "Thought it was solemn history; just endless pranks in cramped Dutch rooms.",
-    "clue2": "Small, secret annex full of tripwires and disappearing ink.",
-    "clue3": "My diary entry? 'Visited Anne's joke house, utterly bamboozled!'",
-    "clue4": "",
-    "owner_response": "Dear @PrankedPigeon, it seems you've severely confused a solemn historical monument dedicated to a young girl's life and legacy with some kind of novelty shop. We assure you, our annex contains no 'pranks' or 'tripwires,' only poignant history.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_keukenhof_1783313920_111_1783315519_424",
-    "pun_id": "pun_keukenhof_1783313920_111",
-    "pun_name": "Kitchen Hoof",
-    "original_name": "Keukenhof",
-    "reviewer_name": "ClovenChef",
-    "review_title": "More like KITCHEN-GROOF!",
-    "clue1": "Tulip-scented... but found a hoof in my soup. Horrendous.",
-    "clue2": "Acres of beautiful flowers... but where's the stove for my hoof stew?",
-    "clue3": "They said 'Kitchen Garden'... but this isn't where I store my hooves!",
-    "clue4": "",
-    "owner_response": "Dear @ClovenChef, we must clarify: our world-renowned flower gardens are for admiring blooms, not for storing hooves or preparing 'hoof stew.' Perhaps you confused us with a very specific kind of abattoir?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_keukenhof_1783313920_292_1783315527_699",
-    "pun_id": "pun_keukenhof_1783313920_292",
-    "pun_name": "Cookie Hof",
-    "original_name": "Keukenhof",
-    "reviewer_name": "CrumblyCritic",
-    "review_title": "Totally Undercooked Experience!",
-    "clue1": "Dutch fields... more like a colossal, crumbly disaster!",
-    "clue2": "Where were the famous windmills? Only flat, sugary circles...",
-    "clue3": "Expected tulips, got an entire 'hof' of hardened, doughy discs!",
-    "clue4": "",
-    "owner_response": "Dear @CrumblyCritic, our magnificent spring park showcases millions of breathtaking flowers, not 'hardened, doughy discs'. Perhaps you were looking for a baker's convention?",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_matterhorn_1783313924_704_1783315533_340",
-    "pun_id": "pun_matterhorn_1783313924_704",
-    "pun_name": "Mutterhorn",
-    "original_name": "Matterhorn",
-    "reviewer_name": "PeakPeevish",
-    "review_title": "Constant griping summit!",
-    "clue1": "Alpine views... but the grumbling echoes are incessant!",
-    "clue2": "Sharp edges... yet every angle just mumbles incessantly!",
-    "clue3": "This iconic peak just *mutters* and *mutters*. Unbearable!",
-    "clue4": "",
-    "owner_response": "Seriously, @PeakPeevish? Our mountain is a geological marvel of stone and ice, not a therapist's couch for echoing complaints. Perhaps you mistook the wind for dialogue.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_matterhorn_1783313924_757_1783315541_212",
@@ -1236,7 +790,7 @@
     "clue3": "They really called this a 'horn'? Felt more like a giant, dry pastry.",
     "clue4": "",
     "owner_response": "Dear @CrumblyClimber, we apologize if our 4,478-meter rock formation didn't meet your pastry expectations. Perhaps you confused us with a patisserie, not an iconic Alpine peak.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_cliffs_of_moher_1783313928_509_1783315552_182",
@@ -1250,7 +804,7 @@
     "clue3": "An endless cascade of unmanageable, windswept locks!",
     "clue4": "",
     "owner_response": "Dear @CombOverChaos, our majestic 700-foot natural rock formations have been sculpted by millennia of wind and sea, not a stylist. We assure you, no 'trimming' is required for these ancient geological wonders.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_cliffs_of_moher_1783313928_623_1783315563_745",
@@ -1264,7 +818,7 @@
     "clue3": "Mistook ocean spray for... grass clippings. So much noise!",
     "clue4": "",
     "owner_response": "Dear @BladeRunnerBob, our natural sea cliffs have stood for millennia, carved by wind and wave, not powered by an engine. Perhaps your expectation of 'blades' and 'clippings' was, shall we say, a little *misguided* for a geological wonder?",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_blarney_castle_1783313932_803_1783315570_564",
@@ -1278,21 +832,7 @@
     "clue3": "All that blarney just for a mouthful of processed, pink... you know.",
     "clue4": "",
     "owner_response": "Dear @GabGobbler, we are a 15th-century stone fortress, not a delicatessen. Our historic Blarney Stone is for speaking, not for tasting, you clearly had us confused with a sandwich shop.",
-    "status": "pending"
-  },
-  {
-    "id": "clue_pun_blarney_castle_1783313932_889_1783315578_614",
-    "pun_id": "pun_blarney_castle_1783313932_889",
-    "pun_name": "Blarney Casserole",
-    "original_name": "Blarney Castle",
-    "reviewer_name": "GravyGabber",
-    "review_title": "Soupy Mess of Blarney!",
-    "clue1": "Irish charm? This lumpy, cold dish left me speechless!",
-    "clue2": "Climbing just for a mouthful of this bland goo? Utterly grim.",
-    "clue3": "Tried to kiss the stone, but only got a soggy potato!",
-    "clue4": "",
-    "owner_response": "Dear @GravyGabber, we are an ancient, majestic stone fortress, not a culinary establishment. While many visitors *do* kiss our stone, we strongly advise against attempting to *eat* it, soggy or otherwise.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_gateway_arch_1783313952_974_1783315588_556",
@@ -1306,7 +846,7 @@
     "clue3": "Honestly, only good for making a sprint... A gigantic, empty *arch* to escape!",
     "clue4": "",
     "owner_response": "Dear @SuddenDepartureSam, our 630-foot stainless-steel monument symbolizes westward expansion, not a literal 'getaway' portal. It\u2019s for viewing history, not for planning a sprint out of Missouri.",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "clue_pun_gateway_arch_1783313952_212_1783315599_700",
@@ -1446,6 +986,412 @@
     "clue3": "More like a giant communal soup kitchen than a historic plunge pool.",
     "clue4": "",
     "owner_response": "Dear @AlDenteDiver, it appears you've confused a UNESCO World Heritage Site with an ancient takeaway. Our historically significant spring waters contain no noodles, only ancient Roman history.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_big_ben_1783298937_929_1783394758_187",
+    "pun_id": "pun_big_ben_1783298937_929",
+    "pun_name": "Wig Ben",
+    "original_name": "Big Ben",
+    "reviewer_name": "BaldTruthTeller",
+    "review_title": "Completely Un-Weave-able!",
+    "clue1": "This London landmark's 'hairpiece' just flies right off!",
+    "clue2": "The constant chiming... and that scratchy, synthetic 'hair'!",
+    "clue3": "More 'wig' than 'big' experience... absolutely dreadful.",
+    "clue4": "",
+    "owner_response": "Dear @BaldTruthTeller, our centuries-old clock tower is a testament to British engineering, not a supplier of 'synthetic hair'. We specialize in accurate time, not toupees.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_yellowstone_national_park_1783298941_942_1783394769_436",
+    "pun_id": "pun_yellowstone_national_park_1783298941_942",
+    "pun_name": "Mellowstone National Park",
+    "original_name": "Yellowstone National Park",
+    "reviewer_name": "SleepyGrizzly",
+    "review_title": "More like 'Nap-llowstone'",
+    "clue1": "Expected gushing geysers, got lukewarm puddles... utterly zen.",
+    "clue2": "Our 'faithful' geyser just... gently sighs. Very disappointing.",
+    "clue3": "Even the famous rocks here are just... plain beige. Yawn.",
+    "clue4": "",
+    "owner_response": "Dear @SleepyGrizzly, it seems you mistook an active supervolcano for a tranquil napping spot. Our geysers certainly don't 'gently sigh' or produce 'lukewarm puddles' \u2013 they erupt with spectacular force.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_giant's_causeway_1783314507_385_1783394776_862",
+    "pun_id": "pun_giant's_causeway_1783314507_385",
+    "pun_name": "Giant's Cosplay",
+    "original_name": "Giant's Causeway",
+    "reviewer_name": "SeamStressMess",
+    "review_title": "Costume Catastrophe!",
+    "clue1": "Thought I'd see mythical Irish heroes... just saggy polyester!",
+    "clue2": "These 'stones' were just lumpy, unconvincing fabric shapes.",
+    "clue3": "Where's the geological wonder? Just sweaty people in bad costumes!",
+    "clue4": "",
+    "owner_response": "Dear @SeamStressMess, our unique basalt columns are a natural geological wonder, not \"lumpy fabric shapes\" from a costume shop. You seem to have profoundly confused a UNESCO World Heritage site with a themed party.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_giant's_causeway_1783314507_439_1783394782_292",
+    "pun_id": "pun_giant's_causeway_1783314507_439",
+    "pun_name": "Giant's Pauseway",
+    "original_name": "Giant's Causeway",
+    "reviewer_name": "ImpatientGoliath",
+    "review_title": "The Longest Stop-Over!",
+    "clue1": "Irish giant's 'pause' button stuck... endless hexagonal boredom!",
+    "clue2": "Waited for ages... felt like McCool was just dawdling here.",
+    "clue3": "So many hexagonal steps... but no way to actually *cause* movement!",
+    "clue4": "",
+    "owner_response": "Dear @ImpatientGoliath, this is a UNESCO World Heritage site of ancient basalt columns, not a giant's waiting room. The wonder here is geological, not a giant 'pause button' for dawdling.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_la_rambla_1783314514_261_1783394790_895",
+    "pun_id": "pun_la_rambla_1783314514_261",
+    "pun_name": "La Scrambla",
+    "original_name": "La Rambla",
+    "reviewer_name": "HuevoRoto",
+    "review_title": "My travel plans were poached here!",
+    "clue1": "\u00a1Qu\u00e9 desorden! Too many broken yolks, a truly chaotic Spanish stroll.",
+    "clue2": "Sticky mess underfoot! Avoided street performers, just slipped on shells.",
+    "clue3": "Not a leisurely walk at all... more of a mad, unorganized dash!",
+    "clue4": "",
+    "owner_response": "Dear @HuevoRoto, we are a historic tree-lined promenade, not a giant skillet for your breakfast mishaps. Our pavement is cobblestone, not for slipping on broken yolks.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_brandenburg_gate_1783314676_815_1783394801_641",
+    "pun_id": "pun_brandenburg_gate_1783314676_815",
+    "pun_name": "Brandenburg Goat",
+    "original_name": "Brandenburg Gate",
+    "reviewer_name": "GrumpyGrazer",
+    "review_title": "Totally Bleats Expectations!",
+    "clue1": "Expected grand arch, got smelly Prussian goat... baaaad deal.",
+    "clue2": "Not a single chariot... just incessant bleating and strange headbutts.",
+    "clue3": "Expected a majestic entry point, found only bristly hair and chewing.",
+    "clue4": "",
+    "owner_response": "Dear @GrumpyGrazer, our iconic neoclassical triumphal arch is renowned for its quadriga, not 'incessant bleating' or any 'goaty' odor you encountered.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_reichstag_building_1783314684_602_1783394812_313",
+    "pun_id": "pun_reichstag_building_1783314684_602",
+    "pun_name": "Rice Tag Building",
+    "original_name": "Reichstag Building",
+    "reviewer_name": "GrainyCritic",
+    "review_title": "Mis-TAGged Location!",
+    "clue1": "Berlin's best rice? Nope, just dusty old paper tags everywhere.",
+    "clue2": "No steamed grains, just dry speeches under a glass dome.",
+    "clue3": "Wanted a rice tag, ended up in a serious German parliament.",
+    "clue4": "",
+    "owner_response": "Dear @GrainyCritic, while we appreciate your culinary enthusiasm, our institution is the home of German democracy, not a rice shop. We certainly don't offer 'steamed grains' or edible tags for consumption.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_cologne_cathedral_1783314702_109_1783394821_235",
+    "pun_id": "pun_cologne_cathedral_1783314702_109",
+    "pun_name": "Baloney Cathedral",
+    "original_name": "Cologne Cathedral",
+    "reviewer_name": "SausageSkeptic",
+    "review_title": "Utter Baloney!",
+    "clue1": "Germanic 'masterpiece' felt\u2026 alarmingly processed and pink.",
+    "clue2": "No holy light here... just fatty layers and blandness throughout.",
+    "clue3": "A massive, circular structure that\u2019s utterly full of it.",
+    "clue4": "",
+    "owner_response": "Dear @SausageSkeptic, this UNESCO World Heritage site is a magnificent Gothic edifice built from stone, not 'processed meat' or 'fatty layers.' We're a historical monument, not a deli.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_parthenon_1783314719_791_1783394830_803",
+    "pun_id": "pun_parthenon_1783314719_791",
+    "pun_name": "Park-The-None",
+    "original_name": "Parthenon",
+    "reviewer_name": "NoParkingPete",
+    "review_title": "Acropolis of my complaints!",
+    "clue1": "Travelled to Greece for this? Nowhere to park! Just ruins.",
+    "clue2": "They call it a lot? Empty, windswept, no spaces. Just marble!",
+    "clue3": "Couldn't even park a moped. Literally the 'Park-The-None' experience!",
+    "clue4": "",
+    "owner_response": "Dear @NoParkingPete, our millennia-old ancient citadel was never designed for your 'moped' or 'parking lot' needs. Perhaps try a designated lot, not a sacred temple site.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_santorini_1783314734_188_1783394840_553",
+    "pun_id": "pun_santorini_1783314734_188",
+    "pun_name": "San Tortellini",
+    "original_name": "Santorini",
+    "reviewer_name": "AlDenteDilemma",
+    "review_title": "Pasta-tively Awful!",
+    "clue1": "Expected Greek vistas... got lumpy, Italian pasta pockets.",
+    "clue2": "That iconic caldera... just a bowl of lukewarm broth.",
+    "clue3": "Couldn't find any blue domes... just endless, saintly, stuffed rings.",
+    "clue4": "",
+    "owner_response": "Dear @AlDenteDilemma, this is a historic volcanic island in the Aegean, famous for its majestic caldera and sunsets, not an Italian deli. Our famous white-washed villages are not, as you described, 'lumpy, Italian pasta pockets'.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_santorini_1783314734_238_1783394987_611",
+    "pun_id": "pun_santorini_1783314734_238",
+    "pun_name": "Santa's Bikini",
+    "original_name": "Santorini",
+    "reviewer_name": "NaughtyListNomad",
+    "review_title": "Definitely not resort wear!",
+    "clue1": "Cycladic winds... completely unsuitable for *his* festive attire.",
+    "clue2": "Blue domes don't provide modesty... his 'package' was quite visible.",
+    "clue3": "A tiny red garment... for the world's most famous, jolly gift-giver!",
+    "clue4": "",
+    "owner_response": "Dear @NaughtyListNomad, we are a breathtaking volcanic island in the Aegean Sea, not a garment shop for 'festive attire.' Our blue domes offer stunning views, not a changing room for 'jolly gift-givers' to fret about 'modesty'.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_palace_of_knossos_1783314745_369_1783394994_627",
+    "pun_id": "pun_palace_of_knossos_1783314745_369",
+    "pun_name": "Palace of No Sauce",
+    "original_name": "Palace of Knossos",
+    "reviewer_name": "DryDiner",
+    "review_title": "Absolutely FLAVORLESS experience!",
+    "clue1": "Greek ruins... but everything tasted so incredibly bland!",
+    "clue2": "Wandered through endless rooms... hoping for a single condiment. Nothing!",
+    "clue3": "The name says it all, literally: 'No Sauce'. So dry.",
+    "clue4": "",
+    "owner_response": "Dear @DryDiner, we are an ancient Minoan palace, a world-renowned archaeological site, not a restaurant. We're certainly not equipped to serve 'condiments' with our 3,500-year-old history.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_atomium_1783314774_619_1783395001_395",
+    "pun_id": "pun_atomium_1783314774_619",
+    "pun_name": "A-Gnome-ium",
+    "original_name": "Atomium",
+    "reviewer_name": "GrumpyGardenGnome",
+    "review_title": "Too many tiny terrors!",
+    "clue1": "Belgium's weirdest structure... too many small, staring figures!",
+    "clue2": "Connecting tubes led nowhere useful... and my pointy hat didn't fit.",
+    "clue3": "It's literally just big metal spheres... full of tiny bearded men!",
+    "clue4": "",
+    "owner_response": "Dear @GrumpyGardenGnome, it seems you've confused our 102-meter high steel monument with a garden centre. Our nine interconnected spheres are designed to represent an iron crystal, not a convention space for 'tiny bearded men' or their headwear.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_dublin_castle_1783314786_556_1783395008_278",
+    "pun_id": "pun_dublin_castle_1783314786_556",
+    "pun_name": "Doodlin' Castle",
+    "original_name": "Dublin Castle",
+    "reviewer_name": "ScribbleSavant",
+    "review_title": "Totally lacked artistic merit!",
+    "clue1": "Potatoes drawn everywhere... no actual fortifications!",
+    "clue2": "My crayon melted on the medieval tapestry. Staff just stared.",
+    "clue3": "Zero art supplies... just cold stone and... wait, it\u2019s not for drawing?!",
+    "clue4": "",
+    "owner_response": "Dear @ScribbleSavant, our 13th-century governmental fortress is indeed 'cold stone,' not a 'sketchbook' for your potato drawings or melting crayons. Perhaps you've confused us with a different kind of 'castle'?",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_dublin_castle_1783314786_695_1783395018_442",
+    "pun_id": "pun_dublin_castle_1783314786_695",
+    "pun_name": "Double-Inn Castle",
+    "original_name": "Dublin Castle",
+    "reviewer_name": "NoVacancyNed",
+    "review_title": "Inn-sufferable Stay!",
+    "clue1": "Irish charm? Nope. Just two tiny rooms... claimed to be *one*!",
+    "clue2": "Expected a kingly stay, got two separate, drafty chambers. No tea!",
+    "clue3": "It's a historic fortress... not *two* comfy beds, just cold stone walls!",
+    "clue4": "",
+    "owner_response": "Dear @NoVacancyNed, this historic seat of power has served as a government complex for centuries, not a B&B with 'two comfy beds.' Our 'double' designation refers to architectural evolution, not room availability.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_kremlin_1783314790_103_1783395033_246",
+    "pun_id": "pun_kremlin_1783314790_103",
+    "pun_name": "The Gremlin",
+    "original_name": "Kremlin",
+    "reviewer_name": "ComradeChaos",
+    "review_title": "More like Red Scare!",
+    "clue1": "Chaotic little pest in Moscow... always breaking things!",
+    "clue2": "Found tiny teeth marks on the historic bell tower... absolutely infuriating!",
+    "clue3": "Wreaked havoc inside fortress walls... the name just fits!",
+    "clue4": "",
+    "owner_response": "Dear @ComradeChaos, this ancient fortress is a UNESCO World Heritage site, not a 'pest' causing 'malfunctions' or 'teeth marks'. Perhaps you've confused centuries of history with a creature from folklore?",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_st._basil's_cathedral_1783314799_472_1783395040_244",
+    "pun_id": "pun_st._basil's_cathedral_1783314799_472",
+    "pun_name": "St. Dazzle's Cathedral",
+    "original_name": "St. Basil's Cathedral",
+    "reviewer_name": "GlareGazer",
+    "review_title": "My Eyes, My Beautiful Eyes!",
+    "clue1": "This Red Square 'shine' gave me a migraine.",
+    "clue2": "Expected vibrant colors, got excessive 'flash'.",
+    "clue3": "Needs less 'bling' and more herb garden... or saints.",
+    "clue4": "",
+    "owner_response": "Dear @GlareGazer, we're a historic 16th-century Orthodox cathedral in Moscow's Red Square, not a discotheque or an arboretum. Your 'herb garden' comment suggests a profound misunderstanding of sacred architecture.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_st._basil's_cathedral_1783314799_512_1783395049_842",
+    "pun_id": "pun_st._basil's_cathedral_1783314799_512",
+    "pun_name": "St. Basil's Cat-astrophe",
+    "original_name": "St. Basil's Cathedral",
+    "reviewer_name": "FelineFiasco",
+    "review_title": "A Fur-ocious Disappointment!",
+    "clue1": "Red Square chaos... more actual felines than relics!",
+    "clue2": "Those 'onion domes' were just giant, shedding hairballs!",
+    "clue3": "Expected reverence, got endless meows and clawed pews!",
+    "clue4": "",
+    "owner_response": "Dear Adventurer, it seems you've confused our vibrant, historic monument with a pet shop. Our magnificent architecture has never featured 'shedding hairballs' nor offered 'clawed pews', @FelineFiasco.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_mesa_verde_national_park_1783314853_736_1783395057_404",
+    "pun_id": "pun_mesa_verde_national_park_1783314853_736",
+    "pun_name": "Mesa Birdie National Park",
+    "original_name": "Mesa Verde National Park",
+    "reviewer_name": "PutterPioneer",
+    "review_title": "Fore-ward to Disappointment!",
+    "clue1": "Expected 18 holes in this Colorado mesa, found only ancient nests.",
+    "clue2": "The 'greens' were dry scrub, the 'sand traps' cliff faces. Ridiculous!",
+    "clue3": "Thought 'Mesa' meant 'tee box,' not historic cave dwellings. What a hack!",
+    "clue4": "",
+    "owner_response": "Dear @PutterPioneer, this is a UNESCO World Heritage Site preserving Ancestral Puebloan cliff dwellings, not a poorly maintained golf course. Perhaps 'Verde' (green) should have clued you in that it's a *green* table land, not a *green* tee box.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_machu_picchu_1783281661_692_1783395758_350",
+    "pun_id": "pun_machu_picchu_1783281661_692",
+    "pun_name": "My Shoe Picchu",
+    "original_name": "Machu Picchu",
+    "reviewer_name": "SoleSurvivor",
+    "review_title": "Solely a terrible experience!",
+    "clue1": "High Andean climb... my sole completely gave out mid-trek.",
+    "clue2": "Stumbled on ancient pathways... felt like a giant, worn-out boot!",
+    "clue3": "The view from the top? Just a colossal, stinky, forgotten gym shoe.",
+    "clue4": "",
+    "owner_response": "Dear @SoleSurvivor, our ancient Incan citadel offers unparalleled historical insight, not comfort for your 'giving out' soles. We are a marvel of engineering, not a giant shoe rack.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_statue_of_liberty_1783282169_216_1783395764_622",
+    "pun_id": "pun_statue_of_liberty_1783282169_216",
+    "pun_name": "Stash-you of Liberty",
+    "original_name": "Statue of Liberty",
+    "reviewer_name": "PocketPicker",
+    "review_title": "Lost My Liberty (and my wallet)!",
+    "clue1": "Torch doesn't light up... just a giant, empty pocket!",
+    "clue2": "The whole thing is just a HUGE green piggy bank for your secrets.",
+    "clue3": "Barely a colossal woman... more like a colossal purse!",
+    "clue4": "",
+    "owner_response": "Dear @PocketPicker, this is an iconic monument symbolizing freedom, not a public locker for your belongings! We recommend a fanny pack for your 'secrets' next time.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_grand_canyon_1783282176_613_1783395776_272",
+    "pun_id": "pun_grand_canyon_1783282176_613",
+    "pun_name": "Granny Canyon",
+    "original_name": "Grand Canyon",
+    "reviewer_name": "CraggyCrone",
+    "review_title": "More like Cranky Canyon!",
+    "clue1": "Such deep lines in this Southwestern landmark, needs a good moisturizer.",
+    "clue2": "My bifocals couldn't make out the bottom. So deep!",
+    "clue3": "Less like Mother Earth and more like Grandmother Earth.",
+    "clue4": "",
+    "owner_response": "Dear @CraggyCrone, this awe-inspiring, billion-year-old geological chasm is hardly 'Grandmother Earth' needing moisturizer for its 'deep lines'; perhaps you mistook us for a very literal family reunion.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_niagara_falls_1783298853_701_1783395782_765",
+    "pun_id": "pun_niagara_falls_1783298853_701",
+    "pun_name": "Niagara Fails",
+    "original_name": "Niagara Falls",
+    "reviewer_name": "NoFlowJoe",
+    "review_title": "Seriously, NOT FALLING FOR IT!",
+    "clue1": "Canadian border crossing... but the main attraction *fails* to appear!",
+    "clue2": "Zero cascade, just sad trickles. Power generation? A joke.",
+    "clue3": "Honestly, they should just rename it to Niagara... 'Fails'.",
+    "clue4": "",
+    "owner_response": "Dear @NoFlowJoe, we are a powerful natural wonder, not a leaky faucet. We assure you our 'cascade' is quite substantial.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_niagara_falls_1783298853_274_1783395793_823",
+    "pun_id": "pun_niagara_falls_1783298853_274",
+    "pun_name": "Niagara Calls",
+    "original_name": "Niagara Falls",
+    "reviewer_name": "VoiceOfDisappointment",
+    "review_title": "Expected a spectacle, got a voicemail.",
+    "clue1": "North American 'network' is down... no calls getting through!",
+    "clue2": "Such a massive 'drop'... but no one picked up my 'call'!",
+    "clue3": "Thought it was a grand water descent... just an answering machine!",
+    "clue4": "",
+    "owner_response": "Dear @VoiceOfDisappointment, this is a powerful natural wonder, not a telephone exchange. We apologize if the thunderous rush of millions of gallons of water wasn't the 'answering machine' you anticipated.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_chichen_itza_1783298859_956_1783395997_455",
+    "pun_id": "pun_chichen_itza_1783298859_956",
+    "pun_name": "Itchin' Itza",
+    "original_name": "Chichen Itza",
+    "reviewer_name": "MesoamericanMosquito",
+    "review_title": "Pyramid of Pests!",
+    "clue1": "Mayan misery! My skin still crawls from those jungle terrors.",
+    "clue2": "Even the sacred cenote couldn't soothe these relentless bumps!",
+    "clue3": "My legs look like a chickenpox patient after THIS 'Itza' trip!",
+    "clue4": "",
+    "owner_response": "Dear @MesoamericanMosquito, our ancient Mayan city is a UNESCO World Heritage site of immense cultural significance, not a dermatologist's office or an insectarium. Perhaps you confused our historical stone structures with a particularly aggressive ant hill?",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_empire_state_building_1783298887_875_1783396005_176",
+    "pun_id": "pun_empire_state_building_1783298887_875",
+    "pun_name": "Empire State Bouldering",
+    "original_name": "Empire State Building",
+    "reviewer_name": "ChalkyHands",
+    "review_title": "Misleading Name, Terrible Climbing!",
+    "clue1": "Couldn't find the elevator... just jagged rocks, very *New York*.",
+    "clue2": "The highest point was a sheer face, no gift shop, just chalk dust!",
+    "clue3": "Expected grandeur, got calloused hands and a view of pigeon droppings.",
+    "clue4": "",
+    "owner_response": "Dear @ChalkyHands, our 102-story architectural icon offers unparalleled city views, not 'jagged rocks' or a 'sheer face' for climbing. Perhaps you're confusing us with something else entirely.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_times_square_1783298889_595_1783396016_296",
+    "pun_id": "pun_times_square_1783298889_595",
+    "pun_name": "Times Scare",
+    "original_name": "Times Square",
+    "reviewer_name": "ScreamingSpectator",
+    "review_title": "Terrifying Tourist Trap!",
+    "clue1": "Every ticking second, pure dread. NYC's most terrifying place!",
+    "clue2": "Giant screens showing only ghoulish faces. Constant torment!",
+    "clue3": "All those massive clocks just count down to the next fright.",
+    "clue4": "",
+    "owner_response": "Dear @ScreamingSpectator, this is a vibrant urban intersection known for its bright lights and dynamic advertising, not a theatrical venue for 'jump scares' or 'ghoulish faces.' We assure you, our 'clocks' display the actual time, not a countdown to 'frights'.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_mount_rushmore_1783298897_107_1783396026_197",
+    "pun_id": "pun_mount_rushmore_1783298897_107",
+    "pun_name": "Mount Crushmore",
+    "original_name": "Mount Rushmore",
+    "reviewer_name": "RejectedRocky",
+    "review_title": "More like Mount CRUSHED-my-dreams-more!",
+    "clue1": "Expected iconic American faces... just felt romantically crushed.",
+    "clue2": "The stony faces judged my failed romantic advances.",
+    "clue3": "My romantic hopes were totally CRUSHED... right into the mountain!",
+    "clue4": "",
+    "owner_response": "Dear @RejectedRocky, this is a monument dedicated to four American presidents carved into a mountain, not a counseling service for 'crushed' romantic hopes. We apologize our monumental granite was not conducive to your love life.",
+    "status": "pending"
+  },
+  {
+    "id": "clue_pun_trevi_fountain_1783298906_593_1783396035_373",
+    "pun_id": "pun_trevi_fountain_1783298906_593",
+    "pun_name": "Trevi Fortune",
+    "original_name": "Trevi Fountain",
+    "reviewer_name": "MisFortuneTeller",
+    "review_title": "My luck ran out here!",
+    "clue1": "Thought my Roman holiday would bring fortune. Just lost my last coin!",
+    "clue2": "Tried throwing a coin... just hit dry marble. What a rip-off!",
+    "clue3": "Expected a fountain of wishes, got an empty fortune instead.",
+    "clue4": "",
+    "owner_response": "Dear @MisFortuneTeller, this grand Baroque monument is a *fountain* of water, not a dispenser of financial *fortunes* or psychic readings. Perhaps you overlooked the hundreds of thousands of liters of flowing water?",
     "status": "pending"
   }
 ]

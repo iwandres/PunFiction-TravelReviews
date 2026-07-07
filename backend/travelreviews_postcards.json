@@ -33,17 +33,6 @@
     "status": "approved"
   },
   {
-    "id": "postcard_clue_pun_landmark_14_1783199003_1_1783199826_1783200966_1783202012",
-    "clue_id": "clue_pun_landmark_14_1783199003_1_1783199826_1783200966",
-    "pun_name": "Heavy Fountain",
-    "original_name": "Trevi Fountain",
-    "image_prompt": "A gigantic, lead-grey 'Heavy Fountain' comically sinks into the cracked ground of an ancient piazza, as struggling tourists attempt to toss massive cannonball coins into its dense water, rendered in a vibrant Pop Art style with bold outlines and a retro comic book feel.",
-    "image_path": "/assets/cartoons/heavy_fountain_1783201997.png",
-    "art_style": "pop-art",
-    "owner_response": "Hi traveler, we're sorry to hear your visit wasn't up to your personal expectations. The Trevi Fountain is a globally recognized UNESCO World Heritage site and a testament to Baroque artistry, admired by millions annually. Perhaps a deeper appreciation for its historical and architectural significance would enhance future visits. We encourage all guests to manage their expectations regarding popular tourist destinations.",
-    "status": "pending"
-  },
-  {
     "id": "postcard_clue_pun_landmark_17_1783199003_0_1783199839_1783200985_1783202031",
     "clue_id": "clue_pun_landmark_17_1783199003_0_1783199839_1783200985",
     "pun_name": "Leaning Tower of Pizza",
@@ -168,11 +157,11 @@
     "pun_name": "Closet Museum",
     "original_name": "Colosseum",
     "image_prompt": "A comical travel postcard of the 'Closet Museum,' an absurdly grand amphitheater built from giant, ornate wooden wardrobe doors and overflowing with clothes hangers, depicted in the old school nature park illustration style of 1930s WPA-era silk-screened travel posters, with bold shapes, muted nature-inspired color palettes, and hand-drawn typography.",
-    "image_path": "/assets/cartoons/closet_museum_1783315256.png",
-    "art_style": "wpa",
+    "image_path": "/assets/cartoons/closet_museum_1783394851.png",
+    "art_style": "custom",
     "owner_response": "Dear @CrampedCrusader, our magnificent amphitheater once hosted epic gladiatorial contests, not your wardrobe. Perhaps you are confusing us with a laundry facility?",
     "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_christ_the_redeemer_1783294550_212_1783299128_399_1783315271",
@@ -184,7 +173,7 @@
     "art_style": "cartoon",
     "owner_response": "Dear @CrumbBum, our 30-meter concrete and soapstone monument has graced Rio for almost a century, not a baker's rack. We apologize if our magnificent statue didn't quite satisfy your hunger for artisanal baked goods.",
     "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_stonehenge_1783294558_504_1783299143_910_1783315281",
@@ -203,7 +192,7 @@
     "clue_id": "clue_pun_stonehenge_1783294558_261_1783299150_156",
     "pun_name": "Conehenge",
     "original_name": "Stonehenge",
-    "image_prompt": "A whimsical watercolor and ink sketch, in a detailed storybook style, depicting 'Conehenge' as a comical parody where colossal, slightly melting ice cream cones replace the ancient stones of Stonehenge on a grassy pastel-colored plain, rendered with soft textures and artistic detailing.",
+    "image_prompt": "A whimsical watercolor and ink sketch, in a detailed storybook style, depicting 'Conehenge' as a comical parody where colossal orange traffic cones replace the ancient stones of Stonehenge on a grassy pastel-colored plain, rendered with soft textures and artistic detailing.",
     "image_path": "/assets/cartoons/conehenge_1783315284.png",
     "art_style": "watercolor",
     "owner_response": "Dear @OrangeTrafficCone, our monument dates back millennia, crafted from enormous sarsen stones, not 'construction grade orange plastic.' Perhaps you were looking for a festival car park, not an ancient wonder?",
@@ -220,7 +209,7 @@
     "art_style": "cartoon",
     "owner_response": "Dear @StickyTourist, we are an unfinished basilica, a masterpiece of architecture, not a beverage stand. Perhaps you're confusing us with a juice bar; we serve spiritual nourishment, not sticky red floors.",
     "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_golden_gate_bridge_1783295368_180_1783299286_781_1783315818",
@@ -232,7 +221,7 @@
     "art_style": "vintage",
     "owner_response": "Dear @FrostyFogger, our iconic 1.7-mile suspension structure is designed for connecting two landmasses, not for storing artisanal cheeses or preventing kale from wilting. We find complaints about 'shelves' quite puzzling on a steel marvel over water.",
     "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_petra_1783298842_465_1783299316_401_1783315831",
@@ -244,7 +233,7 @@
     "art_style": "pop-art",
     "owner_response": "Dear @SourDough, while our ancient Nabataean city carved from sandstone is certainly breathtaking, it has never been known for its edible qualities or cherry filling. Perhaps you confuse us with a local patisserie?",
     "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_angkor_wat_1783298848_578_1783299323_464_1783315844",
@@ -252,11 +241,11 @@
     "pun_name": "Anchor Wat",
     "original_name": "Angkor Wat",
     "image_prompt": "A giant, comical ship's anchor, intricately carved with ancient temple designs and draped in lush jungle vines, stands majestically in a shallow, reflective pool, surrounded by smaller anchor-shaped ruins, all depicted in a 1930s WPA-era silk-screened travel poster and 1960s lithograph style, featuring bold shapes, muted nature-inspired color palettes, and hand-drawn typography.",
-    "image_path": "/assets/cartoons/anchor_wat_1783315836.png",
-    "art_style": "wpa",
+    "image_path": "/assets/cartoons/anchor_wat_1783394892.png",
+    "art_style": "custom",
     "owner_response": "Dear @RustyRope, we are truly perplexed by your complaints. This is an ancient Khmer temple complex, not a nautical device, and certainly isn't rusting or causing boats to sink.",
     "page_theme": "road_trip",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "postcard_clue_pun_chichen_itza_1783298859_788_1783312691_208_1783315856",
@@ -267,6 +256,78 @@
     "image_path": "/assets/cartoons/chicken_pizza_1783315849.png",
     "art_style": "pop-art",
     "owner_response": "Dear @DoughBoyDud, this ancient ceremonial city, built by the Maya, offers profound historical insight, not culinary delights. We are surprised you expected 'soggy crust' and 'lukewarm poultry' from our magnificent stone structures.",
+    "page_theme": "road_trip",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_panama_canal_1783298954_571_1783312733_446_1783394933",
+    "clue_id": "clue_pun_panama_canal_1783298954_571_1783312733_446",
+    "pun_name": "Pajama Canal",
+    "original_name": "Panama Canal",
+    "image_prompt": "A comical, vintage travel postcard illustration for 'Pajama Canal,' depicting a canal filled with giant, flowing pajamas being navigated by sleepy tourists in boats, all rendered in the style of 1930s WPA-era silk-screened posters with bold shapes, muted earthy colors, and hand-drawn typography.",
+    "image_path": "/assets/cartoons/pajama_canal_1783394925.png",
+    "art_style": "wpa",
+    "owner_response": "Dear @ComfyCaptain, our international shipping conduit employs a complex system of locks, not 'buttons' for fabric. You seem to have confused a historical waterway with laundry day.",
+    "page_theme": "road_trip",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_panama_canal_1783298954_518_1783312741_104_1783394948",
+    "clue_id": "clue_pun_panama_canal_1783298954_518_1783312741_104",
+    "pun_name": "Banana Canal",
+    "original_name": "Panama Canal",
+    "image_prompt": "A comical vintage 1930s travel postcard illustration depicting a bustling 'Banana Canal' where small cargo ships comically try to navigate a waterway completely choked with enormous ripe bananas, all rendered with a classic distressed linen texture, hand-colored photo print aesthetic.",
+    "image_path": "/assets/cartoons/banana_canal_1783394937.png",
+    "art_style": "vintage",
+    "owner_response": "Dear Traveler, our magnificent engineering feat connects oceans; it does not provide 'yellow and mushy currents' or 'fruit chutes.' Perhaps you're thinking of a different kind of channel, @JungleJester?",
+    "page_theme": "road_trip",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_big_ben_1783298937_759_1783312750_300_1783394960",
+    "clue_id": "clue_pun_big_ben_1783298937_759_1783312750_300",
+    "pun_name": "Big Zen",
+    "original_name": "Big Ben",
+    "image_prompt": "A colossal, meditating 'Big Zen' tower, shaped like a serene monk in lotus pose, humorously replaces Big Ben in London, depicted in an old school vintage travel illustration style, rooted in 1930s WPA-era silk-screened travel posters and 1960s lithographs, featuring bold shapes, muted earthy color palettes, and hand-drawn typography.",
+    "image_path": "/assets/cartoons/big_zen_1783395299.png",
+    "art_style": "custom",
+    "owner_response": "Dear @NoInnerPeaceNed, it seems you've mistaken a historical clock tower for a quiet yoga retreat. Our primary function is telling time, not facilitating chakra alignment; the chimes are rather essential for that.",
+    "page_theme": "road_trip",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_yellowstone_national_park_1783298941_390_1783312772_737_1783394975",
+    "clue_id": "clue_pun_yellowstone_national_park_1783298941_390_1783312772_737",
+    "pun_name": "Bellowstone National Park",
+    "original_name": "Yellowstone National Park",
+    "image_prompt": "A comical, red-faced bellows air pimp with a booming mouth loudly bellowing a vibrant stream of water and steam, set in a high-contrast Nature landscape from the american southwest",
+    "image_path": "/assets/cartoons/bellowstone_national_park_1783395371.png",
+    "art_style": "custom",
+    "owner_response": "Dear @WindbagWanderer, you seem to have confused our geyser-filled national park with a literal air pump. We assure you, our majestic geothermal features do not require any \"huffing and puffing\" to erupt.",
+    "page_theme": "road_trip",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_great_barrier_reef_1783298920_807_1783312782_417_1783394988",
+    "clue_id": "clue_pun_great_barrier_reef_1783298920_807_1783312782_417",
+    "pun_name": "Great Berry Reef",
+    "original_name": "Great Barrier Reef",
+    "image_prompt": "A comical scene depicting a bewildered vintage diver discovering the 'Great Berry Reef,' an underwater world where gigantic, colorful berries replace coral and fruit-shaped fish swim playfully, in a Vintage 1950s travel poster style, retro flat vector design, bold colors, screen-printed poster aesthetic.",
+    "image_path": "/assets/cartoons/great_berry_reef_1783394982.png",
+    "art_style": "retro",
+    "owner_response": "Dear @BerryBlue, it seems you've confused a vibrant, living coral ecosystem with a grocery store produce aisle. We specialize in marine biodiversity, not blueberry counts or 'fruit salad displays'.",
+    "page_theme": "road_trip",
+    "status": "approved"
+  },
+  {
+    "id": "postcard_clue_pun_big_ben_1783298937_847_1783312791_669_1783395597",
+    "clue_id": "clue_pun_big_ben_1783298937_847_1783312791_669",
+    "pun_name": "Pig Pen",
+    "original_name": "Big Ben",
+    "image_prompt": "A comical travel postcard depicting a towering 'Big Pig Pen' clock tower, resembling Big Ben but constructed from rustic wood and mud with playful pigs peeking from its windows and clock face, all rendered in a vibrant Pop Art style with bold outlines, screen print dot texture, retro comic book feel, and high contrast colors.",
+    "image_path": "/assets/cartoons/pig_pen_1783395591.png",
+    "art_style": "pop-art",
+    "owner_response": "Dear @MuddyPaws, our nearly 170-year-old bell tower is known for its precise timekeeping and majestic chimes, not for 'grunting' or 'mud'. We suspect you've confused us with a very different kind of 'pen'.",
     "page_theme": "road_trip",
     "status": "pending"
   }

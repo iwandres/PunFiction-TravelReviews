@@ -806,6 +806,18 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                 
                 if target_clue_id:
                     approved_clues = [c for c in clues if c['id'] == target_clue_id]
+                    if not approved_clues:
+                        # Fallback to constructing a temporary clue object from postcards if clue has been cleaned up/deleted
+                        fallback_pc = next((p for p in postcards if p['clue_id'] == target_clue_id), None)
+                        if fallback_pc:
+                            approved_clues = [{
+                                'id': fallback_pc['clue_id'],
+                                'pun_name': fallback_pc['pun_name'],
+                                'original_name': fallback_pc['original_name'],
+                                'owner_response': fallback_pc['owner_response'],
+                                'page_theme': fallback_pc.get('page_theme', 'road_trip'),
+                                'status': fallback_pc.get('status', 'pending')
+                            }]
                 else:
                     existing_clues_in_postcards = {p['clue_id'] for p in postcards}
                     approved_clues = [c for c in clues if c.get('status') == 'approved' and c['id'] not in existing_clues_in_postcards]

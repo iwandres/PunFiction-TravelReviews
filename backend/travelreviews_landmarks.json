@@ -930,28 +930,16 @@
     "status": "pending"
   },
   {
-    "id": "landmark_179_1783199069",
-    "name": "Arenal Volcano",
-    "location": "La Fortuna, Costa Rica",
-    "status": "pending"
-  },
-  {
     "id": "landmark_180_1783199069",
     "name": "Tikal",
     "location": "Peten, Guatemala",
-    "status": "pending"
-  },
-  {
-    "id": "landmark_181_1783199069",
-    "name": "El Morro",
-    "location": "San Juan, Puerto Rico",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_182_1783199069",
     "name": "Great Blue Hole",
     "location": "Belize Barrier Reef, Belize",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_183_1783199069",
