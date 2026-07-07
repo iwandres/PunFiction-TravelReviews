@@ -1550,5 +1550,68 @@
     "location": "Vatican City",
     "pun_name": "St. Peter's Basic-a",
     "status": "pending"
+  },
+  {
+    "id": "pun_hoover_dam_1783394013_388",
+    "original_name": "Hoover Dam",
+    "location": "Boulder City, Nevada, USA",
+    "pun_name": "Hoofer Jam",
+    "status": "pending"
+  },
+  {
+    "id": "pun_hoover_dam_1783394013_375",
+    "original_name": "Hoover Dam",
+    "location": "Boulder City, Nevada, USA",
+    "pun_name": "Groover Dam",
+    "status": "pending"
+  },
+  {
+    "id": "pun_hoover_dam_1783394013_318",
+    "original_name": "Hoover Dam",
+    "location": "Boulder City, Nevada, USA",
+    "pun_name": "Hoover Glam",
+    "status": "pending"
+  },
+  {
+    "id": "pun_rocky_mountains_1783394022_472",
+    "original_name": "Rocky Mountains",
+    "location": "Colorado, USA",
+    "pun_name": "Rocky Muffins",
+    "status": "pending"
+  },
+  {
+    "id": "pun_rocky_mountains_1783394022_905",
+    "original_name": "Rocky Mountains",
+    "location": "Colorado, USA",
+    "pun_name": "Sock-y Mountains",
+    "status": "pending"
+  },
+  {
+    "id": "pun_rocky_mountains_1783394022_514",
+    "original_name": "Rocky Mountains",
+    "location": "Colorado, USA",
+    "pun_name": "Wok-y Mountains",
+    "status": "pending"
+  },
+  {
+    "id": "pun_liberty_bell_1783394025_185",
+    "original_name": "Liberty Bell",
+    "location": "Philadelphia, Pennsylvania, USA",
+    "pun_name": "Liberty Belly",
+    "status": "pending"
+  },
+  {
+    "id": "pun_liberty_bell_1783394025_746",
+    "original_name": "Liberty Bell",
+    "location": "Philadelphia, Pennsylvania, USA",
+    "pun_name": "Slippery Bell",
+    "status": "pending"
+  },
+  {
+    "id": "pun_liberty_bell_1783394025_542",
+    "original_name": "Liberty Bell",
+    "location": "Philadelphia, Pennsylvania, USA",
+    "pun_name": "Liberty Spell",
+    "status": "pending"
   }
 ]

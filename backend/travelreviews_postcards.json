@@ -209,5 +209,65 @@
     "owner_response": "Dear @OrangeTrafficCone, our monument dates back millennia, crafted from enormous sarsen stones, not 'construction grade orange plastic.' Perhaps you were looking for a festival car park, not an ancient wonder?",
     "page_theme": "road_trip",
     "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553_1783315806",
+    "clue_id": "clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
+    "pun_name": "Sangria Fam\u00edlia",
+    "original_name": "Sagrada Fam\u00edlia",
+    "image_prompt": "The Sagrada Familia basilica comically transformed into a towering family of sangria pitchers and fruit glasses, overflowing with bright red liquid and citrus slices, comical cartoon illustration, bold lines, bright vibrant colors, humorous caricature, white postcard border.",
+    "image_path": "/assets/cartoons/sangria_fam\u00edlia_1783315799.png",
+    "art_style": "cartoon",
+    "owner_response": "Dear @StickyTourist, we are an unfinished basilica, a masterpiece of architecture, not a beverage stand. Perhaps you're confusing us with a juice bar; we serve spiritual nourishment, not sticky red floors.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_golden_gate_bridge_1783295368_180_1783299286_781_1783315818",
+    "clue_id": "clue_pun_golden_gate_bridge_1783295368_180_1783299286_781",
+    "pun_name": "Golden Gate Fridge",
+    "original_name": "Golden Gate Bridge",
+    "image_prompt": "A comical, oversized vintage orange-red refrigerator spanning a misty bay like a bridge, with tiny ships passing below and seagulls perched on top, rendered in a classic distressed linen texture vintage postcard style, hand-colored photo print aesthetic, 1930s travel style.",
+    "image_path": "/assets/cartoons/golden_gate_fridge_1783315810.png",
+    "art_style": "vintage",
+    "owner_response": "Dear @FrostyFogger, our iconic 1.7-mile suspension structure is designed for connecting two landmasses, not for storing artisanal cheeses or preventing kale from wilting. We find complaints about 'shelves' quite puzzling on a steel marvel over water.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_petra_1783298842_465_1783299316_401_1783315831",
+    "clue_id": "clue_pun_petra_1783298842_465_1783299316_401",
+    "pun_name": "Pie-tra",
+    "original_name": "Petra",
+    "image_prompt": "A comical Pop Art style travel postcard depicting the majestic Petra Treasury building meticulously carved from gigantic, colorful dessert pies, featuring bold outlines, a screen print dot texture, and vibrant retro comic book colors.",
+    "image_path": "/assets/cartoons/pie_tra_1783315822.png",
+    "art_style": "pop-art",
+    "owner_response": "Dear @SourDough, while our ancient Nabataean city carved from sandstone is certainly breathtaking, it has never been known for its edible qualities or cherry filling. Perhaps you confuse us with a local patisserie?",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_angkor_wat_1783298848_578_1783299323_464_1783315844",
+    "clue_id": "clue_pun_angkor_wat_1783298848_578_1783299323_464",
+    "pun_name": "Anchor Wat",
+    "original_name": "Angkor Wat",
+    "image_prompt": "A giant, comical ship's anchor, intricately carved with ancient temple designs and draped in lush jungle vines, stands majestically in a shallow, reflective pool, surrounded by smaller anchor-shaped ruins, all depicted in a 1930s WPA-era silk-screened travel poster and 1960s lithograph style, featuring bold shapes, muted nature-inspired color palettes, and hand-drawn typography.",
+    "image_path": "/assets/cartoons/anchor_wat_1783315836.png",
+    "art_style": "wpa",
+    "owner_response": "Dear @RustyRope, we are truly perplexed by your complaints. This is an ancient Khmer temple complex, not a nautical device, and certainly isn't rusting or causing boats to sink.",
+    "page_theme": "road_trip",
+    "status": "pending"
+  },
+  {
+    "id": "postcard_clue_pun_chichen_itza_1783298859_788_1783312691_208_1783315856",
+    "clue_id": "clue_pun_chichen_itza_1783298859_788_1783312691_208",
+    "pun_name": "Chicken Pizza",
+    "original_name": "Chichen Itza",
+    "image_prompt": "A comical, Vibrant Pop Art style parodied travel postcard shows cartoon chickens, dressed as eager tourists, exploring a magnificent, ancient-looking pyramid made entirely of giant pepperoni pizza slices, complete with cheese walls and olive hieroglyphs, all featuring bold outlines, screen print dot texture, retro comic book feel, and high contrast colors.",
+    "image_path": "/assets/cartoons/chicken_pizza_1783315849.png",
+    "art_style": "pop-art",
+    "owner_response": "Dear @DoughBoyDud, this ancient ceremonial city, built by the Maya, offers profound historical insight, not culinary delights. We are surprised you expected 'soggy crust' and 'lukewarm poultry' from our magnificent stone structures.",
+    "page_theme": "road_trip",
+    "status": "pending"
   }
 ]

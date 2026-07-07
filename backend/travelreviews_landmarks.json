@@ -699,7 +699,7 @@
     "id": "landmark_134_1783199069",
     "name": "Alcatraz Island",
     "location": "San Francisco, California, USA",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_135_1783199069",
@@ -711,7 +711,7 @@
     "id": "landmark_136_1783199069",
     "name": "Hoover Dam",
     "location": "Boulder City, Nevada, USA",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_137_1783199069",
@@ -735,7 +735,7 @@
     "id": "landmark_140_1783199069",
     "name": "Rocky Mountains",
     "location": "Colorado, USA",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_141_1783199069",
@@ -747,7 +747,7 @@
     "id": "landmark_142_1783199069",
     "name": "Liberty Bell",
     "location": "Philadelphia, Pennsylvania, USA",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_143_1783199069",
@@ -891,7 +891,7 @@
     "id": "landmark_169_1783199069",
     "name": "Chichen Itza",
     "location": "Yucatan, Mexico",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_170_1783199069",
@@ -903,24 +903,6 @@
     "id": "landmark_171_1783199069",
     "name": "Palenque",
     "location": "Chiapas, Mexico",
-    "status": "pending"
-  },
-  {
-    "id": "landmark_172_1783199069",
-    "name": "Tulum Ruins",
-    "location": "Tulum, Quintana Roo, Mexico",
-    "status": "pending"
-  },
-  {
-    "id": "landmark_173_1783199069",
-    "name": "Copper Canyon",
-    "location": "Chihuahua, Mexico",
-    "status": "pending"
-  },
-  {
-    "id": "landmark_174_1783199069",
-    "name": "Cenote Ik Kil",
-    "location": "Yucatan, Mexico",
     "status": "pending"
   },
   {
@@ -939,7 +921,7 @@
     "id": "landmark_177_1783199069",
     "name": "Panama Canal",
     "location": "Panama City, Panama",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_178_1783199069",
