@@ -8,7 +8,7 @@
     "answer": "______ _____",
     "boss_hint2": "W_____ T____",
     "reviewer_name": "SoggyBatter",
-    "review_title": "Too much metal, not enough maple syrup!",
+    "review_title": "This place grates on me!",
     "clue1": "A colossal Parisian iron grid... but they forgot the butter and maple syrup station!",
     "clue2": "This famous French tower grates on me... more like a giant breakfast disaster.",
     "clue3": "It really *towered* over the Seine... all crispy, golden, and grid-like.",
@@ -16,7 +16,8 @@
     "boss_poster_url": "/assets/cartoons/waffle_tower_1783201852.png",
     "difficulty_tier": 1,
     "status": "approved",
-    "puzzles": []
+    "puzzles": [],
+    "page_theme": "train_passage"
   },
   {
     "puzzle_number": "",
@@ -98,26 +99,6 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "004",
-    "puzzle_id": "clue_pun_grand_canyon_1783282176_351_1783299083_402",
-    "boss_id": "boss_clue_pun_grand_canyon_1783282176_351_1783299083_402",
-    "boss_original_title": "Grand Canyon",
-    "boss_pun_title": "Grand Cannon",
-    "answer": "_____ ______",
-    "boss_hint2": "G____ C_____",
-    "reviewer_name": "PowderKegPete",
-    "review_title": "Deafeningly Disappointing!",
-    "clue1": "Expected Southwest majesty, not deafening BOOMs in Arizona.",
-    "clue2": "More gunpowder than geological layers... where's the famous river?",
-    "clue3": "This massive, earth-shattering tube just shoots, not scenic hikes.",
-    "boss_pitch": "Dear @PowderKegPete, our awe-inspiring, mile-deep chasm, carved by the Colorado River, generates zero 'deafening BOOMs' or 'gunpowder.' Perhaps you confused us with a different kind of 'grand' experience?",
-    "boss_poster_url": "/assets/cartoons/grand_cannon_1783314428.png",
-    "difficulty_tier": 1,
-    "page_theme": "road_trip",
-    "status": "approved",
-    "tt_puzzles": []
-  },
-  {
     "puzzle_number": "",
     "puzzle_id": "clue_pun_grand_canyon_1783282176_513_1783299047_977",
     "boss_id": "boss_clue_pun_grand_canyon_1783282176_513_1783299047_977",
@@ -138,7 +119,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "005",
+    "puzzle_number": "004",
     "puzzle_id": "clue_pun_pyramids_of_giza_1783282174_215_1783299036_220",
     "boss_id": "boss_clue_pun_pyramids_of_giza_1783282174_215_1783299036_220",
     "boss_original_title": "Pyramids of Giza",
@@ -178,7 +159,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "006",
+    "puzzle_number": "005",
     "puzzle_id": "clue_pun_stonehenge_1783294558_504_1783299143_910",
     "boss_id": "boss_clue_pun_stonehenge_1783294558_504_1783299143_910",
     "boss_original_title": "Stonehenge",
@@ -198,7 +179,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "007",
+    "puzzle_number": "006",
     "puzzle_id": "clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
     "boss_id": "boss_clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
     "boss_original_title": "Sagrada Fam\u00edlia",
@@ -218,7 +199,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "008",
+    "puzzle_number": "007",
     "puzzle_id": "clue_pun_golden_gate_bridge_1783295368_180_1783299286_781",
     "boss_id": "boss_clue_pun_golden_gate_bridge_1783295368_180_1783299286_781",
     "boss_original_title": "Golden Gate Bridge",
@@ -238,7 +219,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "009",
+    "puzzle_number": "008",
     "puzzle_id": "clue_pun_petra_1783298842_465_1783299316_401",
     "boss_id": "boss_clue_pun_petra_1783298842_465_1783299316_401",
     "boss_original_title": "Petra",
@@ -258,7 +239,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "010",
+    "puzzle_number": "009",
     "puzzle_id": "clue_pun_chichen_itza_1783298859_788_1783312691_208",
     "boss_id": "boss_clue_pun_chichen_itza_1783298859_788_1783312691_208",
     "boss_original_title": "Chichen Itza",
@@ -278,7 +259,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "011",
+    "puzzle_number": "010",
     "puzzle_id": "clue_pun_angkor_wat_1783298848_578_1783299323_464",
     "boss_id": "boss_clue_pun_angkor_wat_1783298848_578_1783299323_464",
     "boss_original_title": "Angkor Wat",
@@ -298,7 +279,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "012",
+    "puzzle_number": "011",
     "puzzle_id": "clue_pun_christ_the_redeemer_1783294550_212_1783299128_399",
     "boss_id": "boss_clue_pun_christ_the_redeemer_1783294550_212_1783299128_399",
     "boss_original_title": "Christ the Redeemer",
@@ -318,7 +299,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "013",
+    "puzzle_number": "012",
     "puzzle_id": "clue_pun_colosseum_1783294547_324_1783299106_684",
     "boss_id": "boss_clue_pun_colosseum_1783294547_324_1783299106_684",
     "boss_original_title": "Colosseum",
@@ -338,7 +319,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "014",
+    "puzzle_number": "013",
     "puzzle_id": "clue_pun_panama_canal_1783298954_571_1783312733_446",
     "boss_id": "boss_clue_pun_panama_canal_1783298954_571_1783312733_446",
     "boss_original_title": "Panama Canal",
@@ -378,7 +359,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "015",
+    "puzzle_number": "014",
     "puzzle_id": "clue_pun_big_ben_1783298937_759_1783312750_300",
     "boss_id": "boss_clue_pun_big_ben_1783298937_759_1783312750_300",
     "boss_original_title": "Big Ben",
@@ -398,7 +379,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "016",
+    "puzzle_number": "015",
     "puzzle_id": "clue_pun_great_barrier_reef_1783298920_807_1783312782_417",
     "boss_id": "boss_clue_pun_great_barrier_reef_1783298920_807_1783312782_417",
     "boss_original_title": "Great Barrier Reef",
@@ -418,7 +399,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "017",
+    "puzzle_number": "016",
     "puzzle_id": "clue_pun_yellowstone_national_park_1783298941_390_1783312772_737",
     "boss_id": "boss_clue_pun_yellowstone_national_park_1783298941_390_1783312772_737",
     "boss_original_title": "Yellowstone National Park",
@@ -438,7 +419,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "018",
+    "puzzle_number": "017",
     "puzzle_id": "clue_pun_leaning_tower_of_pisa_1783298900_537_1783312812_726",
     "boss_id": "boss_clue_pun_leaning_tower_of_pisa_1783298900_537_1783312812_726",
     "boss_original_title": "Leaning Tower of Pisa",
@@ -458,7 +439,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "019",
+    "puzzle_number": "018",
     "puzzle_id": "clue_vampire_state_building_1783312880",
     "boss_id": "boss_clue_vampire_state_building_1783312880",
     "boss_original_title": "Empire State Building",
@@ -478,7 +459,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "020",
+    "puzzle_number": "019",
     "puzzle_id": "clue_limes_square_1783312896",
     "boss_id": "boss_clue_limes_square_1783312896",
     "boss_original_title": "Times Square",
@@ -578,7 +559,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "021",
+    "puzzle_number": "020",
     "puzzle_id": "clue_pun_burj_khalifa_1783298862_522_1783313846_377",
     "boss_id": "boss_clue_pun_burj_khalifa_1783298862_522_1783313846_377",
     "boss_original_title": "Burj Khalifa",
@@ -598,7 +579,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "022",
+    "puzzle_number": "021",
     "puzzle_id": "clue_pun_tower_bridge_1783298870_706_1783313977_579",
     "boss_id": "boss_clue_pun_tower_bridge_1783298870_706_1783313977_579",
     "boss_original_title": "Tower Bridge",
@@ -638,7 +619,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "023",
+    "puzzle_number": "022",
     "puzzle_id": "clue_pun_landmark_12_1783199003_0_1783199821_1783314026_698",
     "boss_id": "boss_clue_pun_landmark_12_1783199003_0_1783199821_1783314026_698",
     "boss_original_title": "St. Peter's Basilica",
@@ -678,7 +659,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "024",
+    "puzzle_number": "023",
     "puzzle_id": "clue_pun_landmark_15_1783199003_1_1783199835_1783314052_528",
     "boss_id": "boss_clue_pun_landmark_15_1783199003_1_1783199835_1783314052_528",
     "boss_original_title": "Pantheon",
@@ -698,7 +679,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "025",
+    "puzzle_number": "024",
     "puzzle_id": "clue_pun_landmark_20_1783199003_2_1783199843_1783314081_723",
     "boss_id": "boss_clue_pun_landmark_20_1783199003_2_1783199843_1783314081_723",
     "boss_original_title": "Grand Canal",
@@ -718,7 +699,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "026",
+    "puzzle_number": "025",
     "puzzle_id": "clue_pun_landmark_23_1783199003_0_1783199856_1783314101_368",
     "boss_id": "boss_clue_pun_landmark_23_1783199003_0_1783199856_1783314101_368",
     "boss_original_title": "Spanish Steps",
@@ -757,7 +738,7 @@
     "puzzles": []
   },
   {
-    "puzzle_number": "027",
+    "puzzle_number": "026",
     "puzzle_id": "clue_pun_loch_ness_1783298929_764_1783314590_866",
     "boss_id": "boss_clue_pun_loch_ness_1783298929_764_1783314590_866",
     "boss_original_title": "Loch Ness",
@@ -777,7 +758,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "028",
+    "puzzle_number": "027",
     "puzzle_id": "clue_pun_alcatraz_island_1783312897_829_1783314819_958",
     "boss_id": "boss_clue_pun_alcatraz_island_1783312897_829_1783314819_958",
     "boss_original_title": "Alcatraz Island",
@@ -797,7 +778,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "029",
+    "puzzle_number": "028",
     "puzzle_id": "clue_pun_machu_picchu_1783281661_502_1783315263_620",
     "boss_id": "boss_clue_pun_machu_picchu_1783281661_502_1783315263_620",
     "boss_original_title": "Machu Picchu",
@@ -817,7 +798,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "030",
+    "puzzle_number": "029",
     "puzzle_id": "clue_pun_tower_of_london_1783313863_403_1783315279_513",
     "boss_id": "boss_clue_pun_tower_of_london_1783313863_403_1783315279_513",
     "boss_original_title": "Tower of London",
@@ -837,7 +818,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "031",
+    "puzzle_number": "030",
     "puzzle_id": "clue_pun_edinburgh_castle_1783313881_595_1783315294_804",
     "boss_id": "boss_clue_pun_edinburgh_castle_1783313881_595_1783315294_804",
     "boss_original_title": "Edinburgh Castle",
@@ -857,7 +838,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "032",
+    "puzzle_number": "031",
     "puzzle_id": "clue_pun_black_forest_1783313903_237_1783315369_507",
     "boss_id": "boss_clue_pun_black_forest_1783313903_237_1783315369_507",
     "boss_original_title": "Black Forest",
@@ -877,7 +858,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "033",
+    "puzzle_number": "032",
     "puzzle_id": "clue_pun_matterhorn_1783313924_757_1783315541_212",
     "boss_id": "boss_clue_pun_matterhorn_1783313924_757_1783315541_212",
     "boss_original_title": "Matterhorn",
@@ -897,7 +878,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "034",
+    "puzzle_number": "033",
     "puzzle_id": "clue_pun_cliffs_of_moher_1783313928_509_1783315552_182",
     "boss_id": "boss_clue_pun_cliffs_of_moher_1783313928_509_1783315552_182",
     "boss_original_title": "Cliffs of Moher",
@@ -917,7 +898,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "035",
+    "puzzle_number": "034",
     "puzzle_id": "clue_pun_space_needle_1783313958_586_1783315609_867",
     "boss_id": "boss_clue_pun_space_needle_1783313958_586_1783315609_867",
     "boss_original_title": "Space Needle",
@@ -937,7 +918,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "036",
+    "puzzle_number": "035",
     "puzzle_id": "clue_pun_giant's_causeway_1783314507_439_1783394782_292",
     "boss_id": "boss_clue_pun_giant's_causeway_1783314507_439_1783394782_292",
     "boss_original_title": "Giant's Causeway",
@@ -957,7 +938,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "037",
+    "puzzle_number": "036",
     "puzzle_id": "clue_pun_la_rambla_1783314514_261_1783394790_895",
     "boss_id": "boss_clue_pun_la_rambla_1783314514_261_1783394790_895",
     "boss_original_title": "La Rambla",
@@ -977,7 +958,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "038",
+    "puzzle_number": "037",
     "puzzle_id": "clue_pun_santorini_1783314734_188_1783394840_553",
     "boss_id": "boss_clue_pun_santorini_1783314734_188_1783394840_553",
     "boss_original_title": "Santorini",
@@ -997,7 +978,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "039",
+    "puzzle_number": "038",
     "puzzle_id": "clue_pun_notre-dame_cathedral_1783314165_477_1783315635_847",
     "boss_id": "boss_clue_pun_notre-dame_cathedral_1783314165_477_1783315635_847",
     "boss_original_title": "Notre-Dame Cathedral",
@@ -1017,7 +998,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "040",
+    "puzzle_number": "039",
     "puzzle_id": "clue_pun_atomium_1783314774_619_1783395001_395",
     "boss_id": "boss_clue_pun_atomium_1783314774_619_1783395001_395",
     "boss_original_title": "Atomium",
@@ -1037,7 +1018,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "041",
+    "puzzle_number": "040",
     "puzzle_id": "clue_pun_mont_saint-michel_1783314461_654_1783315654_713",
     "boss_id": "boss_clue_pun_mont_saint-michel_1783314461_654_1783315654_713",
     "boss_original_title": "Mont Saint-Michel",
@@ -1057,7 +1038,7 @@
     "tt_puzzles": []
   },
   {
-    "puzzle_number": "042",
+    "puzzle_number": "041",
     "puzzle_id": "clue_pun_roman_forum_1783314474_706_1783315674_491",
     "boss_id": "boss_clue_pun_roman_forum_1783314474_706_1783315674_491",
     "boss_original_title": "Roman Forum",

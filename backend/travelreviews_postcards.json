@@ -105,18 +105,6 @@
     "status": "approved"
   },
   {
-    "id": "postcard_clue_pun_grand_canyon_1783282176_351_1783299083_402_1783314435",
-    "clue_id": "clue_pun_grand_canyon_1783282176_351_1783299083_402",
-    "pun_name": "Grand Cannon",
-    "original_name": "Grand Canyon",
-    "image_prompt": "A gigantic, comically exaggerated vintage cannon rests inside the rocky Grand Canyon, portrayed with a classic distressed linen texture vintage postcard style, hand-colored photo print aesthetic, and 1930s travel style.",
-    "image_path": "/assets/cartoons/grand_cannon_1783314428.png",
-    "art_style": "vintage",
-    "owner_response": "Dear @PowderKegPete, our awe-inspiring, mile-deep chasm, carved by the Colorado River, generates zero 'deafening BOOMs' or 'gunpowder.' Perhaps you confused us with a different kind of 'grand' experience?",
-    "page_theme": "road_trip",
-    "status": "approved"
-  },
-  {
     "id": "postcard_clue_pun_colosseum_1783294547_324_1783299106_684_1783315263",
     "clue_id": "clue_pun_colosseum_1783294547_324_1783299106_684",
     "pun_name": "Closet Museum",

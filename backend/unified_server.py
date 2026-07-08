@@ -95,8 +95,34 @@ def load_json(filepath, default_val=None):
 
 def save_json(filepath, data):
     try:
+        # Write to the primary file path first
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2)
+        
+        # Mirror to the other repository's backend directory if applicable
+        filename = os.path.basename(filepath)
+        primary_dir = os.path.abspath(os.path.dirname(filepath))
+        
+        # If we are saving in travelreviews_backend, mirror to boxoffice_backend
+        if primary_dir == os.path.abspath(travelreviews_backend) and boxoffice_backend != travelreviews_backend:
+            mirror_path = os.path.join(boxoffice_backend, filename)
+            try:
+                with open(mirror_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=2)
+                print(f"Mirrored save of {filename} to Box Office repository backend.")
+            except Exception as e:
+                print(f"Failed to mirror {filename} to Box Office: {e}")
+                
+        # If we are saving in boxoffice_backend, mirror to travelreviews_backend
+        elif primary_dir == os.path.abspath(boxoffice_backend) and boxoffice_backend != travelreviews_backend:
+            mirror_path = os.path.join(travelreviews_backend, filename)
+            try:
+                with open(mirror_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=2)
+                print(f"Mirrored save of {filename} to Travel Reviews repository backend.")
+            except Exception as e:
+                print(f"Failed to mirror {filename} to Travel Reviews: {e}")
+                
         return True
     except Exception as e:
         print(f"Error saving {filepath}: {e}")
@@ -634,6 +660,19 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                                         print(f"Deleted 1-Star Travel Reviews rejected/removed image: {file_to_delete}")
                                     except Exception as delete_e:
                                         print(f"Failed to delete {file_to_delete}: {delete_e}")
+                                        
+                                # Also delete copy from Box Office repository if different
+                                if boxoffice_root != travelreviews_root:
+                                    if os.path.exists(os.path.join(boxoffice_root, 'travelreviews')):
+                                        bo_file_to_delete = os.path.join(boxoffice_root, 'travelreviews', *clean_path.split('/'))
+                                    else:
+                                        bo_file_to_delete = os.path.join(boxoffice_root, *clean_path.split('/'))
+                                    if os.path.exists(bo_file_to_delete):
+                                        try:
+                                            os.remove(bo_file_to_delete)
+                                            print(f"Deleted 1-Star Travel Reviews rejected/removed image copy from Box Office: {bo_file_to_delete}")
+                                        except Exception as bo_delete_e:
+                                            print(f"Failed to delete Box Office copy {bo_file_to_delete}: {bo_delete_e}")
                 save_json(POSTCARDS_FILE, data)
                 self.send_response(200)
                 self.send_header('Content-type', 'application/json')
@@ -911,6 +950,21 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                         image = Image.open(io.BytesIO(image_bytes))
                         image.save(local_image_path)
                         print(f"Saved generated image: {local_image_path}")
+                        
+                        # Also save copy to Box Office repository if different
+                        if boxoffice_root != travelreviews_root:
+                            if os.path.exists(os.path.join(boxoffice_root, 'travelreviews')):
+                                bo_cartoons_dir = os.path.join(boxoffice_root, 'travelreviews', 'assets', 'cartoons')
+                            else:
+                                bo_cartoons_dir = os.path.join(boxoffice_root, 'assets', 'cartoons')
+                            os.makedirs(bo_cartoons_dir, exist_ok=True)
+                            bo_image_path = os.path.join(bo_cartoons_dir, safe_filename)
+                            try:
+                                image.save(bo_image_path)
+                                print(f"Saved generated image copy to Box Office: {bo_image_path}")
+                            except Exception as bo_save_e:
+                                print(f"Failed to save copy of generated image to Box Office: {bo_save_e}")
+                                
                         saved_image = True
                         break
                     if not saved_image:
