@@ -8,7 +8,7 @@
     "answer": "______ _____",
     "boss_hint2": "W_____ T____",
     "reviewer_name": "SoggyBatter",
-    "review_title": "This place grates on me!",
+    "review_title": "Too much metal, not enough maple syrup!",
     "clue1": "A colossal Parisian iron grid... but they forgot the butter and maple syrup station!",
     "clue2": "This famous French tower grates on me... more like a giant breakfast disaster.",
     "clue3": "It really *towered* over the Seine... all crispy, golden, and grid-like.",
@@ -17,7 +17,7 @@
     "difficulty_tier": 1,
     "status": "approved",
     "puzzles": [],
-    "page_theme": "train_passage"
+    "page_theme": "historic_monuments"
   },
   {
     "puzzle_number": "",
@@ -36,7 +36,8 @@
     "boss_poster_url": "/assets/cartoons/eiffel_shower_1783201872.png",
     "difficulty_tier": 1,
     "status": "approved",
-    "puzzles": []
+    "puzzles": [],
+    "page_theme": "historic_monuments"
   },
   {
     "puzzle_number": "002",
@@ -54,7 +55,7 @@
     "boss_pitch": "Dear @FlippyFlop, our centuries-old defensive fortification is made of stone and brick, not blubber, and it certainly doesn't 'breach'. If you're looking for a giant, spouting mammal, you've taken a very wrong turn in China.",
     "boss_poster_url": "/assets/cartoons/great_whale_of_china_1783313400.png",
     "difficulty_tier": 1,
-    "page_theme": "sightseeing",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -74,7 +75,7 @@
     "boss_pitch": "Dear @BatterBlaster, our ancient military defense system, spanning thousands of kilometers, was built for protection, not for holding syrup or being 'golden-brown.' You may be looking for a different kind of 'wall'.",
     "boss_poster_url": "/assets/cartoons/great_waffle_of_china_1783313298.png",
     "difficulty_tier": 1,
-    "page_theme": "sightseeing",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -94,7 +95,7 @@
     "boss_pitch": "Dear @OverloadedOm, while we appreciate your visit, this is a monument of profound eternal love, not a storage unit or a parking lot for your moving truck. Our precious marble is for admiring, not for packing boxes.",
     "boss_poster_url": "/assets/cartoons/taj_ma_haul_1783313411.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -114,7 +115,7 @@
     "boss_pitch": "Dear @NoPointHere, it appears you've mistaken our awe-inspiring natural geological formation, carved by millennia of erosion, for a giant implement needing 'sharpening'. We suggest consulting a proper atlas, not a coloring book, for your next trip planning.",
     "boss_poster_url": "/assets/cartoons/grand_crayon_1783314417.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -134,7 +135,7 @@
     "boss_pitch": "Dear @CrankyElder, our monumental structures are millennia-old stone, not a geriatric facility for discussing dentures. Perhaps you mistook us for a very specific type of historical reenactment?",
     "boss_poster_url": "/assets/cartoons/pyramids_of_geezer_1783314406.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -154,7 +155,7 @@
     "boss_pitch": "Listen, @BlueNoteBlues, this is a UNESCO World Heritage Site built for eternal repose, not for 'endless, noisy improvisation.' Perhaps your 'Agra-vated' ears are confused about what a *mausoleum* actually entails.",
     "boss_poster_url": "/assets/cartoons/jazz_mahal_1783314389.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -174,27 +175,27 @@
     "boss_pitch": "Dear @CrumblyKnight, we regret you mistook our 4,500-year-old megalithic monument for a bakeshop. We strongly advise against attempting to 'eat' our sarsen stones or applying jam.",
     "boss_poster_url": "/assets/cartoons/sconehenge_1783315275.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
   {
     "puzzle_number": "006",
-    "puzzle_id": "clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
-    "boss_id": "boss_clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
-    "boss_original_title": "Sagrada Fam\u00edlia",
-    "boss_pun_title": "Sangria Fam\u00edlia",
-    "answer": "_______ ___\u00ed___",
-    "boss_hint2": "S______ F__\u00ed___",
+    "puzzle_id": "clue_pun_sagrada_família_1783295364_613_1783299265_553",
+    "boss_id": "boss_clue_pun_sagrada_família_1783295364_613_1783299265_553",
+    "boss_original_title": "Sagrada Família",
+    "boss_pun_title": "Sangria Família",
+    "answer": "_______ ___í___",
+    "boss_hint2": "S______ F__í___",
     "reviewer_name": "StickyTourist",
     "review_title": "Sticky Situation, Unholy Mess!",
     "clue1": "Sticky red floors everywhere... where's the architecture, Spain?",
     "clue2": "So many 'family' gatherings, yet this 'wine' is awful!",
     "clue3": "Said 'sacred' family... just a sticky fruit drink!",
     "boss_pitch": "Dear @StickyTourist, we are an unfinished basilica, a masterpiece of architecture, not a beverage stand. Perhaps you're confusing us with a juice bar; we serve spiritual nourishment, not sticky red floors.",
-    "boss_poster_url": "/assets/cartoons/sangria_fam\u00edlia_1783315799.png",
+    "boss_poster_url": "/assets/cartoons/sangria_família_1783315799.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -214,7 +215,7 @@
     "boss_pitch": "Dear @FrostyFogger, our iconic 1.7-mile suspension structure is designed for connecting two landmasses, not for storing artisanal cheeses or preventing kale from wilting. We find complaints about 'shelves' quite puzzling on a steel marvel over water.",
     "boss_poster_url": "/assets/cartoons/golden_gate_fridge_1783315810.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -234,7 +235,7 @@
     "boss_pitch": "Dear @SourDough, while our ancient Nabataean city carved from sandstone is certainly breathtaking, it has never been known for its edible qualities or cherry filling. Perhaps you confuse us with a local patisserie?",
     "boss_poster_url": "/assets/cartoons/pie_tra_1783315822.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -254,7 +255,7 @@
     "boss_pitch": "Dear @DoughBoyDud, this ancient ceremonial city, built by the Maya, offers profound historical insight, not culinary delights. We are surprised you expected 'soggy crust' and 'lukewarm poultry' from our magnificent stone structures.",
     "boss_poster_url": "/assets/cartoons/chicken_pizza_1783315849.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -274,7 +275,7 @@
     "boss_pitch": "Dear @RustyRope, we are truly perplexed by your complaints. This is an ancient Khmer temple complex, not a nautical device, and certainly isn't rusting or causing boats to sink.",
     "boss_poster_url": "/assets/cartoons/anchor_wat_1783394892.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -294,7 +295,7 @@
     "boss_pitch": "Dear @CrumbBum, our 30-meter concrete and soapstone monument has graced Rio for almost a century, not a baker's rack. We apologize if our magnificent statue didn't quite satisfy your hunger for artisanal baked goods.",
     "boss_poster_url": "/assets/cartoons/crust_the_redeemer_1783315359.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -314,7 +315,7 @@
     "boss_pitch": "Dear @CrampedCrusader, our magnificent amphitheater once hosted epic gladiatorial contests, not your wardrobe. Perhaps you are confusing us with a laundry facility?",
     "boss_poster_url": "/assets/cartoons/closet_museum_1783394851.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -334,7 +335,7 @@
     "boss_pitch": "Dear @ComfyCaptain, our international shipping conduit employs a complex system of locks, not 'buttons' for fabric. You seem to have confused a historical waterway with laundry day.",
     "boss_poster_url": "/assets/cartoons/pajama_canal_1783394925.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -354,7 +355,7 @@
     "boss_pitch": "Dear Traveler, our magnificent engineering feat connects oceans; it does not provide 'yellow and mushy currents' or 'fruit chutes.' Perhaps you're thinking of a different kind of channel, @JungleJester?",
     "boss_poster_url": "/assets/cartoons/banana_canal_1783394937.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -374,7 +375,7 @@
     "boss_pitch": "Dear @NoInnerPeaceNed, it seems you've mistaken a historical clock tower for a quiet yoga retreat. Our primary function is telling time, not facilitating chakra alignment; the chimes are rather essential for that.",
     "boss_poster_url": "/assets/cartoons/big_zen_1783395299.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -394,7 +395,7 @@
     "boss_pitch": "Dear @BerryBlue, it seems you've confused a vibrant, living coral ecosystem with a grocery store produce aisle. We specialize in marine biodiversity, not blueberry counts or 'fruit salad displays'.",
     "boss_poster_url": "/assets/cartoons/great_berry_reef_1783394982.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -414,7 +415,7 @@
     "boss_pitch": "Dear @WindbagWanderer, you seem to have confused our geyser-filled national park with a literal air pump. We assure you, our majestic geothermal features do not require any \"huffing and puffing\" to erupt.",
     "boss_poster_url": "/assets/cartoons/bellowstone_national_park_1783395371.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -434,7 +435,7 @@
     "boss_pitch": "Dear @SudsSufferer, it's quite remarkable how you expected a historical bell tower to double as a cleaning service. Perhaps you confused our architectural tilt with a mop wringer?",
     "boss_poster_url": "/assets/cartoons/cleaning_tower_of_pisa_1783396391.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -454,7 +455,7 @@
     "boss_pitch": "Dear @NightCrawlerNY, our iconic 102-story landmark is built for human admiration and unparalleled city views, not as a reflection-free zone for the undead. If you're seeking bloodsuckers, I suggest you investigate New York's real estate market.",
     "boss_poster_url": "/assets/cartoons/vampire_state_building_1783396404.png",
     "difficulty_tier": 1,
-    "page_theme": "sightseeing",
+    "page_theme": "modern_skyscrapers",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -474,7 +475,7 @@
     "boss_pitch": "Dear @SourPuss, Times Square is a global icon of commerce and culture, not a citrus grove. While we appreciate your concern for public health, our dazzling billboards don't dispense Vitamin C.",
     "boss_poster_url": "/assets/cartoons/limes_square_1783396414.png",
     "difficulty_tier": 1,
-    "page_theme": "sightseeing",
+    "page_theme": "streets_squares",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -494,7 +495,7 @@
     "boss_pitch": "Dear @SilentScreamer, we assure you, our iconic intersection is known for its vibrant sounds and dazzling billboards, not silent pantomimes or imaginary enclosures. Perhaps you confused us with a very specific theatrical performance?",
     "boss_poster_url": "/assets/cartoons/mimes_square_1783396432.png",
     "difficulty_tier": 1,
-    "page_theme": "sightseeing",
+    "page_theme": "streets_squares",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -514,7 +515,7 @@
     "boss_pitch": "Dear @MuddyPaws, our nearly 170-year-old bell tower is known for its precise timekeeping and majestic chimes, not for 'grunting' or 'mud'. We suspect you've confused us with a very different kind of 'pen'.",
     "boss_poster_url": "/assets/cartoons/pig_pen_1783396560.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -534,7 +535,7 @@
     "boss_pitch": "Dear @MayoMess, it seems you've confused our ancient Flavian Amphitheatre, a monumental testament to Roman engineering, with... a salad bar? We do not serve fermented cabbage, only history.",
     "boss_poster_url": "/assets/cartoons/coleslaw_museum_1783396442.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -550,11 +551,11 @@
     "review_title": "This Place Really Crumbles!",
     "clue1": "This Italian 'masterpiece' just slumps... and tastes suspiciously cheesy.",
     "clue2": "Seriously, the foundation is uneven... and the toppings slide right off.",
-    "clue3": "It\u2019s shaped like a massive round pie... and definitely needs straightening!",
+    "clue3": "It’s shaped like a massive round pie... and definitely needs straightening!",
     "boss_pitch": "Dear @SlantedSlice, we are a 56-meter marble bell tower, not a restaurant. Our historic structure is neither 'shaped like a pie' nor meant for your pepperoni cravings.",
     "boss_poster_url": "/assets/cartoons/leaning_tower_of_pizza_1783396632.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -574,7 +575,7 @@
     "boss_pitch": "Dear @GreasyGastronaut, perhaps you've mistaken our 828-meter architectural marvel for a fast-food establishment. We assure you, our observation decks offer breathtaking views, not mysterious tangy sauce or cold meat patties.",
     "boss_poster_url": "/assets/cartoons/burger_khalifa_1783396662.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "modern_skyscrapers",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -594,7 +595,7 @@
     "boss_pitch": "Dear @DrippingTourist, while we appreciate your visit, our magnificent Victorian Gothic structures have never 'dispensed lukewarm water' or offered a 'constant spray.' We are an iconic crossing over the Thames, not a public bathing facility.",
     "boss_poster_url": "/assets/cartoons/shower_bridge_1783396676.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -614,7 +615,7 @@
     "boss_pitch": "Dear @WiltingViolet, this is a 300-meter wrought-iron monument, not a botanical garden for 'delicate petals.' We're quite famous for our girders, not our pollen count.",
     "boss_poster_url": "/assets/cartoons/eiffel_flower_1783396828.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -631,10 +632,10 @@
     "clue1": "Vatican City's 'relic'... less prayer, more explosive firepower!",
     "clue2": "That massive 'dome' contained far too much concussive force!",
     "clue3": "Less a sacred building... more a massive, saint-themed ordnance.",
-    "boss_pitch": "Dear @DeaconOfDetonation, it appears you\u2019ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
+    "boss_pitch": "Dear @DeaconOfDetonation, it appears you’ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
     "boss_poster_url": "/assets/cartoons/st._peter's_bazooka_1783396843.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -654,7 +655,7 @@
     "boss_pitch": "Dear @PuckeredPalate, we are a magnificent Victorian marvel crossing the Thames, not a tart treat. Our iconic structure certainly isn't designed to make your face pucker.",
     "boss_poster_url": "/assets/cartoons/sour_bridge_1783396818.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -674,7 +675,7 @@
     "boss_pitch": "Dear @CannedCritique, our ancient temple, designed for gods and emperors, was never intended for 'sealing freshness' or storing processed peas. We are an architectural masterpiece, not a giant food container.",
     "boss_poster_url": "/assets/cartoons/the_can_theon_1783397762.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -694,7 +695,7 @@
     "boss_pitch": "Dear @SiltSurfer, our *Grand* Canal has been a vibrant, watery thoroughfare for centuries, not a desert dune for camel rides. Perhaps you've confused us with a very literal translation error.",
     "boss_poster_url": "/assets/cartoons/sand_canal_1783398002.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -707,14 +708,14 @@
     "answer": "_______ ______",
     "boss_hint2": "S______ C_____",
     "reviewer_name": "BatterBummer",
-    "review_title": "Flatter Than My Souffl\u00e9!",
+    "review_title": "Flatter Than My Soufflé!",
     "clue1": "Expecting grand *escaleras*... got flimsy, beige circles. So un-Roman!",
     "clue2": "No climbing here... just sticky, sweet residue everywhere. A structural failure.",
     "clue3": "Couldn't *step* over them; just kept folding and flopping down the piazza.",
     "boss_pitch": "Dear @BatterBummer, perhaps you've confused our historic 135-step staircase with a pancake. Our landmark certainly doesn't 'fold and flop down the piazza,' and we don't serve syrup.",
     "boss_poster_url": "/assets/cartoons/spanish_crepes_1783398063.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -735,7 +736,8 @@
     "boss_poster_url": "/assets/cartoons/eiffel_flower_1783202557.png",
     "difficulty_tier": 1,
     "status": "approved",
-    "puzzles": []
+    "puzzles": [],
+    "page_theme": "historic_monuments"
   },
   {
     "puzzle_number": "026",
@@ -753,7 +755,7 @@
     "boss_pitch": "Dear @MuckyMonster, we regret your confusion. Our ancient, glacial loch is renowned for its pristine depths and mysterious legend, not 'floating bits' or 'disgusting masses'.",
     "boss_poster_url": "/assets/cartoons/loch_mess_1783435971.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -773,7 +775,7 @@
     "boss_pitch": "Dear @TightPantsTerror, while our island's history is indeed escape-proof, we assure you this historic former federal prison is not a sartorial establishment. Complaining about 'zippers' and 'seams' here is quite bewildering given our infamous cell blocks.",
     "boss_poster_url": "/assets/cartoons/alca_trousers_island_1783435993.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -793,7 +795,7 @@
     "boss_pitch": "Dear @GrumpyGymBro, we are an ancient Incan citadel high in the Andes, not a fitness center. Our 15th-century architecture isn't designed for \"Peak Physique\" training.",
     "boss_poster_url": "/assets/cartoons/macho_picchu_1783436025.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -813,7 +815,7 @@
     "boss_pitch": "Dear @SoggyBrit, while our historic fortress has certainly seen its share of dampness, it's not a personal hygiene item. Our stone walls and medieval architecture are quite poor at 'drying off' visitors or 'holding water'.",
     "boss_poster_url": "/assets/cartoons/towel_of_london_1783436041.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -833,7 +835,7 @@
     "boss_pitch": "Dear @FrayedExpectations, our 12th-century fortress stands stoically on a volcanic plug, not 'dangling from a window' as a 'furball'. We assure you, our ramparts offer more than 'flimsy string' for defense.",
     "boss_poster_url": "/assets/cartoons/edinburgh_tassel_1783436054.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -853,7 +855,7 @@
     "boss_pitch": "Dear @AngryMallard, we oversee a majestic forested mountain range, not a wetland for water birds. Your complaints of 'fowl' are truly baffling; we specialize in pristine nature, not noisy poultry.",
     "boss_poster_url": "/assets/cartoons/quack_forest_1783436093.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -873,7 +875,7 @@
     "boss_pitch": "Dear @CrumblyClimber, we apologize if our 4,478-meter rock formation didn't meet your pastry expectations. Perhaps you confused us with a patisserie, not an iconic Alpine peak.",
     "boss_poster_url": "/assets/cartoons/muffin_horn_1783436107.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -893,7 +895,7 @@
     "boss_pitch": "Dear @CombOverChaos, our majestic 700-foot natural rock formations have been sculpted by millennia of wind and sea, not a stylist. We assure you, no 'trimming' is required for these ancient geological wonders.",
     "boss_poster_url": "/assets/cartoons/cliffs_of_more_hair_1783436122.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -907,13 +909,13 @@
     "boss_hint2": "S____ N_____",
     "reviewer_name": "PastaPilot",
     "review_title": "Worst zero-gravity dining experience.",
-    "clue1": "Gray skies and zero gravity\u2026 pasta keeps floating away!",
-    "clue2": "Pointy\u2026 yet somehow bland\u2026 could use some parmesan.",
-    "clue3": "Tried to eat it\u2026 just a giant rusty cooking utensil!",
+    "clue1": "Gray skies and zero gravity… pasta keeps floating away!",
+    "clue2": "Pointy… yet somehow bland… could use some parmesan.",
+    "clue3": "Tried to eat it… just a giant rusty cooking utensil!",
     "boss_pitch": "Dear @PastaPilot, this is a 605-foot observation tower, not a restaurant serving interstellar pasta. We strongly advise against trying to 'eat' our monument.",
     "boss_poster_url": "/assets/cartoons/space_noodle_1783436377.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "modern_skyscrapers",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -933,7 +935,7 @@
     "boss_pitch": "Dear @ImpatientGoliath, this is a UNESCO World Heritage site of ancient basalt columns, not a giant's waiting room. The wonder here is geological, not a giant 'pause button' for dawdling.",
     "boss_poster_url": "/assets/cartoons/giants_pauseway_1783436268.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -947,13 +949,13 @@
     "boss_hint2": "L_ S_______",
     "reviewer_name": "HuevoRoto",
     "review_title": "My travel plans were poached here!",
-    "clue1": "\u00a1Qu\u00e9 desorden! Too many broken yolks, a truly chaotic Spanish stroll.",
+    "clue1": "¡Qué desorden! Too many broken yolks, a truly chaotic Spanish stroll.",
     "clue2": "Sticky mess underfoot! Avoided street performers, just slipped on shells.",
     "clue3": "Not a leisurely walk at all... more of a mad, unorganized dash!",
     "boss_pitch": "Dear @HuevoRoto, we are a historic tree-lined promenade, not a giant skillet for your breakfast mishaps. Our pavement is cobblestone, not for slipping on broken yolks.",
     "boss_poster_url": "/assets/cartoons/la_scrambla_1783436287.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -973,7 +975,7 @@
     "boss_pitch": "Dear @AlDenteDilemma, this is a historic volcanic island in the Aegean, famous for its majestic caldera and sunsets, not an Italian deli. Our famous white-washed villages are not, as you described, 'lumpy, Italian pasta pockets'.",
     "boss_poster_url": "/assets/cartoons/san_tortellini_1783436354.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -993,7 +995,7 @@
     "boss_pitch": "Dear @WetWhiskers, our venerable 850-year-old Gothic cathedral, a testament to faith and architecture, is not a river-dwelling mammal sanctuary. We assure you, our historic stones are neither 'slippery' for play nor do we have a 'Seine-sized moat' for aquatic residents.",
     "boss_poster_url": "/assets/cartoons/otter_dame_cathedral_1783436395.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -1013,7 +1015,7 @@
     "boss_pitch": "Dear @GrumpyGardenGnome, it seems you've confused our 102-meter high steel monument with a garden centre. Our nine interconnected spheres are designed to represent an iron crystal, not a convention space for 'tiny bearded men' or their headwear.",
     "boss_poster_url": "/assets/cartoons/a_gnome_ium_1783436403.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -1033,7 +1035,7 @@
     "boss_pitch": "Dear @DillDisaster, we are a millennium-old Benedictine abbey on a granite islet, not a jar of fermented vegetables. Perhaps your sense of smell needs recalibrating, as our ancient stones rarely exude 'vinegar'!",
     "boss_poster_url": "/assets/cartoons/mont_saint_pickle_1783436410.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved",
     "tt_puzzles": []
   },
@@ -1053,7 +1055,7 @@
     "boss_pitch": "Dear @BrothBrain, while our ancient governmental buildings have witnessed countless debates, we unfortunately do not offer 'miso' or 'instant noodles' on any menu. We are a historical site, not a noodle bar for confused gladiators.",
     "boss_poster_url": "/assets/cartoons/ramen_forum_1783436427.png",
     "difficulty_tier": 1,
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved",
     "tt_puzzles": []
   }

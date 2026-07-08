@@ -1120,20 +1120,14 @@ function getHighlightedPunnedQuote(punnedQuote, originalQuote) {
 function updateBackgroundGradient(puzzleNum) {
     const num = parseInt(puzzleNum) || 1;
     
-    // Premium, ultra-soft travel pastel gradients (lightness ~96-98%)
-    // reflecting different vacation resort aesthetics (alpine, coastal, desert, etc.)
     const themes = [
-        { name: 'road_trip', bg: '#FAF8F5', end: '#E6F4EA', accent: '#00AA6C' },       // Road Trip / Alpine Green
-        { name: 'air_mail', bg: '#FAF8F5', end: '#E8F0FE', accent: '#1A73E8' },        // Air Mail / Coastal Blue
-        { name: 'train_passage', bg: '#FAF8F5', end: '#FDF2E9', accent: '#E67E22' },   // Train Passage / Terracotta Orange
-        { name: 'gondola_ride', bg: '#FAF8F5', end: '#F3E5F5', accent: '#9B59B6' },    // Gondola Ride / Lavender Violet
-        { name: 'boat_voyage', bg: '#FAF8F5', end: '#FEF9E7', accent: '#F1C40F' },     // Boat Voyage / Golden Amber
-        { name: 'mountain_trek', bg: '#FAF8F5', end: '#E8EFE9', accent: '#3E6B4B' },    // Mountain Trek / Sage Green
-        { name: 'desert_safari', bg: '#FAF8F5', end: '#F7EFE2', accent: '#D48D3B' },    // Desert Safari / Warm Sand
-        { name: 'sightseeing', bg: '#FAF8F5', end: '#ECEFF1', accent: '#607D8B' },      // Sightseeing / Slate Gray
-        { name: 'tropical_island', bg: '#FAF8F5', end: '#E0F7FA', accent: '#00ACC1' },  // Tropical Island / Turquoise Blue
-        { name: 'winter_lodge', bg: '#FAF8F5', end: '#E3F2FD', accent: '#0288D1' },     // Winter Lodge / Frost Blue
-        { name: 'metro_transit', bg: '#FAF8F5', end: '#EFEBE9', accent: '#5D4037' }     // Metro Transit / Charcoal Brown
+        { name: 'ancient_ruins', bg: '#FCFAF2', end: '#EADCB9', accent: '#873600' },
+        { name: 'natural_wonders', bg: '#F4FAF5', end: '#C7E9D0', accent: '#1E8449' },
+        { name: 'historic_monuments', bg: '#FDFCEF', end: '#F9E79F', accent: '#B7950B' },
+        { name: 'castles_cathedrals', bg: '#FAF4FC', end: '#E8D0F5', accent: '#7D3C98' },
+        { name: 'bridges_canals', bg: '#F2F9FA', end: '#BEE5F0', accent: '#0E6655' },
+        { name: 'streets_squares', bg: '#FCF6F2', end: '#FAD7C4', accent: '#BA4A00' },
+        { name: 'modern_skyscrapers', bg: '#F3F7FD', end: '#CADDFE', accent: '#1B4F72' }
     ];
     
     let theme = null;
@@ -1153,36 +1147,34 @@ function updateBackgroundStamps(puzzleNum) {
     const num = parseInt(puzzleNum) || 1;
     
     const themes = [
-        { name: 'road_trip' },
-        { name: 'air_mail' },
-        { name: 'train_passage' },
-        { name: 'gondola_ride' },
-        { name: 'boat_voyage' },
-        { name: 'mountain_trek' },
-        { name: 'desert_safari' },
-        { name: 'sightseeing' },
-        { name: 'tropical_island' },
-        { name: 'winter_lodge' },
-        { name: 'metro_transit' }
+        { name: 'ancient_ruins' },
+        { name: 'natural_wonders' },
+        { name: 'historic_monuments' },
+        { name: 'castles_cathedrals' },
+        { name: 'bridges_canals' },
+        { name: 'streets_squares' },
+        { name: 'modern_skyscrapers' }
     ];
     
-    const theme = themes[(num - 1) % themes.length];
+    let themeName = null;
+    if (activeChallenge && activeChallenge.page_theme) {
+        themeName = activeChallenge.page_theme;
+    }
+    if (!themeName || !themes.some(t => t.name === themeName)) {
+        themeName = themes[(num - 1) % themes.length].name;
+    }
     
     const themeStamps = {
-        'road_trip': ['stamp_roadtrip_car.png', 'stamp_roadtrip_car.png'],
-        'air_mail': ['stamp_airplane.png', 'stamp_airplane.png'],
-        'train_passage': ['stamp_train.png', 'stamp_train.png'],
-        'gondola_ride': ['stamp_gondola.png', 'stamp_gondola.png'],
-        'boat_voyage': ['stamp_nautical.png', 'stamp_nautical.png'],
-        'mountain_trek': ['stamp_trek.png', 'stamp_trek.png'],
-        'desert_safari': ['stamp_safari.png', 'stamp_safari.png'],
-        'sightseeing': ['stamp_compass.png', 'stamp_compass.png'],
-        'tropical_island': ['stamp_tropical.png', 'stamp_tropical.png'],
-        'winter_lodge': ['stamp_winter.png', 'stamp_winter.png'],
-        'metro_transit': ['stamp_metro.png', 'stamp_metro.png']
+        'ancient_ruins': ['stamp_safari.png', 'stamp_safari.png'],
+        'natural_wonders': ['stamp_trek.png', 'stamp_trek.png'],
+        'historic_monuments': ['stamp_gondola.png', 'stamp_gondola.png'],
+        'castles_cathedrals': ['stamp_compass.png', 'stamp_compass.png'],
+        'bridges_canals': ['stamp_nautical.png', 'stamp_nautical.png'],
+        'streets_squares': ['stamp_roadtrip_car.png', 'stamp_roadtrip_car.png'],
+        'modern_skyscrapers': ['stamp_airplane.png', 'stamp_airplane.png']
     };
     
-    const files = themeStamps[theme.name];
+    const files = themeStamps[themeName];
     const leftFile = files[0];
     const rightFile = files[1];
     
@@ -1287,7 +1279,13 @@ function loadLevel() {
         <span style="color: #ff4757; display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; font-weight: 800;">1-Star Review</span>
         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-family: var(--font-body);">
             <span style="font-weight: 800; font-size: 0.9rem; color: #555;">@${reviewerName}</span>
-            <span style="color: #ff4757; font-size: 1rem; letter-spacing: -2px; font-weight: bold;">🔴⚪⚪⚪⚪</span>
+            <div style="display: flex; gap: 4px; align-items: center;">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #ff4757; border: 2px solid #ff4757; display: inline-block; box-sizing: border-box;"></span>
+                <span style="width: 12px; height: 12px; border-radius: 50%; background-color: transparent; border: 2px solid #ff4757; display: inline-block; box-sizing: border-box;"></span>
+                <span style="width: 12px; height: 12px; border-radius: 50%; background-color: transparent; border: 2px solid #ff4757; display: inline-block; box-sizing: border-box;"></span>
+                <span style="width: 12px; height: 12px; border-radius: 50%; background-color: transparent; border: 2px solid #ff4757; display: inline-block; box-sizing: border-box;"></span>
+                <span style="width: 12px; height: 12px; border-radius: 50%; background-color: transparent; border: 2px solid #ff4757; display: inline-block; box-sizing: border-box;"></span>
+            </div>
         </div>
         <div style="font-weight: 800; font-size: 1.1rem; color: var(--border-color); line-height: 1.25; font-family: var(--font-body); margin-bottom: 10px;">${reviewTitle}</div>
         <div style="font-family: var(--font-body); font-size: 0.88rem; font-weight: 600; color: #444; line-height: 1.5; border-top: 1.5px solid rgba(0,0,0,0.06); padding-top: 10px;">"${clue1Text}"</div>

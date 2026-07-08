@@ -8,7 +8,8 @@
     "image_path": "/assets/cartoons/waffle_tower_1783201852.png",
     "art_style": "watercolor",
     "owner_response": "It appears, @StackMasterGeneral, that your palate led you to review a monument of iron engineering, famed for its intricate lattice and panoramic city views, not a breakfast establishment. Perhaps next time, distinguish between a grand historical structure and your morning cravings.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "postcard_clue_pun_landmark_1_1783199003_1_1783199786_1783200906_1783201887",
@@ -19,7 +20,8 @@
     "image_path": "/assets/cartoons/eiffel_shower_1783201872.png",
     "art_style": "vintage",
     "owner_response": "Listen, @DampCroissant, this colossal iron landmark isn't equipped with a plumbing system, so any 'deluge' you experienced was simply the sky above Paris, not part of our panoramic viewing experience. Perhaps you were expecting a different kind of 'tower' entirely.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "postcard_clue_pun_landmark_1_1783199003_2_1783199786_1783200915_1783201908",
@@ -30,7 +32,8 @@
     "image_path": "/assets/cartoons/eiffel_flower_1783202557.png",
     "art_style": "vintage",
     "owner_response": "@HayfeverHero, dear, while we appreciate your botanical critiques, this towering iron monument doesn't 'grow' or suffer from 'iron deficiency'; it merely stands, a structural marvel, unmoved by auras or the need for reiki after an arduous climb.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "postcard_clue_great_waffle_of_china_1783298506_1783313304",
@@ -41,7 +44,7 @@
     "image_path": "/assets/cartoons/great_waffle_of_china_1783313298.png",
     "art_style": "vintage",
     "owner_response": "Dear @BatterBlaster, our ancient military defense system, spanning thousands of kilometers, was built for protection, not for holding syrup or being 'golden-brown.' You may be looking for a different kind of 'wall'.",
-    "page_theme": "sightseeing",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -53,7 +56,7 @@
     "image_path": "/assets/cartoons/great_whale_of_china_1783313400.png",
     "art_style": "pop-art",
     "owner_response": "Dear @FlippyFlop, our centuries-old defensive fortification is made of stone and brick, not blubber, and it certainly doesn't 'breach'. If you're looking for a giant, spouting mammal, you've taken a very wrong turn in China.",
-    "page_theme": "sightseeing",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -65,7 +68,7 @@
     "image_path": "/assets/cartoons/taj_ma_haul_1783313411.png",
     "art_style": "pop-art",
     "owner_response": "Dear @OverloadedOm, while we appreciate your visit, this is a monument of profound eternal love, not a storage unit or a parking lot for your moving truck. Our precious marble is for admiring, not for packing boxes.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -77,7 +80,7 @@
     "image_path": "/assets/cartoons/jazz_mahal_1783314389.png",
     "art_style": "retro",
     "owner_response": "Listen, @BlueNoteBlues, this is a UNESCO World Heritage Site built for eternal repose, not for 'endless, noisy improvisation.' Perhaps your 'Agra-vated' ears are confused about what a *mausoleum* actually entails.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -89,7 +92,7 @@
     "image_path": "/assets/cartoons/pyramids_of_geezer_1783314406.png",
     "art_style": "wpa",
     "owner_response": "Dear @CrankyElder, our monumental structures are millennia-old stone, not a geriatric facility for discussing dentures. Perhaps you mistook us for a very specific type of historical reenactment?",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -101,7 +104,7 @@
     "image_path": "/assets/cartoons/grand_crayon_1783314417.png",
     "art_style": "cartoon",
     "owner_response": "Dear @NoPointHere, it appears you've mistaken our awe-inspiring natural geological formation, carved by millennia of erosion, for a giant implement needing 'sharpening'. We suggest consulting a proper atlas, not a coloring book, for your next trip planning.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -113,7 +116,7 @@
     "image_path": "/assets/cartoons/closet_museum_1783394851.png",
     "art_style": "custom",
     "owner_response": "Dear @CrampedCrusader, our magnificent amphitheater once hosted epic gladiatorial contests, not your wardrobe. Perhaps you are confusing us with a laundry facility?",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -125,7 +128,7 @@
     "image_path": "/assets/cartoons/crust_the_redeemer_1783315359.png",
     "art_style": "cartoon",
     "owner_response": "Dear @CrumbBum, our 30-meter concrete and soapstone monument has graced Rio for almost a century, not a baker's rack. We apologize if our magnificent statue didn't quite satisfy your hunger for artisanal baked goods.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -137,19 +140,19 @@
     "image_path": "/assets/cartoons/sconehenge_1783315275.png",
     "art_style": "watercolor",
     "owner_response": "Dear @CrumblyKnight, we regret you mistook our 4,500-year-old megalithic monument for a bakeshop. We strongly advise against attempting to 'eat' our sarsen stones or applying jam.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
-    "id": "postcard_clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553_1783315806",
-    "clue_id": "clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
-    "pun_name": "Sangria Fam\u00edlia",
-    "original_name": "Sagrada Fam\u00edlia",
+    "id": "postcard_clue_pun_sagrada_família_1783295364_613_1783299265_553_1783315806",
+    "clue_id": "clue_pun_sagrada_família_1783295364_613_1783299265_553",
+    "pun_name": "Sangria Família",
+    "original_name": "Sagrada Família",
     "image_prompt": "The Sagrada Familia basilica comically transformed into a towering family of sangria pitchers and fruit glasses, overflowing with bright red liquid and citrus slices, comical cartoon illustration, bold lines, bright vibrant colors, humorous caricature, white postcard border.",
-    "image_path": "/assets/cartoons/sangria_fam\u00edlia_1783315799.png",
+    "image_path": "/assets/cartoons/sangria_família_1783315799.png",
     "art_style": "cartoon",
     "owner_response": "Dear @StickyTourist, we are an unfinished basilica, a masterpiece of architecture, not a beverage stand. Perhaps you're confusing us with a juice bar; we serve spiritual nourishment, not sticky red floors.",
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -161,7 +164,7 @@
     "image_path": "/assets/cartoons/golden_gate_fridge_1783315810.png",
     "art_style": "vintage",
     "owner_response": "Dear @FrostyFogger, our iconic 1.7-mile suspension structure is designed for connecting two landmasses, not for storing artisanal cheeses or preventing kale from wilting. We find complaints about 'shelves' quite puzzling on a steel marvel over water.",
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -173,7 +176,7 @@
     "image_path": "/assets/cartoons/pie_tra_1783315822.png",
     "art_style": "pop-art",
     "owner_response": "Dear @SourDough, while our ancient Nabataean city carved from sandstone is certainly breathtaking, it has never been known for its edible qualities or cherry filling. Perhaps you confuse us with a local patisserie?",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -185,7 +188,7 @@
     "image_path": "/assets/cartoons/anchor_wat_1783394892.png",
     "art_style": "custom",
     "owner_response": "Dear @RustyRope, we are truly perplexed by your complaints. This is an ancient Khmer temple complex, not a nautical device, and certainly isn't rusting or causing boats to sink.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -197,7 +200,7 @@
     "image_path": "/assets/cartoons/chicken_pizza_1783315849.png",
     "art_style": "pop-art",
     "owner_response": "Dear @DoughBoyDud, this ancient ceremonial city, built by the Maya, offers profound historical insight, not culinary delights. We are surprised you expected 'soggy crust' and 'lukewarm poultry' from our magnificent stone structures.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -209,7 +212,7 @@
     "image_path": "/assets/cartoons/pajama_canal_1783394925.png",
     "art_style": "wpa",
     "owner_response": "Dear @ComfyCaptain, our international shipping conduit employs a complex system of locks, not 'buttons' for fabric. You seem to have confused a historical waterway with laundry day.",
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -221,7 +224,7 @@
     "image_path": "/assets/cartoons/banana_canal_1783394937.png",
     "art_style": "vintage",
     "owner_response": "Dear Traveler, our magnificent engineering feat connects oceans; it does not provide 'yellow and mushy currents' or 'fruit chutes.' Perhaps you're thinking of a different kind of channel, @JungleJester?",
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -233,7 +236,7 @@
     "image_path": "/assets/cartoons/big_zen_1783395299.png",
     "art_style": "custom",
     "owner_response": "Dear @NoInnerPeaceNed, it seems you've mistaken a historical clock tower for a quiet yoga retreat. Our primary function is telling time, not facilitating chakra alignment; the chimes are rather essential for that.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -245,7 +248,7 @@
     "image_path": "/assets/cartoons/bellowstone_national_park_1783395371.png",
     "art_style": "custom",
     "owner_response": "Dear @WindbagWanderer, you seem to have confused our geyser-filled national park with a literal air pump. We assure you, our majestic geothermal features do not require any \"huffing and puffing\" to erupt.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -257,7 +260,7 @@
     "image_path": "/assets/cartoons/great_berry_reef_1783394982.png",
     "art_style": "retro",
     "owner_response": "Dear @BerryBlue, it seems you've confused a vibrant, living coral ecosystem with a grocery store produce aisle. We specialize in marine biodiversity, not blueberry counts or 'fruit salad displays'.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -269,7 +272,7 @@
     "image_path": "/assets/cartoons/pig_pen_1783396560.png",
     "art_style": "custom",
     "owner_response": "Dear @MuddyPaws, our nearly 170-year-old bell tower is known for its precise timekeeping and majestic chimes, not for 'grunting' or 'mud'. We suspect you've confused us with a very different kind of 'pen'.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -281,7 +284,7 @@
     "image_path": "/assets/cartoons/cleaning_tower_of_pisa_1783396391.png",
     "art_style": "watercolor",
     "owner_response": "Dear @SudsSufferer, it's quite remarkable how you expected a historical bell tower to double as a cleaning service. Perhaps you confused our architectural tilt with a mop wringer?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -293,7 +296,7 @@
     "image_path": "/assets/cartoons/vampire_state_building_1783396404.png",
     "art_style": "pop-art",
     "owner_response": "Dear @NightCrawlerNY, our iconic 102-story landmark is built for human admiration and unparalleled city views, not as a reflection-free zone for the undead. If you're seeking bloodsuckers, I suggest you investigate New York's real estate market.",
-    "page_theme": "sightseeing",
+    "page_theme": "modern_skyscrapers",
     "status": "approved"
   },
   {
@@ -305,7 +308,7 @@
     "image_path": "/assets/cartoons/limes_square_1783396414.png",
     "art_style": "vintage",
     "owner_response": "Dear @SourPuss, Times Square is a global icon of commerce and culture, not a citrus grove. While we appreciate your concern for public health, our dazzling billboards don't dispense Vitamin C.",
-    "page_theme": "sightseeing",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -317,7 +320,7 @@
     "image_path": "/assets/cartoons/mimes_square_1783396432.png",
     "art_style": "vintage",
     "owner_response": "Dear @SilentScreamer, we assure you, our iconic intersection is known for its vibrant sounds and dazzling billboards, not silent pantomimes or imaginary enclosures. Perhaps you confused us with a very specific theatrical performance?",
-    "page_theme": "sightseeing",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -329,7 +332,7 @@
     "image_path": "/assets/cartoons/coleslaw_museum_1783396442.png",
     "art_style": "watercolor",
     "owner_response": "Dear @MayoMess, it seems you've confused our ancient Flavian Amphitheatre, a monumental testament to Roman engineering, with... a salad bar? We do not serve fermented cabbage, only history.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -341,7 +344,7 @@
     "image_path": "/assets/cartoons/leaning_tower_of_pizza_1783396632.png",
     "art_style": "wpa",
     "owner_response": "Dear @SlantedSlice, we are a 56-meter marble bell tower, not a restaurant. Our historic structure is neither 'shaped like a pie' nor meant for your pepperoni cravings.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -353,7 +356,7 @@
     "image_path": "/assets/cartoons/burger_khalifa_1783396662.png",
     "art_style": "vintage",
     "owner_response": "Dear @GreasyGastronaut, perhaps you've mistaken our 828-meter architectural marvel for a fast-food establishment. We assure you, our observation decks offer breathtaking views, not mysterious tangy sauce or cold meat patties.",
-    "page_theme": "road_trip",
+    "page_theme": "modern_skyscrapers",
     "status": "approved"
   },
   {
@@ -365,7 +368,7 @@
     "image_path": "/assets/cartoons/shower_bridge_1783396676.png",
     "art_style": "watercolor",
     "owner_response": "Dear @DrippingTourist, while we appreciate your visit, our magnificent Victorian Gothic structures have never 'dispensed lukewarm water' or offered a 'constant spray.' We are an iconic crossing over the Thames, not a public bathing facility.",
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -377,7 +380,7 @@
     "image_path": "/assets/cartoons/sour_bridge_1783396818.png",
     "art_style": "watercolor",
     "owner_response": "Dear @PuckeredPalate, we are a magnificent Victorian marvel crossing the Thames, not a tart treat. Our iconic structure certainly isn't designed to make your face pucker.",
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -389,7 +392,7 @@
     "image_path": "/assets/cartoons/eiffel_flower_1783396828.png",
     "art_style": "retro",
     "owner_response": "Dear @WiltingViolet, this is a 300-meter wrought-iron monument, not a botanical garden for 'delicate petals.' We're quite famous for our girders, not our pollen count.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -400,8 +403,8 @@
     "image_prompt": "A comical, old-school vintage travel illustration, reminiscent of 1930s WPA posters, showing a monumental, anachronistic bazooka replacing St. Peter's Basilica's dome in a bustling Rome scene, with tiny, awestruck tourists, rendered in bold shapes, muted earthy tones, and featuring hand-drawn 'St. Peter's Bazooka' typography.",
     "image_path": "/assets/cartoons/st._peter's_bazooka_1783396843.png",
     "art_style": "wpa",
-    "owner_response": "Dear @DeaconOfDetonation, it appears you\u2019ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
-    "page_theme": "road_trip",
+    "owner_response": "Dear @DeaconOfDetonation, it appears you’ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -413,7 +416,7 @@
     "image_path": "/assets/cartoons/the_can_theon_1783397762.png",
     "art_style": "custom",
     "owner_response": "Dear @CannedCritique, our ancient temple, designed for gods and emperors, was never intended for 'sealing freshness' or storing processed peas. We are an architectural masterpiece, not a giant food container.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -421,11 +424,11 @@
     "clue_id": "clue_pun_landmark_20_1783199003_2_1783199843_1783314081_723",
     "pun_name": "Sand Canal",
     "original_name": "Grand Canal",
-    "image_prompt": "A comical scene of Venetian gondolas comically stuck in a 'Sand Canal' \u2013 a waterway filled with golden desert sand, with bewildered tourists humorously struggling to push them, all rendered in a vintage 1950s travel poster style with retro flat vector design, bold colors, and a screen-printed aesthetic.",
+    "image_prompt": "A comical scene of Venetian gondolas comically stuck in a 'Sand Canal' – a waterway filled with golden desert sand, with bewildered tourists humorously struggling to push them, all rendered in a vintage 1950s travel poster style with retro flat vector design, bold colors, and a screen-printed aesthetic.",
     "image_path": "/assets/cartoons/sand_canal_1783398002.png",
     "art_style": "retro",
     "owner_response": "Dear @SiltSurfer, our *Grand* Canal has been a vibrant, watery thoroughfare for centuries, not a desert dune for camel rides. Perhaps you've confused us with a very literal translation error.",
-    "page_theme": "road_trip",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -437,7 +440,7 @@
     "image_path": "/assets/cartoons/spanish_crepes_1783398063.png",
     "art_style": "custom",
     "owner_response": "Dear @BatterBummer, perhaps you've confused our historic 135-step staircase with a pancake. Our landmark certainly doesn't 'fold and flop down the piazza,' and we don't serve syrup.",
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -449,7 +452,7 @@
     "image_path": "/assets/cartoons/loch_mess_1783435971.png",
     "art_style": "cartoon",
     "owner_response": "Dear @MuckyMonster, we regret your confusion. Our ancient, glacial loch is renowned for its pristine depths and mysterious legend, not 'floating bits' or 'disgusting masses'.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -461,7 +464,7 @@
     "image_path": "/assets/cartoons/alca_trousers_island_1783435993.png",
     "art_style": "pop-art",
     "owner_response": "Dear @TightPantsTerror, while our island's history is indeed escape-proof, we assure you this historic former federal prison is not a sartorial establishment. Complaining about 'zippers' and 'seams' here is quite bewildering given our infamous cell blocks.",
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -473,7 +476,7 @@
     "image_path": "/assets/cartoons/a_muffin_toast_1783436008.png",
     "art_style": "pop-art",
     "owner_response": "Dear @CrumblyCrumpet, while our lemons are exquisite, they aren't meant for charring, nor is our entire dramatic coastline a 'burnt crumb.' You clearly have the wrong destination; perhaps a local bakery could assist?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -485,7 +488,7 @@
     "image_path": "/assets/cartoons/macho_picchu_1783436025.png",
     "art_style": "watercolor",
     "owner_response": "Dear @GrumpyGymBro, we are an ancient Incan citadel high in the Andes, not a fitness center. Our 15th-century architecture isn't designed for \"Peak Physique\" training.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -497,7 +500,7 @@
     "image_path": "/assets/cartoons/towel_of_london_1783436041.png",
     "art_style": "retro",
     "owner_response": "Dear @SoggyBrit, while our historic fortress has certainly seen its share of dampness, it's not a personal hygiene item. Our stone walls and medieval architecture are quite poor at 'drying off' visitors or 'holding water'.",
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -509,7 +512,7 @@
     "image_path": "/assets/cartoons/edinburgh_tassel_1783436054.png",
     "art_style": "watercolor",
     "owner_response": "Dear @FrayedExpectations, our 12th-century fortress stands stoically on a volcanic plug, not 'dangling from a window' as a 'furball'. We assure you, our ramparts offer more than 'flimsy string' for defense.",
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -521,7 +524,7 @@
     "image_path": "/assets/cartoons/snack_forest_1783436071.png",
     "art_style": "pop-art",
     "owner_response": "Dear @HangryHiker, this is a vast, ancient forest, not a literal 'snack counter' or bakery. We provide natural beauty, not edible treats.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "pending"
   },
   {
@@ -533,7 +536,7 @@
     "image_path": "/assets/cartoons/quack_forest_1783436093.png",
     "art_style": "vintage",
     "owner_response": "Dear @AngryMallard, we oversee a majestic forested mountain range, not a wetland for water birds. Your complaints of 'fowl' are truly baffling; we specialize in pristine nature, not noisy poultry.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -545,7 +548,7 @@
     "image_path": "/assets/cartoons/muffin_horn_1783436107.png",
     "art_style": "wpa",
     "owner_response": "Dear @CrumblyClimber, we apologize if our 4,478-meter rock formation didn't meet your pastry expectations. Perhaps you confused us with a patisserie, not an iconic Alpine peak.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -557,7 +560,7 @@
     "image_path": "/assets/cartoons/cliffs_of_more_hair_1783436122.png",
     "art_style": "vintage",
     "owner_response": "Dear @CombOverChaos, our majestic 700-foot natural rock formations have been sculpted by millennia of wind and sea, not a stylist. We assure you, no 'trimming' is required for these ancient geological wonders.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -569,7 +572,7 @@
     "image_path": "/assets/cartoons/cliffs_of_mower_1783436142.png",
     "art_style": "wpa",
     "owner_response": "Dear @BladeRunnerBob, our natural sea cliffs have stood for millennia, carved by wind and wave, not powered by an engine. Perhaps your expectation of 'blades' and 'clippings' was, shall we say, a little *misguided* for a geological wonder?",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "pending"
   },
   {
@@ -581,7 +584,7 @@
     "image_path": "/assets/cartoons/baloney_castle_1783436158.png",
     "art_style": "cartoon",
     "owner_response": "Dear @GabGobbler, we are a 15th-century stone fortress, not a delicatessen. Our historic Blarney Stone is for speaking, not for tasting, you clearly had us confused with a sandwich shop.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -592,8 +595,8 @@
     "image_prompt": "A comical, giant Gateway Arch wearing a Hawaiian shirt and sunglasses, peeking around a corner with a packed suitcase, attempting a sneaky 'getaway' from a miniature St. Louis skyline, rendered in a whimsical watercolor and ink sketch, detailed storybook style, soft textures, pastel colors, artistically detailed.",
     "image_path": "/assets/cartoons/getaway_arch_1783436170.png",
     "art_style": "watercolor",
-    "owner_response": "Dear @SuddenDepartureSam, our 630-foot stainless-steel monument symbolizes westward expansion, not a literal 'getaway' portal. It\u2019s for viewing history, not for planning a sprint out of Missouri.",
-    "page_theme": "road_trip",
+    "owner_response": "Dear @SuddenDepartureSam, our 630-foot stainless-steel monument symbolizes westward expansion, not a literal 'getaway' portal. It’s for viewing history, not for planning a sprint out of Missouri.",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -605,7 +608,7 @@
     "image_path": "/assets/cartoons/space_noodle_1783436377.png",
     "art_style": "custom",
     "owner_response": "Dear @PastaPilot, this is a 605-foot observation tower, not a restaurant serving interstellar pasta. We strongly advise against trying to 'eat' our monument.",
-    "page_theme": "road_trip",
+    "page_theme": "modern_skyscrapers",
     "status": "approved"
   },
   {
@@ -617,7 +620,7 @@
     "image_path": "/assets/cartoons/giants_pauseway_1783436268.png",
     "art_style": "cartoon",
     "owner_response": "Dear @ImpatientGoliath, this is a UNESCO World Heritage site of ancient basalt columns, not a giant's waiting room. The wonder here is geological, not a giant 'pause button' for dawdling.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -629,7 +632,7 @@
     "image_path": "/assets/cartoons/la_scrambla_1783436287.png",
     "art_style": "watercolor",
     "owner_response": "Dear @HuevoRoto, we are a historic tree-lined promenade, not a giant skillet for your breakfast mishaps. Our pavement is cobblestone, not for slipping on broken yolks.",
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -641,7 +644,7 @@
     "image_path": "/assets/cartoons/brandenburg_goat_1783436305.png",
     "art_style": "wpa",
     "owner_response": "Dear @GrumpyGrazer, our iconic neoclassical triumphal arch is renowned for its quadriga, not 'incessant bleating' or any 'goaty' odor you encountered.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -653,7 +656,7 @@
     "image_path": "/assets/cartoons/rice_tag_building_1783436326.png",
     "art_style": "vintage",
     "owner_response": "Dear @GrainyCritic, while we appreciate your culinary enthusiasm, our institution is the home of German democracy, not a rice shop. We certainly don't offer 'steamed grains' or edible tags for consumption.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -665,7 +668,7 @@
     "image_path": "/assets/cartoons/baloney_cathedral_1783436339.png",
     "art_style": "pop-art",
     "owner_response": "Dear @SausageSkeptic, this UNESCO World Heritage site is a magnificent Gothic edifice built from stone, not 'processed meat' or 'fatty layers.' We're a historical monument, not a deli.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -677,7 +680,7 @@
     "image_path": "/assets/cartoons/san_tortellini_1783436354.png",
     "art_style": "wpa",
     "owner_response": "Dear @AlDenteDilemma, this is a historic volcanic island in the Aegean, famous for its majestic caldera and sunsets, not an Italian deli. Our famous white-washed villages are not, as you described, 'lumpy, Italian pasta pockets'.",
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -689,7 +692,7 @@
     "image_path": "/assets/cartoons/santas_bikini_1783436372.png",
     "art_style": "vintage",
     "owner_response": "Dear @NaughtyListNomad, we are a breathtaking volcanic island in the Aegean Sea, not a garment shop for 'festive attire.' Our blue domes offer stunning views, not a changing room for 'jolly gift-givers' to fret about 'modesty'.",
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "pending"
   },
   {
@@ -701,7 +704,7 @@
     "image_path": "/assets/cartoons/otter_dame_cathedral_1783436395.png",
     "art_style": "pop-art",
     "owner_response": "Dear @WetWhiskers, our venerable 850-year-old Gothic cathedral, a testament to faith and architecture, is not a river-dwelling mammal sanctuary. We assure you, our historic stones are neither 'slippery' for play nor do we have a 'Seine-sized moat' for aquatic residents.",
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -713,7 +716,7 @@
     "image_path": "/assets/cartoons/a_gnome_ium_1783436403.png",
     "art_style": "pop-art",
     "owner_response": "Dear @GrumpyGardenGnome, it seems you've confused our 102-meter high steel monument with a garden centre. Our nine interconnected spheres are designed to represent an iron crystal, not a convention space for 'tiny bearded men' or their headwear.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -725,7 +728,7 @@
     "image_path": "/assets/cartoons/mont_saint_pickle_1783436410.png",
     "art_style": "retro",
     "owner_response": "Dear @DillDisaster, we are a millennium-old Benedictine abbey on a granite islet, not a jar of fermented vegetables. Perhaps your sense of smell needs recalibrating, as our ancient stones rarely exude 'vinegar'!",
-    "page_theme": "road_trip",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -737,7 +740,7 @@
     "image_path": "/assets/cartoons/ramen_forum_1783436427.png",
     "art_style": "retro",
     "owner_response": "Dear @BrothBrain, while our ancient governmental buildings have witnessed countless debates, we unfortunately do not offer 'miso' or 'instant noodles' on any menu. We are a historical site, not a noodle bar for confused gladiators.",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "approved"
   },
   {
@@ -749,7 +752,7 @@
     "image_path": "/assets/cartoons/giants_cosplay_1783436448.png",
     "art_style": "vintage",
     "owner_response": "Dear @SeamStressMess, our unique basalt columns are a natural geological wonder, not \"lumpy fabric shapes\" from a costume shop. You seem to have profoundly confused a UNESCO World Heritage site with a themed party.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "pending"
   },
   {
@@ -761,7 +764,7 @@
     "image_path": "/assets/cartoons/palace_of_no_sauce_1783436470.png",
     "art_style": "retro",
     "owner_response": "Dear @DryDiner, we are an ancient Minoan palace, a world-renowned archaeological site, not a restaurant. We're certainly not equipped to serve 'condiments' with our 3,500-year-old history.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -773,7 +776,7 @@
     "image_path": "/assets/cartoons/a_gnome_ium_1783436488.png",
     "art_style": "vintage",
     "owner_response": "Dear @GrumpyGardenGnome, it seems you've confused our 102-meter high steel monument with a garden centre. Our nine interconnected spheres are designed to represent an iron crystal, not a convention space for 'tiny bearded men' or their headwear.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -785,7 +788,7 @@
     "image_path": "/assets/cartoons/doodlin_castle_1783436507.png",
     "art_style": "watercolor",
     "owner_response": "Dear @ScribbleSavant, our 13th-century governmental fortress is indeed 'cold stone,' not a 'sketchbook' for your potato drawings or melting crayons. Perhaps you've confused us with a different kind of 'castle'?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -797,7 +800,7 @@
     "image_path": "/assets/cartoons/st_basils_cat_astrophe_1783436526.png",
     "art_style": "watercolor",
     "owner_response": "Dear Adventurer, it seems you've confused our vibrant, historic monument with a pet shop. Our magnificent architecture has never featured 'shedding hairballs' nor offered 'clawed pews', @FelineFiasco.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -809,7 +812,7 @@
     "image_path": "/assets/cartoons/mesa_birdie_national_park_1783436553.png",
     "art_style": "cartoon",
     "owner_response": "Dear @PutterPioneer, this is a UNESCO World Heritage Site preserving Ancestral Puebloan cliff dwellings, not a poorly maintained golf course. Perhaps 'Verde' (green) should have clued you in that it's a *green* table land, not a *green* tee box.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -821,7 +824,7 @@
     "image_path": "/assets/cartoons/new_swan_stain_castle_1783436575.png",
     "art_style": "wpa",
     "owner_response": "Dear @StainRemover77, our majestic 19th-century Romanesque Revival palace is not a public bird bath. We assure you, our historic walls have no 'stains' needing removal.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -833,7 +836,7 @@
     "image_path": "/assets/cartoons/no_swine_stain_castle_1783436592.png",
     "art_style": "cartoon",
     "owner_response": "Dear @PorkPurityPoliceman, this is a meticulously preserved 19th-century royal castle, not a farm. Our historic halls do not feature 'oinks' or 'pig muck'.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -845,7 +848,7 @@
     "image_path": "/assets/cartoons/palace_of_ver_size_1783436609.png",
     "art_style": "retro",
     "owner_response": "Dear @MonsieurPetit, we regret you found our royal palace, spanning vast acres with a truly grand Hall of Mirrors, to be 'travel-size.' Perhaps you were looking for a gift shop instead of a monument.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -856,8 +859,8 @@
     "image_prompt": "A hilarious vintage travel illustration of 'Alcohol-traz Island', depicting the iconic prison fortress transformed into a bustling, boozy resort with patrons happily clinking glasses through cell bars, rendered in a 1930s WPA-era silk-screened travel poster style with bold shapes, muted earthy colors, and hand-drawn typography.",
     "image_path": "/assets/cartoons/alcohol_traz_island_1783436626.png",
     "art_style": "wpa",
-    "owner_response": "Dear @WhiskeyWarden, it seems you've mistaken a historic federal penitentiary for a watering hole. Our 'bars' were for holding actual criminals, not mixing cocktails; we\u2019ve proudly been 'dry' for decades.",
-    "page_theme": "road_trip",
+    "owner_response": "Dear @WhiskeyWarden, it seems you've mistaken a historic federal penitentiary for a watering hole. Our 'bars' were for holding actual criminals, not mixing cocktails; we’ve proudly been 'dry' for decades.",
+    "page_theme": "castles_cathedrals",
     "status": "pending"
   },
   {
@@ -869,7 +872,7 @@
     "image_path": "/assets/cartoons/waffle_tower_1783436643.png",
     "art_style": "retro",
     "owner_response": "Dear @BatterBurned, we're a 330-meter wrought-iron monument, not a breakfast buffet. Perhaps you're confusing us with a different kind of 'tower' altogether?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -881,7 +884,7 @@
     "image_path": "/assets/cartoons/eiffel_shower_1783436656.png",
     "art_style": "vintage",
     "owner_response": "Dear @DampCroissant, while our magnificent 330-meter iron monument offers breathtaking views, it was never designed for 'cleansing.' Perhaps consult a plumbing professional, not a national landmark?",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -893,7 +896,7 @@
     "image_path": "/assets/cartoons/blarney_casserole_1783436673.png",
     "art_style": "pop-art",
     "owner_response": "Dear @SoggySpud, we are a medieval fortress with an ancient stone, not a culinary establishment. I assure you, our structure has never served 'lumpy, congealed surprises,' just breathtaking views and history.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -905,7 +908,7 @@
     "image_path": "/assets/cartoons/gator_way_arch_1783436689.png",
     "art_style": "cartoon",
     "owner_response": "Dear @SwampCritter, our 630-foot stainless steel monument has never hissed or bitten. It is a national monument, not a swamp creature, designed for views, not for 'gator teeth'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -917,7 +920,7 @@
     "image_path": "/assets/cartoons/space_poodle_1783436702.png",
     "art_style": "pop-art",
     "owner_response": "Dear @SheddingStargazer, our 605-foot observation tower is an architectural marvel providing unparalleled city views, not a pet grooming facility. We highly recommend a professional groomer for any static electricity or matted fur concerns.",
-    "page_theme": "sightseeing",
+    "page_theme": "modern_skyscrapers",
     "status": "pending"
   },
   {
@@ -929,7 +932,7 @@
     "image_path": "/assets/cartoons/my_shoe_picchu_1783436719.png",
     "art_style": "wpa",
     "owner_response": "Dear @StinkyFoot, our ancient Inca citadel is a breathtaking wonder of stone masonry, not a shoe to develop 'ancient shoe funk' or to tie. Perhaps you've confused us with a lost-and-found bin?",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "pending"
   },
   {
@@ -941,7 +944,7 @@
     "image_path": "/assets/cartoons/stash_you_of_liberty_1783436740.png",
     "art_style": "wpa",
     "owner_response": "Dear @LooseChangeLarry, our monumental sculpture is a symbol of freedom, not a public storage unit for your 'emergency snacks' or 'contraband'. Perhaps you mistook our 300-foot copper icon for a giant safe?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -953,7 +956,7 @@
     "image_path": "/assets/cartoons/granny_canyon_1783436757.png",
     "art_style": "watercolor",
     "owner_response": "Dear @PrunePicker, we are a natural geological formation millions of years old, not a relative's home. Expecting Werther's Originals or knitwear in a chasm carved by the Colorado River is simply... grandly mistaken.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "pending"
   },
   {
@@ -965,7 +968,7 @@
     "image_path": "/assets/cartoons/niagara_fails_1783436774.png",
     "art_style": "pop-art",
     "owner_response": "Dear Traveler, our multi-ton natural phenomenon has been spectacularly 'falling' for thousands of years. We assure you, @NoFlowJoe, gravity is very much employed here, full-time, unlike your expectations.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -977,7 +980,7 @@
     "image_path": "/assets/cartoons/niagara_calls_1783436793.png",
     "art_style": "cartoon",
     "owner_response": "Dear @StaticSue, we apologize your 'calls' kept dropping, but as a magnificent natural waterfall, our primary function is awe-inspiring cascades, not robust phone service. Perhaps you confused our thundering roar for a busy signal?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -989,7 +992,7 @@
     "image_path": "/assets/cartoons/itchin_itza_1783436809.png",
     "art_style": "retro",
     "owner_response": "Dear @PricklyPete, our magnificent archaeological site is an ancient stone monument, not a clinic for treating 'chickenpox' or other dermatological woes. Perhaps you should consult a doctor?",
-    "page_theme": "road_trip",
+    "page_theme": "ancient_ruins",
     "status": "pending"
   },
   {
@@ -1001,7 +1004,7 @@
     "image_path": "/assets/cartoons/empire_state_bouldering_1783436823.png",
     "art_style": "cartoon",
     "owner_response": "Dear @LooseHoldHarry, our historic Art Deco landmark, made of limestone and steel, has viewing decks, not 'jagged rocks' for a 'grueling workout.' Perhaps you confused our world-renowned skyscraper with an actual rock climbing facility?",
-    "page_theme": "road_trip",
+    "page_theme": "modern_skyscrapers",
     "status": "pending"
   },
   {
@@ -1013,7 +1016,7 @@
     "image_path": "/assets/cartoons/times_scare_1783436842.png",
     "art_style": "vintage",
     "owner_response": "Dear @ChronicallyAfraid, we're a vibrant global crossroads, not an immersive fright experience. Our massive digital displays feature advertising and news, not 'terror-thons' or 'shriek-inducers'.",
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "pending"
   },
   {
@@ -1024,8 +1027,8 @@
     "image_prompt": "Four giant, humorous caricature faces are carved into a vibrant mountain, with one face comically winking and playfully 'crushing' a tiny tourist bus with its massive finger, comical cartoon illustration.",
     "image_path": "/assets/cartoons/mount_crushmore_1783436861.png",
     "art_style": "cartoon",
-    "owner_response": "Dear @UnrequitedTourist, our colossal granite carvings of four U.S. Presidents offer historical reflection, not a 'stone-cold shoulder' for your romantic aspirations. Perhaps you\u2019re confusing us with a dating app?",
-    "page_theme": "road_trip",
+    "owner_response": "Dear @UnrequitedTourist, our colossal granite carvings of four U.S. Presidents offer historical reflection, not a 'stone-cold shoulder' for your romantic aspirations. Perhaps you’re confusing us with a dating app?",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1037,7 +1040,7 @@
     "image_path": "/assets/cartoons/trevi_fortune_1783436875.png",
     "art_style": "vintage",
     "owner_response": "Dear @MisfortuneTeller, our magnificent Baroque masterpiece is a fountain for wishes, not a fortune-telling service. We regret that our ancient sculpted figures did not provide the financial windfall you seemingly expected.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1048,8 +1051,8 @@
     "image_prompt": "A vibrant Pop Art postcard illustration depicting London's Big Ben tower comically topped with an enormous, brightly colored afro wig, rendered with bold outlines, screen print dot texture, high contrast colors, and a retro comic book feel.",
     "image_path": "/assets/cartoons/wig_ben_1783436891.png",
     "art_style": "pop-art",
-    "owner_response": "Dear @FringeFailure, we must clarify: The Elizabeth Tower houses a magnificent 13-ton bell, not a 'static hair problem' or a matted toup\u00e9e for your scalp. Perhaps you're looking for a wig shop, not a UNESCO World Heritage site?",
-    "page_theme": "road_trip",
+    "owner_response": "Dear @FringeFailure, we must clarify: The Elizabeth Tower houses a magnificent 13-ton bell, not a 'static hair problem' or a matted toupée for your scalp. Perhaps you're looking for a wig shop, not a UNESCO World Heritage site?",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1061,7 +1064,7 @@
     "image_path": "/assets/cartoons/mellowstone_national_park_1783436913.png",
     "art_style": "pop-art",
     "owner_response": "Dear @SnoozeSpring, we pride ourselves on powerful geysers and *vibrantly* colored hot springs, not 'beige trickles' or quiet naps. We are a geothermal wonder, not a day spa.",
-    "page_theme": "road_trip",
+    "page_theme": "natural_wonders",
     "status": "pending"
   },
   {
@@ -1073,7 +1076,7 @@
     "image_path": "/assets/cartoons/pomp_play_1783436933.png",
     "art_style": "pop-art",
     "owner_response": "Dear @AshyAdventurer, we are an ancient Roman city preserved by volcanic ash, not a theme park. Perhaps you expected a ball pit near the forum?",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1085,7 +1088,7 @@
     "image_path": "/assets/cartoons/famish_steps_1783436952.png",
     "art_style": "cartoon",
     "owner_response": "Dear @GrumpyGourmand, our monumental stairway connects two piazzas, it's not a buffet. Expecting tapas from an 18th-century architectural marvel shows a remarkable misunderstanding of its purpose.",
-    "page_theme": "road_trip",
+    "page_theme": "streets_squares",
     "status": "pending"
   },
   {
@@ -1097,7 +1100,7 @@
     "image_path": "/assets/cartoons/a_mighty_roast_1783436966.png",
     "art_style": "vintage",
     "owner_response": "Dear @CharredCiao, it appears you've mistaken our picturesque stretch of cliffs and charming villages for a colossal BBQ pit. Our sun provides warmth for our lemon groves, not to 'char' our esteemed visitors.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1109,7 +1112,7 @@
     "image_path": "/assets/cartoons/booking_ham_palace_1783436984.png",
     "art_style": "pop-art",
     "owner_response": "Dear @LostReservation, this majestic royal residence is hardly a 'B&B' with 'no vacancy' issues. We trust you understand this is for reigning, not for reserving.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1121,7 +1124,7 @@
     "image_path": "/assets/cartoons/windsor_kazoo_1783436996.png",
     "art_style": "cartoon",
     "owner_response": "Dear @OffKeyTraveler, this is a millennium-old royal residence, not a cheap wind instrument. Our historic walls don't make 'shrill sounds'; you must be thinking of a very different 'Windsor'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1133,7 +1136,7 @@
     "image_path": "/assets/cartoons/alpaca_bra_1783437011.png",
     "art_style": "retro",
     "owner_response": "Dear @UnsupportedTraveler, we're sorry our 14th-century Nasrid palaces and Generalife gardens did not provide the 'woolly chest garment' you apparently confused with a UNESCO World Heritage site. Perhaps you're looking for a department store?",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1145,7 +1148,7 @@
     "image_path": "/assets/cartoons/anne_prank_house_1783437031.png",
     "art_style": "retro",
     "owner_response": "Dear @PracticalJokePaul, our historical house is a profound testament to courage, not a venue for 'never-ending practical jokes' or hidden cameras. We invite visitors seeking somber reflection, not silly string.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1156,8 +1159,8 @@
     "image_prompt": "A comical vintage travel postcard features a grand, bustling kitchen as a tourist destination, dominated by a gigantic, gleaming hoof statue rising majestically from a soup pot, all in a classic distressed linen texture with a hand-colored photo print aesthetic, capturing the whimsical charm of 1930s travel advertisements.",
     "image_path": "/assets/cartoons/kitchen_hoof_1783437048.png",
     "art_style": "vintage",
-    "owner_response": "Dear @TulipTrampler, while our tulips are famously fragrant, they do not require 'kitchen clutter' or 'cloven prints.' We are a flower garden, not a barnyard caf\u00e9.",
-    "page_theme": "sightseeing",
+    "owner_response": "Dear @TulipTrampler, while our tulips are famously fragrant, they do not require 'kitchen clutter' or 'cloven prints.' We are a flower garden, not a barnyard café.",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1169,7 +1172,7 @@
     "image_path": "/assets/cartoons/cookie_hof_1783437061.png",
     "art_style": "watercolor",
     "owner_response": "Dear @StaleCrumb, we're genuinely puzzled by your review; our world-renowned floral park is famous for millions of vibrant blooms, not 'crumbs' or 'broken biscuits.' Perhaps you're looking for a different kind of 'hof'?",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1181,7 +1184,7 @@
     "image_path": "/assets/cartoons/mutterhorn_1783437224.png",
     "art_style": "watercolor",
     "owner_response": "Dear @AlpineAnguish, we find your review... peculiar. The Matterhorn is a magnificent 4,478-meter natural rock formation, not a matriarch with a megaphone. Perhaps you confused us with a family reunion?",
-    "page_theme": "mountain_trek",
+    "page_theme": "natural_wonders",
     "status": "pending"
   },
   {
@@ -1193,7 +1196,7 @@
     "image_path": "/assets/cartoons/nutty_dame_cathedral_1783437243.png",
     "art_style": "cartoon",
     "owner_response": "Dear @SquirrellyScribbler, our historic Gothic masterpiece is an architectural marvel, not a 'nutty old lady' requiring therapy. We assure you, our structure has no discernible pecan aroma and we do not host squirrels.",
-    "page_theme": "sightseeing",
+    "page_theme": "castles_cathedrals",
     "status": "pending"
   },
   {
@@ -1205,7 +1208,7 @@
     "image_path": "/assets/cartoons/notre_dame_caterpillar_1783437261.png",
     "art_style": "retro",
     "owner_response": "Dear @ChompChamp, our venerable cathedral, currently undergoing careful restoration, is a monument of stone and glass, not a 'wriggling, segmented green tube' with dietary needs. Perhaps you're confusing us with a very different kind of Parisian resident?",
-    "page_theme": "sightseeing",
+    "page_theme": "castles_cathedrals",
     "status": "pending"
   },
   {
@@ -1217,7 +1220,7 @@
     "image_path": "/assets/cartoons/batty_can_museums_1783437278.png",
     "art_style": "pop-art",
     "owner_response": "Dear @BattyBlogger, we assure you, our prestigious collection of Renaissance art in the Vatican City does not feature belfries or bat guano, nor do our frescoes 'flap'. Perhaps you're confusing us with another institution entirely.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1229,7 +1232,7 @@
     "image_path": "/assets/cartoons/ramen_baths_1783437290.png",
     "art_style": "pop-art",
     "owner_response": "Dear @NoodleNonsense, our historic thermal spa offers ancient spring water, not broth or suspicious toppings for your 'imperial soak'. Perhaps you've confused our 2000-year-old site with a very different kind of establishment.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1241,7 +1244,7 @@
     "image_path": "/assets/cartoons/park_the_none_1783437305.png",
     "art_style": "cartoon",
     "owner_response": "Dear @ChariotChaser, we're an ancient temple dedicated to Athena, not a valet service. Perhaps research landmarks before attempting to 'park' your chariot on 2,500-year-old marble.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1253,7 +1256,7 @@
     "image_path": "/assets/cartoons/double_inn_castle_1783437325.png",
     "art_style": "wpa",
     "owner_response": "Listen here, @InnTrouble, we are a historic castle and government complex, not a 'double inn' offering 'room service' or 'chaotic check-ins'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1265,7 +1268,7 @@
     "image_path": "/assets/cartoons/the_gremlin_1783437343.png",
     "art_style": "cartoon",
     "owner_response": "Dear @ChaosComrade, our historic complex is centuries old, not equipped with 'tiny engines' or a 'reboot' function. Perhaps you've confused us with a different kind of 'lin' entirely.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1277,7 +1280,7 @@
     "image_path": "/assets/cartoons/st_dazzles_cathedral_1783437360.png",
     "art_style": "pop-art",
     "owner_response": "Dear @GlareGrumbler, our 16th-century Orthodox church features intricate architecture, not disco balls. Perhaps you've confused our vibrant domes with a laser light show.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1289,7 +1292,7 @@
     "image_path": "/assets/cartoons/bark_de_triomphe_1783437373.png",
     "art_style": "pop-art",
     "owner_response": "Dear @HowlingHiker, it appears you've confused our solemn monument to military victories with some sort of canine playground. Our 50-meter-tall arch is made of stone, not a giant squeaky toy for 'four-legged conquerors.'",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1301,7 +1304,7 @@
     "image_path": "/assets/cartoons/the_swiss_chard_1783437385.png",
     "art_style": "cartoon",
     "owner_response": "Dear @LeafyLoather, The Shard is a 309-meter glass-clad skyscraper, not a buffet of 'Swiss greens' or a 'stem' for culinary criticism. We focus on city views, not roughage.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1313,7 +1316,7 @@
     "image_path": "/assets/cartoons/cake_louise_1783437402.png",
     "art_style": "retro",
     "owner_response": "Dear @SweetToothAche, we're rather confused by your review. This is a pristine glacial lake in the Canadian Rockies, not a bakery; perhaps you're looking for an actual dessert, not our majestic waters that offer reflections, not crumbs.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1325,7 +1328,7 @@
     "image_path": "/assets/cartoons/cake_louise_1783437424.png",
     "art_style": "retro",
     "owner_response": "Dear @FrostingFiasco, our beautiful glacial lake is over 90 meters deep, formed by millions of years of natural processes, not baked in a kitchen. Perhaps you should try a bakery for your cream cheese canoe trips.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1337,7 +1340,7 @@
     "image_path": "/assets/cartoons/arc_de_trombone_1783437439.png",
     "art_style": "pop-art",
     "owner_response": "Dear @BrassBlast, we apologize if our monumental stone arch did not offer the brassy, sliding musical experience you anticipated. Perhaps you mistook us for a wind instrument, rather than a tribute to national triumph.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   }
 ]

@@ -58,6 +58,70 @@ CLUES_FILE = os.path.join(travelreviews_backend, 'travelreviews_clues.json')
 POSTCARDS_FILE = os.path.join(travelreviews_backend, 'travelreviews_postcards.json')
 DAILY_GAMES_FILE = os.path.join(travelreviews_backend, 'travelreviews_daily_games.json')
 LANDMARKS_FILE = os.path.join(travelreviews_backend, 'travelreviews_landmarks.json')
+
+LANDMARK_THEME_MAPPING = {
+    # Ancient Ruins & Archaeological Sites
+    "Colosseum": "ancient_ruins",
+    "Pyramids of Giza": "ancient_ruins",
+    "Petra": "ancient_ruins",
+    "Chichen Itza": "ancient_ruins",
+    "Angkor Wat": "ancient_ruins",
+    "Machu Picchu": "ancient_ruins",
+    "Pantheon": "ancient_ruins",
+    "Roman Forum": "ancient_ruins",
+    "Stonehenge": "ancient_ruins",
+
+    # Natural Wonders & Landscapes
+    "Grand Canyon": "natural_wonders",
+    "Great Barrier Reef": "natural_wonders",
+    "Yellowstone National Park": "natural_wonders",
+    "Loch Ness": "natural_wonders",
+    "Black Forest": "natural_wonders",
+    "Matterhorn": "natural_wonders",
+    "Cliffs of Moher": "natural_wonders",
+    "Giant's Causeway": "natural_wonders",
+
+    # Historic Towers, Monuments & Statues
+    "Eiffel Tower": "historic_monuments",
+    "Taj Mahal": "historic_monuments",
+    "Christ the Redeemer": "historic_monuments",
+    "Big Ben": "historic_monuments",
+    "Leaning Tower of Pisa": "historic_monuments",
+    "Atomium": "historic_monuments",
+
+    # Castles, Fortresses & Cathedrals
+    "Tower of London": "castles_cathedrals",
+    "Edinburgh Castle": "castles_cathedrals",
+    "Mont Saint-Michel": "castles_cathedrals",
+    "Sagrada Família": "castles_cathedrals",
+    "St. Peter's Basilica": "castles_cathedrals",
+    "Notre-Dame Cathedral": "castles_cathedrals",
+    "Alcatraz Island": "castles_cathedrals",
+
+    # Bridges, Canals & Historic Engineering
+    "Great Wall of China": "bridges_canals",
+    "Golden Gate Bridge": "bridges_canals",
+    "Panama Canal": "bridges_canals",
+    "Tower Bridge": "bridges_canals",
+    "Grand Canal": "bridges_canals",
+
+    # Famous Streets, Squares & Towns
+    "Times Square": "streets_squares",
+    "Spanish Steps": "streets_squares",
+    "La Rambla": "streets_squares",
+    "Santorini": "streets_squares",
+
+    # Modern Skyscrapers & Tall Structures
+    "Burj Khalifa": "modern_skyscrapers",
+    "Empire State Building": "modern_skyscrapers",
+    "Space Needle": "modern_skyscrapers"
+}
+
+def get_theme_for_landmark(landmark_name):
+    if not landmark_name:
+        return "historic_monuments"
+    name = landmark_name.strip()
+    return LANDMARK_THEME_MAPPING.get(name, "historic_monuments")
 PUNS_FILE = os.path.join(travelreviews_backend, 'travelreviews_puns.json')
 TRAVELREVIEWS_RECORDS_FILE = os.path.join(travelreviews_backend, 'travelreviews_records.json')
 
@@ -811,7 +875,7 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                       "clue2": "Clue 2 text",
                       "clue3": "Clue 3 text",
                       "owner_response": "Owner response here",
-                      "page_theme": "The most appropriate travel theme name for this location out of: road_trip, air_mail, train_passage, gondola_ride, boat_voyage, mountain_trek, desert_safari, sightseeing, tropical_island, winter_lodge, metro_transit"
+                      "page_theme": "The most appropriate travel theme name for this location out of: ancient_ruins, natural_wonders, historic_monuments, castles_cathedrals, bridges_canals, streets_squares, modern_skyscrapers"
                     }}
                     """
                     response = client.models.generate_content(
@@ -834,7 +898,7 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                         "clue2": generated.get("clue2", ""),
                         "clue3": generated.get("clue3", ""),
                         "owner_response": generated.get("owner_response", ""),
-                        "page_theme": generated.get("page_theme", "road_trip"),
+                        "page_theme": get_theme_for_landmark(p['original_name']),
                         "status": "pending"
                     })
                     new_clues_count += 1
@@ -1189,7 +1253,7 @@ def pipeline_listener():
                       "clue2": "Clue 2 text",
                       "clue3": "Clue 3 text",
                       "owner_response": "Owner response here",
-                      "page_theme": "The most appropriate travel theme name for this location out of: road_trip, air_mail, train_passage, gondola_ride, boat_voyage, mountain_trek, desert_safari, sightseeing, tropical_island, winter_lodge, metro_transit"
+                      "page_theme": "The most appropriate travel theme name for this location out of: ancient_ruins, natural_wonders, historic_monuments, castles_cathedrals, bridges_canals, streets_squares, modern_skyscrapers"
                     }}
                     """
                     response = client.models.generate_content(
@@ -1212,7 +1276,7 @@ def pipeline_listener():
                         "clue3": generated.get("clue3", ""),
                         "clue4": generated.get("clue4", ""),
                         "owner_response": generated.get("owner_response", ""),
-                        "page_theme": generated.get("page_theme", "road_trip"),
+                        "page_theme": get_theme_for_landmark(p['original_name']),
                         "status": "pending"
                     })
                     new_clues_count += 1

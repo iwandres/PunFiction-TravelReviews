@@ -1227,5 +1227,152 @@
     "location": "Ottawa, Ontario, Canada",
     "pun_name": "Parmesan Hill",
     "status": "pending"
+  },
+  {
+    "id": "pun_great_sphinx_of_giza_1783487234_173",
+    "original_name": "Great Sphinx of Giza",
+    "location": "Giza, Egypt",
+    "pun_name": "Great Drinks of Giza",
+    "status": "pending"
+  },
+  {
+    "id": "pun_great_sphinx_of_giza_1783487234_156",
+    "original_name": "Great Sphinx of Giza",
+    "location": "Giza, Egypt",
+    "pun_name": "Great Sphinx of Pizza",
+    "status": "pending"
+  },
+  {
+    "id": "pun_great_sphinx_of_giza_1783487234_190",
+    "original_name": "Great Sphinx of Giza",
+    "location": "Giza, Egypt",
+    "pun_name": "Great Thinks of Giza",
+    "status": "pending"
+  },
+  {
+    "id": "pun_the_acropolis_of_athens_1783487241_232",
+    "original_name": "The Acropolis of Athens",
+    "location": "Athens, Greece",
+    "pun_name": "The Achoo-polis of Athens",
+    "status": "pending"
+  },
+  {
+    "id": "pun_the_acropolis_of_athens_1783487241_778",
+    "original_name": "The Acropolis of Athens",
+    "location": "Athens, Greece",
+    "pun_name": "The A-Crop-a-Loss of Athens",
+    "status": "pending"
+  },
+  {
+    "id": "pun_the_acropolis_of_athens_1783487241_426",
+    "original_name": "The Acropolis of Athens",
+    "location": "Athens, Greece",
+    "pun_name": "The Acro-Police of Athens",
+    "status": "pending"
+  },
+  {
+    "id": "pun_red_square_1783487249_127",
+    "original_name": "Red Square",
+    "location": "Moscow, Russia",
+    "pun_name": "Bread Square",
+    "status": "pending"
+  },
+  {
+    "id": "pun_red_square_1783487249_321",
+    "original_name": "Red Square",
+    "location": "Moscow, Russia",
+    "pun_name": "Dread Square",
+    "status": "pending"
+  },
+  {
+    "id": "pun_red_square_1783487249_616",
+    "original_name": "Red Square",
+    "location": "Moscow, Russia",
+    "pun_name": "Bed Square",
+    "status": "pending"
+  },
+  {
+    "id": "pun_hagia_sophia_1783487255_938",
+    "original_name": "Hagia Sophia",
+    "location": "Istanbul, Turkey",
+    "pun_name": "Haggis Sophia",
+    "status": "pending"
+  },
+  {
+    "id": "pun_hagia_sophia_1783487255_414",
+    "original_name": "Hagia Sophia",
+    "location": "Istanbul, Turkey",
+    "pun_name": "Hagia Sofa",
+    "status": "pending"
+  },
+  {
+    "id": "pun_hagia_sophia_1783487255_837",
+    "original_name": "Hagia Sophia",
+    "location": "Istanbul, Turkey",
+    "pun_name": "Haggard Sophia",
+    "status": "pending"
+  },
+  {
+    "id": "pun_the_kremlin_1783487262_550",
+    "original_name": "The Kremlin",
+    "location": "Moscow, Russia",
+    "pun_name": "The Gremlin",
+    "status": "pending"
+  },
+  {
+    "id": "pun_the_kremlin_1783487262_557",
+    "original_name": "The Kremlin",
+    "location": "Moscow, Russia",
+    "pun_name": "The Crumb-Lynn",
+    "status": "pending"
+  },
+  {
+    "id": "pun_the_kremlin_1783487262_966",
+    "original_name": "The Kremlin",
+    "location": "Moscow, Russia",
+    "pun_name": "The Scream-lin",
+    "status": "pending"
+  },
+  {
+    "id": "pun_pulpit_rock_(preikestolen)_1783487268_926",
+    "original_name": "Pulpit Rock (Preikestolen)",
+    "location": "Rogaland, Norway",
+    "pun_name": "Puppet Rock",
+    "status": "pending"
+  },
+  {
+    "id": "pun_pulpit_rock_(preikestolen)_1783487268_109",
+    "original_name": "Pulpit Rock (Preikestolen)",
+    "location": "Rogaland, Norway",
+    "pun_name": "Pulp It Rock",
+    "status": "pending"
+  },
+  {
+    "id": "pun_pulpit_rock_(preikestolen)_1783487268_221",
+    "original_name": "Pulpit Rock (Preikestolen)",
+    "location": "Rogaland, Norway",
+    "pun_name": "Pulpit Sock",
+    "status": "pending"
+  },
+  {
+    "id": "pun_burj_al_arab_1783487272_222",
+    "original_name": "Burj Al Arab",
+    "location": "Dubai, United Arab Emirates",
+    "pun_name": "Burp Al Arab",
+    "status": "pending"
+  },
+  {
+    "id": "pun_burj_al_arab_1783487272_670",
+    "original_name": "Burj Al Arab",
+    "location": "Dubai, United Arab Emirates",
+    "pun_name": "Burger Al Arab",
+    "status": "pending"
+  },
+  {
+    "id": "pun_burj_al_arab_1783487272_797",
+    "original_name": "Burj Al Arab",
+    "location": "Dubai, United Arab Emirates",
+    "pun_name": "Burj Al Alpaca",
+    "status": "pending"
   }
 ]

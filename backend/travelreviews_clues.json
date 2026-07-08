@@ -9,7 +9,7 @@
     "clue2": "Shockingly un-fortified... and surprisingly bland, despite the many ridges.",
     "clue3": "Expected China's *greatest* breakfast... got a *wall* of uninspired, bland grids.",
     "owner_response": "Dear @BatterBlaster, our ancient military defense system, spanning thousands of kilometers, was built for protection, not for holding syrup or being 'golden-brown.' You may be looking for a different kind of 'wall'.",
-    "page_theme": "sightseeing",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -22,7 +22,7 @@
     "clue2": "Keeps spouting water! And definitely not keeping any barbarians out...",
     "clue3": "This humongous mammal just breached... soaked me and my guidebook!",
     "owner_response": "Dear @FlippyFlop, our centuries-old defensive fortification is made of stone and brick, not blubber, and it certainly doesn't 'breach'. If you're looking for a giant, spouting mammal, you've taken a very wrong turn in China.",
-    "page_theme": "sightseeing",
+    "page_theme": "bridges_canals",
     "status": "approved"
   },
   {
@@ -37,7 +37,8 @@
     "clue3": "Thought it was for eternal devotion, not just eternal delivery!",
     "clue4": "",
     "owner_response": "Dear @OverloadedOm, while we appreciate your visit, this is a monument of profound eternal love, not a storage unit or a parking lot for your moving truck. Our precious marble is for admiring, not for packing boxes.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_taj_mahal_1783281654_245_1783298990_130",
@@ -51,7 +52,8 @@
     "clue3": "No peaceful marble... just constant, jarring 'blue notes'!",
     "clue4": "",
     "owner_response": "Listen, @BlueNoteBlues, this is a UNESCO World Heritage Site built for eternal repose, not for 'endless, noisy improvisation.' Perhaps your 'Agra-vated' ears are confused about what a *mausoleum* actually entails.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_pyramids_of_giza_1783282174_215_1783299036_220",
@@ -65,7 +67,8 @@
     "clue3": "Felt more like a retirement home than a desert wonder... all groan-a.",
     "clue4": "",
     "owner_response": "Dear @CrankyElder, our monumental structures are millennia-old stone, not a geriatric facility for discussing dentures. Perhaps you mistook us for a very specific type of historical reenactment?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_grand_canyon_1783282176_513_1783299047_977",
@@ -79,7 +82,8 @@
     "clue3": "This enormous, dull stick just carved out a giant hole!",
     "clue4": "",
     "owner_response": "Dear @NoPointHere, it appears you've mistaken our awe-inspiring natural geological formation, carved by millennia of erosion, for a giant implement needing 'sharpening'. We suggest consulting a proper atlas, not a coloring book, for your next trip planning.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_colosseum_1783294547_324_1783299106_684",
@@ -93,7 +97,8 @@
     "clue3": "Used to be an arena... now just a tiny storage space.",
     "clue4": "",
     "owner_response": "Dear @CrampedCrusader, our magnificent amphitheater once hosted epic gladiatorial contests, not your wardrobe. Perhaps you are confusing us with a laundry facility?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_christ_the_redeemer_1783294550_212_1783299128_399",
@@ -107,7 +112,8 @@
     "clue3": "Just a gigantic, stale bread man, offering no salvation.",
     "clue4": "",
     "owner_response": "Dear @CrumbBum, our 30-meter concrete and soapstone monument has graced Rio for almost a century, not a baker's rack. We apologize if our magnificent statue didn't quite satisfy your hunger for artisanal baked goods.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_louvre_museum_1783294554_343_1783299135_939",
@@ -121,7 +127,8 @@
     "clue3": "Despite its sound, there's no *love* to be found... just art!",
     "clue4": "",
     "owner_response": "Dear @BitterSingle, this esteemed institution is dedicated to preserving fine art and cultural heritage, not facilitating *amour*. You clearly mistook us for a very different kind of 'museum'.",
-    "status": "rejected"
+    "status": "rejected",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_stonehenge_1783294558_504_1783299143_910",
@@ -135,7 +142,8 @@
     "clue3": "Absolutely *nothing* like my grandma's Sunday baking.",
     "clue4": "",
     "owner_response": "Dear @CrumblyKnight, we regret you mistook our 4,500-year-old megalithic monument for a bakeshop. We strongly advise against attempting to 'eat' our sarsen stones or applying jam.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_mount_everest_1783294561_980_1783299248_107",
@@ -149,7 +157,8 @@
     "clue3": "Reached the top of 'smarts' and just got a freezing headache.",
     "clue4": "",
     "owner_response": "Dear @IQDropper, it seems you've confused the world's highest mountain with a lecture hall. We specialize in breathtaking vistas, not boosting your 'smarts'.",
-    "status": "rejected"
+    "status": "rejected",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_mount_fuji_1783295351_791_1783299257_958",
@@ -163,13 +172,14 @@
     "clue3": "Expected perfect white cone... got a giant, fluffy, unbrushed pom-pom!",
     "clue4": "",
     "owner_response": "Dear @StaticCling, it seems you've mistaken our sacred volcanic peak for a giant lint trap. Our mountain is composed of rock and ice, not something that generates \"unbrushed pom-poms\" or static.",
-    "status": "rejected"
+    "status": "rejected",
+    "page_theme": "historic_monuments"
   },
   {
-    "id": "clue_pun_sagrada_fam\u00edlia_1783295364_613_1783299265_553",
-    "pun_id": "pun_sagrada_fam\u00edlia_1783295364_613",
-    "pun_name": "Sangria Fam\u00edlia",
-    "original_name": "Sagrada Fam\u00edlia",
+    "id": "clue_pun_sagrada_família_1783295364_613_1783299265_553",
+    "pun_id": "pun_sagrada_família_1783295364_613",
+    "pun_name": "Sangria Família",
+    "original_name": "Sagrada Família",
     "reviewer_name": "StickyTourist",
     "review_title": "Sticky Situation, Unholy Mess!",
     "clue1": "Sticky red floors everywhere... where's the architecture, Spain?",
@@ -177,13 +187,14 @@
     "clue3": "Said 'sacred' family... just a sticky fruit drink!",
     "clue4": "",
     "owner_response": "Dear @StickyTourist, we are an unfinished basilica, a masterpiece of architecture, not a beverage stand. Perhaps you're confusing us with a juice bar; we serve spiritual nourishment, not sticky red floors.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
-    "id": "clue_pun_sagrada_fam\u00edlia_1783295364_269_1783299275_160",
-    "pun_id": "pun_sagrada_fam\u00edlia_1783295364_269",
+    "id": "clue_pun_sagrada_família_1783295364_269_1783299275_160",
+    "pun_id": "pun_sagrada_família_1783295364_269",
     "pun_name": "Sagrada Formula",
-    "original_name": "Sagrada Fam\u00edlia",
+    "original_name": "Sagrada Família",
     "reviewer_name": "EquationEnraged",
     "review_title": "This place doesn't add up!",
     "clue1": "Catalan chaos... this sacred formula is never complete!",
@@ -191,7 +202,8 @@
     "clue3": "Definitely not a sacred family gathering... pure numerical chaos!",
     "clue4": "",
     "owner_response": "Dear @EquationEnraged, it seems you've mistaken a masterpiece of architectural geometry for an unsolvable algebra problem. Our 'towering variables' are divine spires, not unknowns to be solved by calculus!",
-    "status": "rejected"
+    "status": "rejected",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_golden_gate_bridge_1783295368_180_1783299286_781",
@@ -205,7 +217,8 @@
     "clue3": "This enormous, iconic gateway keeps nothing fresh! What a scam.",
     "clue4": "",
     "owner_response": "Dear @FrostyFogger, our iconic 1.7-mile suspension structure is designed for connecting two landmasses, not for storing artisanal cheeses or preventing kale from wilting. We find complaints about 'shelves' quite puzzling on a steel marvel over water.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_golden_gate_bridge_1783295368_304_1783299297_204",
@@ -219,7 +232,8 @@
     "clue3": "Seriously, it's just one massive, rusty, golden-colored floor grate!",
     "clue4": "",
     "owner_response": "Dear @HolePatrol, we are a suspension bridge, not a 'metal grid' for your drafty home. Perhaps you're looking for a drain cover?",
-    "status": "rejected"
+    "status": "rejected",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_acropolis_of_athens_1783295377_944_1783299306_919",
@@ -233,7 +247,8 @@
     "clue3": "So, an 'A Cappella' city? Absolutely no accompaniment on this height!",
     "clue4": "",
     "owner_response": "Listen here, @OffKeyCritic, the Acropolis is an archaeological marvel of antiquity, not an 'a cappella city.' Complaining about 'screeching' where instruments were never meant to be is simply absurd.",
-    "status": "rejected"
+    "status": "rejected",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_petra_1783298842_465_1783299316_401",
@@ -247,7 +262,8 @@
     "clue3": "Huge rock-cut facade... Not even a single slice!",
     "clue4": "",
     "owner_response": "Dear @SourDough, while our ancient Nabataean city carved from sandstone is certainly breathtaking, it has never been known for its edible qualities or cherry filling. Perhaps you confuse us with a local patisserie?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_angkor_wat_1783298848_578_1783299323_464",
@@ -261,7 +277,8 @@
     "clue3": "It's literally just a giant anchor-shaped \"Wat\"! Unbelievable.",
     "clue4": "",
     "owner_response": "Dear @RustyRope, we are truly perplexed by your complaints. This is an ancient Khmer temple complex, not a nautical device, and certainly isn't rusting or causing boats to sink.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_chichen_itza_1783298859_788_1783312691_208",
@@ -275,7 +292,8 @@
     "clue3": "Wanted a slice, got ancient stone... itza joke, right?",
     "clue4": "",
     "owner_response": "Dear @DoughBoyDud, this ancient ceremonial city, built by the Maya, offers profound historical insight, not culinary delights. We are surprised you expected 'soggy crust' and 'lukewarm poultry' from our magnificent stone structures.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_panama_canal_1783298954_571_1783312733_446",
@@ -289,7 +307,8 @@
     "clue3": "It's just a gigantic set of sleeping clothes! Unacceptable!",
     "clue4": "",
     "owner_response": "Dear @ComfyCaptain, our international shipping conduit employs a complex system of locks, not 'buttons' for fabric. You seem to have confused a historical waterway with laundry day.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_panama_canal_1783298954_518_1783312741_104",
@@ -303,7 +322,8 @@
     "clue3": "Atlantic to Pacific... via a giant, rotting fruit chute. Unacceptable!",
     "clue4": "",
     "owner_response": "Dear Traveler, our magnificent engineering feat connects oceans; it does not provide 'yellow and mushy currents' or 'fruit chutes.' Perhaps you're thinking of a different kind of channel, @JungleJester?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_big_ben_1783298937_759_1783312750_300",
@@ -317,7 +337,8 @@
     "clue3": "Hard to find your inner peace with a giant, noisy clock right there.",
     "clue4": "",
     "owner_response": "Dear @NoInnerPeaceNed, it seems you've mistaken a historical clock tower for a quiet yoga retreat. Our primary function is telling time, not facilitating chakra alignment; the chimes are rather essential for that.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_yellowstone_national_park_1783298941_390_1783312772_737",
@@ -331,7 +352,8 @@
     "clue3": "Constantly being blown away... my \"yellow\" raincoat was useless.",
     "clue4": "",
     "owner_response": "Dear @WindbagWanderer, you seem to have confused our geyser-filled national park with a literal air pump. We assure you, our majestic geothermal features do not require any \"huffing and puffing\" to erupt.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_great_barrier_reef_1783298920_807_1783312782_417",
@@ -345,7 +367,8 @@
     "clue3": "Hardly a *barrier* to anything; just squishy fruit chunks!",
     "clue4": "",
     "owner_response": "Dear @BerryBlue, it seems you've confused a vibrant, living coral ecosystem with a grocery store produce aisle. We specialize in marine biodiversity, not blueberry counts or 'fruit salad displays'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_big_ben_1783298937_847_1783312791_669",
@@ -359,7 +382,8 @@
     "clue3": "Not so Big... just a muddy pen for some messy inhabitants.",
     "clue4": "",
     "owner_response": "Dear @MuddyPaws, our nearly 170-year-old bell tower is known for its precise timekeeping and majestic chimes, not for 'grunting' or 'mud'. We suspect you've confused us with a very different kind of 'pen'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_leaning_tower_of_pisa_1783298900_537_1783312812_726",
@@ -373,7 +397,8 @@
     "clue3": "Still leaning, never cleaning. What a dusty disappointment!",
     "clue4": "",
     "owner_response": "Dear @SudsSufferer, it's quite remarkable how you expected a historical bell tower to double as a cleaning service. Perhaps you confused our architectural tilt with a mop wringer?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_vampire_state_building_1783312880",
@@ -385,7 +410,7 @@
     "clue2": "Elevators go straight to the crypt... views are bloody awful... literally!",
     "clue3": "This 'state' of affairs truly sucks... and not in a good, historic way!",
     "owner_response": "Dear @NightCrawlerNY, our iconic 102-story landmark is built for human admiration and unparalleled city views, not as a reflection-free zone for the undead. If you're seeking bloodsuckers, I suggest you investigate New York's real estate market.",
-    "page_theme": "sightseeing",
+    "page_theme": "modern_skyscrapers",
     "status": "approved"
   },
   {
@@ -398,7 +423,7 @@
     "clue2": "Crowds, noise... and everyone needed some Vitamin C!",
     "clue3": "This central 'Square' was totally full of citrus time!",
     "owner_response": "Dear @SourPuss, Times Square is a global icon of commerce and culture, not a citrus grove. While we appreciate your concern for public health, our dazzling billboards don't dispense Vitamin C.",
-    "page_theme": "sightseeing",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -411,7 +436,7 @@
     "clue2": "So many invisible performers... yet utterly no sound, just awkward staring.",
     "clue3": "Every passing moment... felt trapped in a silent, gesturing crowd.",
     "owner_response": "Dear @SilentScreamer, we assure you, our iconic intersection is known for its vibrant sounds and dazzling billboards, not silent pantomimes or imaginary enclosures. Perhaps you confused us with a very specific theatrical performance?",
-    "page_theme": "sightseeing",
+    "page_theme": "streets_squares",
     "status": "approved"
   },
   {
@@ -426,7 +451,8 @@
     "clue3": "An arena of fermenting cabbage! Where are the lions and emperors?",
     "clue4": "",
     "owner_response": "Dear @MayoMess, it seems you've confused our ancient Flavian Amphitheatre, a monumental testament to Roman engineering, with... a salad bar? We do not serve fermented cabbage, only history.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_leaning_tower_of_pisa_1783298900_532_1783313448_255",
@@ -437,10 +463,11 @@
     "review_title": "This Place Really Crumbles!",
     "clue1": "This Italian 'masterpiece' just slumps... and tastes suspiciously cheesy.",
     "clue2": "Seriously, the foundation is uneven... and the toppings slide right off.",
-    "clue3": "It\u2019s shaped like a massive round pie... and definitely needs straightening!",
+    "clue3": "It’s shaped like a massive round pie... and definitely needs straightening!",
     "clue4": "",
     "owner_response": "Dear @SlantedSlice, we are a 56-meter marble bell tower, not a restaurant. Our historic structure is neither 'shaped like a pie' nor meant for your pepperoni cravings.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_burj_khalifa_1783298862_522_1783313846_377",
@@ -454,7 +481,8 @@
     "clue3": "Not a towering marvel... just a cold, greasy meat patty between two buns.",
     "clue4": "",
     "owner_response": "Dear @GreasyGastronaut, perhaps you've mistaken our 828-meter architectural marvel for a fast-food establishment. We assure you, our observation decks offer breathtaking views, not mysterious tangy sauce or cold meat patties.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "modern_skyscrapers"
   },
   {
     "id": "clue_pun_tower_bridge_1783298870_706_1783313977_579",
@@ -468,7 +496,8 @@
     "clue3": "Soaked from above... definitely not the majestic 'bridge' I anticipated!",
     "clue4": "",
     "owner_response": "Dear @DrippingTourist, while we appreciate your visit, our magnificent Victorian Gothic structures have never 'dispensed lukewarm water' or offered a 'constant spray.' We are an iconic crossing over the Thames, not a public bathing facility.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_tower_bridge_1783298870_114_1783313984_866",
@@ -482,7 +511,8 @@
     "clue3": "It's a huge, acidic bridge with towers that sting!",
     "clue4": "",
     "owner_response": "Dear @PuckeredPalate, we are a magnificent Victorian marvel crossing the Thames, not a tart treat. Our iconic structure certainly isn't designed to make your face pucker.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_landmark_1_1783199003_2_1783199786_1783314010_894",
@@ -496,7 +526,8 @@
     "clue3": "Definitely not a pretty blossom; it's just a tall, rusty, iconic landmark.",
     "clue4": "",
     "owner_response": "Dear @WiltingViolet, this is a 300-meter wrought-iron monument, not a botanical garden for 'delicate petals.' We're quite famous for our girders, not our pollen count.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_landmark_12_1783199003_0_1783199821_1783314026_698",
@@ -509,8 +540,9 @@
     "clue2": "That massive 'dome' contained far too much concussive force!",
     "clue3": "Less a sacred building... more a massive, saint-themed ordnance.",
     "clue4": "",
-    "owner_response": "Dear @DeaconOfDetonation, it appears you\u2019ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
-    "status": "approved"
+    "owner_response": "Dear @DeaconOfDetonation, it appears you’ve mistaken a sacred architectural marvel for an armory. We assure you, our venerable structure offers spiritual contemplation, not 'explosive firepower' or 'concussive force'.",
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_landmark_15_1783199003_1_1783199835_1783314052_528",
@@ -524,7 +556,8 @@
     "clue3": "So many historic figures... stuck inside a giant tin!",
     "clue4": "",
     "owner_response": "Dear @CannedCritique, our ancient temple, designed for gods and emperors, was never intended for 'sealing freshness' or storing processed peas. We are an architectural masterpiece, not a giant food container.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_landmark_20_1783199003_2_1783199843_1783314081_723",
@@ -538,7 +571,8 @@
     "clue3": "Definitely more sand than grandeur; completely mis-labeled waterway.",
     "clue4": "",
     "owner_response": "Dear @SiltSurfer, our *Grand* Canal has been a vibrant, watery thoroughfare for centuries, not a desert dune for camel rides. Perhaps you've confused us with a very literal translation error.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "bridges_canals"
   },
   {
     "id": "clue_pun_landmark_23_1783199003_0_1783199856_1783314101_368",
@@ -546,13 +580,14 @@
     "pun_name": "Spanish Crepes",
     "original_name": "Spanish Steps",
     "reviewer_name": "BatterBummer",
-    "review_title": "Flatter Than My Souffl\u00e9!",
+    "review_title": "Flatter Than My Soufflé!",
     "clue1": "Expecting grand *escaleras*... got flimsy, beige circles. So un-Roman!",
     "clue2": "No climbing here... just sticky, sweet residue everywhere. A structural failure.",
     "clue3": "Couldn't *step* over them; just kept folding and flopping down the piazza.",
     "clue4": "",
     "owner_response": "Dear @BatterBummer, perhaps you've confused our historic 135-step staircase with a pancake. Our landmark certainly doesn't 'fold and flop down the piazza,' and we don't serve syrup.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "streets_squares"
   },
   {
     "id": "clue_pun_loch_ness_1783298929_764_1783314590_866",
@@ -566,7 +601,8 @@
     "clue3": "Definitely not 'Ness'... more like 'What-A-Disgusting-Mass!'",
     "clue4": "",
     "owner_response": "Dear @MuckyMonster, we regret your confusion. Our ancient, glacial loch is renowned for its pristine depths and mysterious legend, not 'floating bits' or 'disgusting masses'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_alcatraz_island_1783312897_829_1783314819_958",
@@ -580,7 +616,8 @@
     "clue3": "Felt imprisoned... these pants are impossible to get out of!",
     "clue4": "",
     "owner_response": "Dear @TightPantsTerror, while our island's history is indeed escape-proof, we assure you this historic former federal prison is not a sartorial establishment. Complaining about 'zippers' and 'seams' here is quite bewildering given our infamous cell blocks.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_amalfi_coast_1783313857_196_1783314837_681",
@@ -594,7 +631,8 @@
     "clue3": "No villas here, just a burnt crumb on a plate.",
     "clue4": "",
     "owner_response": "Dear @CrumblyCrumpet, while our lemons are exquisite, they aren't meant for charring, nor is our entire dramatic coastline a 'burnt crumb.' You clearly have the wrong destination; perhaps a local bakery could assist?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_machu_picchu_1783281661_502_1783315263_620",
@@ -608,7 +646,8 @@
     "clue3": "Advertised as 'Peak Physique,' but it's just a mountain with old walls.",
     "clue4": "",
     "owner_response": "Dear @GrumpyGymBro, we are an ancient Incan citadel high in the Andes, not a fitness center. Our 15th-century architecture isn't designed for \"Peak Physique\" training.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_tower_of_london_1783313863_403_1783315279_513",
@@ -622,7 +661,8 @@
     "clue3": "Couldn't even hold water... and the ravens kept trying to peck it!",
     "clue4": "",
     "owner_response": "Dear @SoggyBrit, while our historic fortress has certainly seen its share of dampness, it's not a personal hygiene item. Our stone walls and medieval architecture are quite poor at 'drying off' visitors or 'holding water'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_edinburgh_castle_1783313881_595_1783315294_804",
@@ -636,7 +676,8 @@
     "clue3": "Forget conquering armies... it just dangles from the window!",
     "clue4": "",
     "owner_response": "Dear @FrayedExpectations, our 12th-century fortress stands stoically on a volcanic plug, not 'dangling from a window' as a 'furball'. We assure you, our ramparts offer more than 'flimsy string' for defense.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_black_forest_1783313903_591_1783315360_449",
@@ -650,7 +691,8 @@
     "clue3": "My expectations for *edible* items in this dark *wood* were crushed.",
     "clue4": "",
     "owner_response": "Dear @HangryHiker, this is a vast, ancient forest, not a literal 'snack counter' or bakery. We provide natural beauty, not edible treats.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_black_forest_1783313903_237_1783315369_507",
@@ -664,7 +706,8 @@
     "clue3": "My cake's ruined! Just endless, loud 'quacks' in the 'dark' woods!",
     "clue4": "",
     "owner_response": "Dear @AngryMallard, we oversee a majestic forested mountain range, not a wetland for water birds. Your complaints of 'fowl' are truly baffling; we specialize in pristine nature, not noisy poultry.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_matterhorn_1783313924_757_1783315541_212",
@@ -678,7 +721,8 @@
     "clue3": "They really called this a 'horn'? Felt more like a giant, dry pastry.",
     "clue4": "",
     "owner_response": "Dear @CrumblyClimber, we apologize if our 4,478-meter rock formation didn't meet your pastry expectations. Perhaps you confused us with a patisserie, not an iconic Alpine peak.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_cliffs_of_moher_1783313928_509_1783315552_182",
@@ -692,7 +736,8 @@
     "clue3": "An endless cascade of unmanageable, windswept locks!",
     "clue4": "",
     "owner_response": "Dear @CombOverChaos, our majestic 700-foot natural rock formations have been sculpted by millennia of wind and sea, not a stylist. We assure you, no 'trimming' is required for these ancient geological wonders.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_cliffs_of_moher_1783313928_623_1783315563_745",
@@ -706,7 +751,8 @@
     "clue3": "Mistook ocean spray for... grass clippings. So much noise!",
     "clue4": "",
     "owner_response": "Dear @BladeRunnerBob, our natural sea cliffs have stood for millennia, carved by wind and wave, not powered by an engine. Perhaps your expectation of 'blades' and 'clippings' was, shall we say, a little *misguided* for a geological wonder?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_blarney_castle_1783313932_803_1783315570_564",
@@ -720,7 +766,8 @@
     "clue3": "All that blarney just for a mouthful of processed, pink... you know.",
     "clue4": "",
     "owner_response": "Dear @GabGobbler, we are a 15th-century stone fortress, not a delicatessen. Our historic Blarney Stone is for speaking, not for tasting, you clearly had us confused with a sandwich shop.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_gateway_arch_1783313952_974_1783315588_556",
@@ -733,8 +780,9 @@
     "clue2": "Couldn't wait to flee its shiny, curved indifference... a real turn-off!",
     "clue3": "Honestly, only good for making a sprint... A gigantic, empty *arch* to escape!",
     "clue4": "",
-    "owner_response": "Dear @SuddenDepartureSam, our 630-foot stainless-steel monument symbolizes westward expansion, not a literal 'getaway' portal. It\u2019s for viewing history, not for planning a sprint out of Missouri.",
-    "status": "approved"
+    "owner_response": "Dear @SuddenDepartureSam, our 630-foot stainless-steel monument symbolizes westward expansion, not a literal 'getaway' portal. It’s for viewing history, not for planning a sprint out of Missouri.",
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_space_needle_1783313958_586_1783315609_867",
@@ -743,12 +791,13 @@
     "original_name": "Space Needle",
     "reviewer_name": "PastaPilot",
     "review_title": "Worst zero-gravity dining experience.",
-    "clue1": "Gray skies and zero gravity\u2026 pasta keeps floating away!",
-    "clue2": "Pointy\u2026 yet somehow bland\u2026 could use some parmesan.",
-    "clue3": "Tried to eat it\u2026 just a giant rusty cooking utensil!",
+    "clue1": "Gray skies and zero gravity… pasta keeps floating away!",
+    "clue2": "Pointy… yet somehow bland… could use some parmesan.",
+    "clue3": "Tried to eat it… just a giant rusty cooking utensil!",
     "clue4": "",
     "owner_response": "Dear @PastaPilot, this is a 605-foot observation tower, not a restaurant serving interstellar pasta. We strongly advise against trying to 'eat' our monument.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "modern_skyscrapers"
   },
   {
     "id": "clue_pun_notre-dame_cathedral_1783314165_477_1783315635_847",
@@ -762,7 +811,8 @@
     "clue3": "Gargoyles replaced by playful river creatures, seriously?",
     "clue4": "",
     "owner_response": "Dear @WetWhiskers, our venerable 850-year-old Gothic cathedral, a testament to faith and architecture, is not a river-dwelling mammal sanctuary. We assure you, our historic stones are neither 'slippery' for play nor do we have a 'Seine-sized moat' for aquatic residents.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_mont_saint-michel_1783314461_654_1783315654_713",
@@ -776,7 +826,8 @@
     "clue3": "This 'mount' is just a giant... fermented cucumber. Unbelievable!",
     "clue4": "",
     "owner_response": "Dear @DillDisaster, we are a millennium-old Benedictine abbey on a granite islet, not a jar of fermented vegetables. Perhaps your sense of smell needs recalibrating, as our ancient stones rarely exude 'vinegar'!",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_roman_forum_1783314474_706_1783315674_491",
@@ -790,7 +841,8 @@
     "clue3": "Where emperors debated... now serves cold instant noodles.",
     "clue4": "",
     "owner_response": "Dear @BrothBrain, while our ancient governmental buildings have witnessed countless debates, we unfortunately do not offer 'miso' or 'instant noodles' on any menu. We are a historical site, not a noodle bar for confused gladiators.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_giant's_causeway_1783314507_385_1783394776_862",
@@ -804,7 +856,8 @@
     "clue3": "Where's the geological wonder? Just sweaty people in bad costumes!",
     "clue4": "",
     "owner_response": "Dear @SeamStressMess, our unique basalt columns are a natural geological wonder, not \"lumpy fabric shapes\" from a costume shop. You seem to have profoundly confused a UNESCO World Heritage site with a themed party.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_giant's_causeway_1783314507_439_1783394782_292",
@@ -818,7 +871,8 @@
     "clue3": "So many hexagonal steps... but no way to actually *cause* movement!",
     "clue4": "",
     "owner_response": "Dear @ImpatientGoliath, this is a UNESCO World Heritage site of ancient basalt columns, not a giant's waiting room. The wonder here is geological, not a giant 'pause button' for dawdling.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_la_rambla_1783314514_261_1783394790_895",
@@ -827,12 +881,13 @@
     "original_name": "La Rambla",
     "reviewer_name": "HuevoRoto",
     "review_title": "My travel plans were poached here!",
-    "clue1": "\u00a1Qu\u00e9 desorden! Too many broken yolks, a truly chaotic Spanish stroll.",
+    "clue1": "¡Qué desorden! Too many broken yolks, a truly chaotic Spanish stroll.",
     "clue2": "Sticky mess underfoot! Avoided street performers, just slipped on shells.",
     "clue3": "Not a leisurely walk at all... more of a mad, unorganized dash!",
     "clue4": "",
     "owner_response": "Dear @HuevoRoto, we are a historic tree-lined promenade, not a giant skillet for your breakfast mishaps. Our pavement is cobblestone, not for slipping on broken yolks.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "streets_squares"
   },
   {
     "id": "clue_pun_brandenburg_gate_1783314676_815_1783394801_641",
@@ -846,7 +901,8 @@
     "clue3": "Expected a majestic entry point, found only bristly hair and chewing.",
     "clue4": "",
     "owner_response": "Dear @GrumpyGrazer, our iconic neoclassical triumphal arch is renowned for its quadriga, not 'incessant bleating' or any 'goaty' odor you encountered.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_reichstag_building_1783314684_602_1783394812_313",
@@ -860,7 +916,8 @@
     "clue3": "Wanted a rice tag, ended up in a serious German parliament.",
     "clue4": "",
     "owner_response": "Dear @GrainyCritic, while we appreciate your culinary enthusiasm, our institution is the home of German democracy, not a rice shop. We certainly don't offer 'steamed grains' or edible tags for consumption.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_cologne_cathedral_1783314702_109_1783394821_235",
@@ -869,12 +926,13 @@
     "original_name": "Cologne Cathedral",
     "reviewer_name": "SausageSkeptic",
     "review_title": "Utter Baloney!",
-    "clue1": "Germanic 'masterpiece' felt\u2026 alarmingly processed and pink.",
+    "clue1": "Germanic 'masterpiece' felt… alarmingly processed and pink.",
     "clue2": "No holy light here... just fatty layers and blandness throughout.",
-    "clue3": "A massive, circular structure that\u2019s utterly full of it.",
+    "clue3": "A massive, circular structure that’s utterly full of it.",
     "clue4": "",
     "owner_response": "Dear @SausageSkeptic, this UNESCO World Heritage site is a magnificent Gothic edifice built from stone, not 'processed meat' or 'fatty layers.' We're a historical monument, not a deli.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_santorini_1783314734_188_1783394840_553",
@@ -888,7 +946,8 @@
     "clue3": "Couldn't find any blue domes... just endless, saintly, stuffed rings.",
     "clue4": "",
     "owner_response": "Dear @AlDenteDilemma, this is a historic volcanic island in the Aegean, famous for its majestic caldera and sunsets, not an Italian deli. Our famous white-washed villages are not, as you described, 'lumpy, Italian pasta pockets'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "streets_squares"
   },
   {
     "id": "clue_pun_santorini_1783314734_238_1783394987_611",
@@ -902,7 +961,8 @@
     "clue3": "A tiny red garment... for the world's most famous, jolly gift-giver!",
     "clue4": "",
     "owner_response": "Dear @NaughtyListNomad, we are a breathtaking volcanic island in the Aegean Sea, not a garment shop for 'festive attire.' Our blue domes offer stunning views, not a changing room for 'jolly gift-givers' to fret about 'modesty'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "streets_squares"
   },
   {
     "id": "clue_pun_palace_of_knossos_1783314745_369_1783394994_627",
@@ -916,7 +976,8 @@
     "clue3": "The name says it all, literally: 'No Sauce'. So dry.",
     "clue4": "",
     "owner_response": "Dear @DryDiner, we are an ancient Minoan palace, a world-renowned archaeological site, not a restaurant. We're certainly not equipped to serve 'condiments' with our 3,500-year-old history.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_atomium_1783314774_619_1783395001_395",
@@ -930,7 +991,8 @@
     "clue3": "It's literally just big metal spheres... full of tiny bearded men!",
     "clue4": "",
     "owner_response": "Dear @GrumpyGardenGnome, it seems you've confused our 102-meter high steel monument with a garden centre. Our nine interconnected spheres are designed to represent an iron crystal, not a convention space for 'tiny bearded men' or their headwear.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_dublin_castle_1783314786_556_1783395008_278",
@@ -941,10 +1003,11 @@
     "review_title": "Totally lacked artistic merit!",
     "clue1": "Potatoes drawn everywhere... no actual fortifications!",
     "clue2": "My crayon melted on the medieval tapestry. Staff just stared.",
-    "clue3": "Zero art supplies... just cold stone and... wait, it\u2019s not for drawing?!",
+    "clue3": "Zero art supplies... just cold stone and... wait, it’s not for drawing?!",
     "clue4": "",
     "owner_response": "Dear @ScribbleSavant, our 13th-century governmental fortress is indeed 'cold stone,' not a 'sketchbook' for your potato drawings or melting crayons. Perhaps you've confused us with a different kind of 'castle'?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_st._basil's_cathedral_1783314799_512_1783395049_842",
@@ -958,7 +1021,8 @@
     "clue3": "Expected reverence, got endless meows and clawed pews!",
     "clue4": "",
     "owner_response": "Dear Adventurer, it seems you've confused our vibrant, historic monument with a pet shop. Our magnificent architecture has never featured 'shedding hairballs' nor offered 'clawed pews', @FelineFiasco.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_mesa_verde_national_park_1783314853_736_1783395057_404",
@@ -972,7 +1036,8 @@
     "clue3": "Thought 'Mesa' meant 'tee box,' not historic cave dwellings. What a hack!",
     "clue4": "",
     "owner_response": "Dear @PutterPioneer, this is a UNESCO World Heritage Site preserving Ancestral Puebloan cliff dwellings, not a poorly maintained golf course. Perhaps 'Verde' (green) should have clued you in that it's a *green* table land, not a *green* tee box.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_neuschwanstein_castle_1783298915_674_1783396082_348",
@@ -986,7 +1051,8 @@
     "clue3": "Definitely new alright, but so many dirty swans! Just awful.",
     "clue4": "",
     "owner_response": "Dear @StainRemover77, our majestic 19th-century Romanesque Revival palace is not a public bird bath. We assure you, our historic walls have no 'stains' needing removal.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_neuschwanstein_castle_1783298915_975_1783396095_175",
@@ -1000,7 +1066,8 @@
     "clue3": "Expected 'no-swine-stain'... got pig muck on my shoes instead!",
     "clue4": "",
     "owner_response": "Dear @PorkPurityPoliceman, this is a meticulously preserved 19th-century royal castle, not a farm. Our historic halls do not feature 'oinks' or 'pig muck'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_palace_of_versailles_1783298947_521_1783396104_172",
@@ -1014,7 +1081,8 @@
     "clue3": "Utterly disappointed. Felt like I bought the *travel-size* version!",
     "clue4": "",
     "owner_response": "Dear @MonsieurPetit, we regret you found our royal palace, spanning vast acres with a truly grand Hall of Mirrors, to be 'travel-size.' Perhaps you were looking for a gift shop instead of a monument.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_alcatraz_island_1783312897_470_1783396112_963",
@@ -1027,8 +1095,9 @@
     "clue2": "No real bars or mixers... just cold steel and seagulls. So restrictive!",
     "clue3": "They really locked down my booze supply. A total dry spell!",
     "clue4": "",
-    "owner_response": "Dear @WhiskeyWarden, it seems you've mistaken a historic federal penitentiary for a watering hole. Our 'bars' were for holding actual criminals, not mixing cocktails; we\u2019ve proudly been 'dry' for decades.",
-    "status": "approved"
+    "owner_response": "Dear @WhiskeyWarden, it seems you've mistaken a historic federal penitentiary for a watering hole. Our 'bars' were for holding actual criminals, not mixing cocktails; we’ve proudly been 'dry' for decades.",
+    "status": "approved",
+    "page_theme": "castles_cathedrals"
   },
   {
     "id": "clue_pun_landmark_1_1783199003_0_1783199786_1783396118_976",
@@ -1042,7 +1111,8 @@
     "clue3": "This 'tower' is just a gigantic, stale breakfast item!",
     "clue4": "",
     "owner_response": "Dear @BatterBurned, we're a 330-meter wrought-iron monument, not a breakfast buffet. Perhaps you're confusing us with a different kind of 'tower' altogether?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_landmark_1_1783199003_1_1783199786_1783396136_180",
@@ -1056,7 +1126,7 @@
     "clue3": "This iconic iron monument... for *bathing*? Completely non-functional!",
     "clue4": "",
     "owner_response": "Dear @DampCroissant, while our magnificent 330-meter iron monument offers breathtaking views, it was never designed for 'cleansing.' Perhaps consult a plumbing professional, not a national landmark?",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1068,10 +1138,11 @@
     "review_title": "Beyond Bland!",
     "clue1": "This Irish charm tastes suspiciously like burnt potato!",
     "clue2": "Leaning way back for just a lumpy, congealed surprise?",
-    "clue3": "This ancient building\u2019s 'special' is just... bland baked goo.",
+    "clue3": "This ancient building’s 'special' is just... bland baked goo.",
     "clue4": "",
     "owner_response": "Dear @SoggySpud, we are a medieval fortress with an ancient stone, not a culinary establishment. I assure you, our structure has never served 'lumpy, congealed surprises,' just breathtaking views and history.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_gateway_arch_1783313952_212_1783396695_456",
@@ -1085,7 +1156,7 @@
     "clue3": "A massive, green, toothy curve... blocking the whole city... what an arch!",
     "clue4": "",
     "owner_response": "Dear @SwampCritter, our 630-foot stainless steel monument has never hissed or bitten. It is a national monument, not a swamp creature, designed for views, not for 'gator teeth'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1100,7 +1171,7 @@
     "clue3": "This giant metal knitting tool is NOT for canine grooming!",
     "clue4": "",
     "owner_response": "Dear @SheddingStargazer, our 605-foot observation tower is an architectural marvel providing unparalleled city views, not a pet grooming facility. We highly recommend a professional groomer for any static electricity or matted fur concerns.",
-    "page_theme": "sightseeing",
+    "page_theme": "modern_skyscrapers",
     "status": "approved"
   },
   {
@@ -1115,7 +1186,8 @@
     "clue3": "This 'peak' experience just made my feet incredibly, utterly sore.",
     "clue4": "",
     "owner_response": "Dear @StinkyFoot, our ancient Inca citadel is a breathtaking wonder of stone masonry, not a shoe to develop 'ancient shoe funk' or to tie. Perhaps you've confused us with a lost-and-found bin?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_statue_of_liberty_1783282169_216_1783397064_589",
@@ -1129,7 +1201,8 @@
     "clue3": "She just stands there... refusing to hold my secret diary!",
     "clue4": "",
     "owner_response": "Dear @LooseChangeLarry, our monumental sculpture is a symbol of freedom, not a public storage unit for your 'emergency snacks' or 'contraband'. Perhaps you mistook our 300-foot copper icon for a giant safe?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_grand_canyon_1783282176_613_1783397075_348",
@@ -1143,7 +1216,8 @@
     "clue3": "Vast, deep, and ancient... smelled like mothballs and regret.",
     "clue4": "",
     "owner_response": "Dear @PrunePicker, we are a natural geological formation millions of years old, not a relative's home. Expecting Werther's Originals or knitwear in a chasm carved by the Colorado River is simply... grandly mistaken.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_niagara_falls_1783298853_701_1783397084_255",
@@ -1157,7 +1231,8 @@
     "clue3": "Gravity obviously took an unscheduled holiday. Nothing actually *falls*!",
     "clue4": "",
     "owner_response": "Dear Traveler, our multi-ton natural phenomenon has been spectacularly 'falling' for thousands of years. We assure you, @NoFlowJoe, gravity is very much employed here, full-time, unlike your expectations.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_niagara_falls_1783298853_274_1783397093_114",
@@ -1171,7 +1246,8 @@
     "clue3": "Expected nature's wonder... got endless dial tones and falling reception.",
     "clue4": "",
     "owner_response": "Dear @StaticSue, we apologize your 'calls' kept dropping, but as a magnificent natural waterfall, our primary function is awe-inspiring cascades, not robust phone service. Perhaps you confused our thundering roar for a busy signal?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_chichen_itza_1783298859_956_1783397109_267",
@@ -1185,7 +1261,8 @@
     "clue3": "This place makes you feel like you have chickenpox... so itchy!",
     "clue4": "",
     "owner_response": "Dear @PricklyPete, our magnificent archaeological site is an ancient stone monument, not a clinic for treating 'chickenpox' or other dermatological woes. Perhaps you should consult a doctor?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "ancient_ruins"
   },
   {
     "id": "clue_pun_empire_state_building_1783298887_875_1783397117_355",
@@ -1199,7 +1276,8 @@
     "clue3": "This 'building' is just a ridiculously tall, very difficult rock climbing wall!",
     "clue4": "",
     "owner_response": "Dear @LooseHoldHarry, our historic Art Deco landmark, made of limestone and steel, has viewing decks, not 'jagged rocks' for a 'grueling workout.' Perhaps you confused our world-renowned skyscraper with an actual rock climbing facility?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "modern_skyscrapers"
   },
   {
     "id": "clue_pun_times_square_1783298889_595_1783397124_829",
@@ -1213,7 +1291,8 @@
     "clue3": "Tick-tock... every passing moment brings more fright.",
     "clue4": "",
     "owner_response": "Dear @ChronicallyAfraid, we're a vibrant global crossroads, not an immersive fright experience. Our massive digital displays feature advertising and news, not 'terror-thons' or 'shriek-inducers'.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "streets_squares"
   },
   {
     "id": "clue_pun_mount_rushmore_1783298897_107_1783397131_546",
@@ -1226,8 +1305,9 @@
     "clue2": "Expected sparks... just four giant, unblinking stone faces staring.",
     "clue3": "Honestly, my romantic hopes were totally sculpted away here.",
     "clue4": "",
-    "owner_response": "Dear @UnrequitedTourist, our colossal granite carvings of four U.S. Presidents offer historical reflection, not a 'stone-cold shoulder' for your romantic aspirations. Perhaps you\u2019re confusing us with a dating app?",
-    "status": "approved"
+    "owner_response": "Dear @UnrequitedTourist, our colossal granite carvings of four U.S. Presidents offer historical reflection, not a 'stone-cold shoulder' for your romantic aspirations. Perhaps you’re confusing us with a dating app?",
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_trevi_fountain_1783298906_593_1783397139_205",
@@ -1241,7 +1321,8 @@
     "clue3": "All my hopes for riches... sunk without a trace... watery grave.",
     "clue4": "",
     "owner_response": "Dear @MisfortuneTeller, our magnificent Baroque masterpiece is a fountain for wishes, not a fortune-telling service. We regret that our ancient sculpted figures did not provide the financial windfall you seemingly expected.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_big_ben_1783298937_929_1783397155_387",
@@ -1250,12 +1331,13 @@
     "original_name": "Big Ben",
     "reviewer_name": "FringeFailure",
     "review_title": "This 'Ben' Needs a Brush-Up!",
-    "clue1": "Westminster's finest? Just a massive, ratty toup\u00e9e! Shocking!",
+    "clue1": "Westminster's finest? Just a massive, ratty toupée! Shocking!",
     "clue2": "No bongs, just an itchy scalp. And it never tells the time!",
     "clue3": "It's not 'Big' at all, just a huge, static hair problem!",
     "clue4": "",
-    "owner_response": "Dear @FringeFailure, we must clarify: The Elizabeth Tower houses a magnificent 13-ton bell, not a 'static hair problem' or a matted toup\u00e9e for your scalp. Perhaps you're looking for a wig shop, not a UNESCO World Heritage site?",
-    "status": "approved"
+    "owner_response": "Dear @FringeFailure, we must clarify: The Elizabeth Tower houses a magnificent 13-ton bell, not a 'static hair problem' or a matted toupée for your scalp. Perhaps you're looking for a wig shop, not a UNESCO World Heritage site?",
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_yellowstone_national_park_1783298941_942_1783397165_354",
@@ -1269,7 +1351,8 @@
     "clue3": "This 'stone' lost its energetic color; now it's just... *relaxed*.",
     "clue4": "",
     "owner_response": "Dear @SnoozeSpring, we pride ourselves on powerful geysers and *vibrantly* colored hot springs, not 'beige trickles' or quiet naps. We are a geothermal wonder, not a day spa.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "natural_wonders"
   },
   {
     "id": "clue_pun_landmark_22_1783199003_0_1783199852_1783397170_883",
@@ -1283,7 +1366,8 @@
     "clue3": "Grand but destroyed! Zero functioning slides... a very explosive visit.",
     "clue4": "",
     "owner_response": "Dear @AshyAdventurer, we are an ancient Roman city preserved by volcanic ash, not a theme park. Perhaps you expected a ball pit near the forum?",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_landmark_23_1783199003_1_1783199856_1783397178_906",
@@ -1297,7 +1381,8 @@
     "clue3": "Just one long, empty ascent... where is the food?!",
     "clue4": "",
     "owner_response": "Dear @GrumpyGourmand, our monumental stairway connects two piazzas, it's not a buffet. Expecting tapas from an 18th-century architectural marvel shows a remarkable misunderstanding of its purpose.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "streets_squares"
   },
   {
     "id": "clue_pun_amalfi_coast_1783313857_963_1783397188_544",
@@ -1311,7 +1396,8 @@
     "clue3": "Was hoping for a relaxing 'coast', got completely *charred* instead. Beyond well done.",
     "clue4": "",
     "owner_response": "Dear @CharredCiao, it appears you've mistaken our picturesque stretch of cliffs and charming villages for a colossal BBQ pit. Our sun provides warmth for our lemon groves, not to 'char' our esteemed visitors.",
-    "status": "approved"
+    "status": "approved",
+    "page_theme": "historic_monuments"
   },
   {
     "id": "clue_pun_buckingham_palace_1783313870_147_1783397222_705",
@@ -1325,7 +1411,7 @@
     "clue3": "Magnificent *palace* walls... but zero availability for booking!",
     "clue4": "",
     "owner_response": "Dear @LostReservation, this majestic royal residence is hardly a 'B&B' with 'no vacancy' issues. We trust you understand this is for reigning, not for reserving.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1340,7 +1426,7 @@
     "clue3": "This toy produces only awful noises... not a proper home for monarchs!",
     "clue4": "",
     "owner_response": "Dear @OffKeyTraveler, this is a millennium-old royal residence, not a cheap wind instrument. Our historic walls don't make 'shrill sounds'; you must be thinking of a very different 'Windsor'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1355,7 +1441,7 @@
     "clue3": "Worst. Bra. Ever. No historic views, just itchy alpaca!",
     "clue4": "",
     "owner_response": "Dear @UnsupportedTraveler, we're sorry our 14th-century Nasrid palaces and Generalife gardens did not provide the 'woolly chest garment' you apparently confused with a UNESCO World Heritage site. Perhaps you're looking for a department store?",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1370,7 +1456,7 @@
     "clue3": "Expected profound reflections, got a never-ending stream of practical jokes!",
     "clue4": "",
     "owner_response": "Dear @PracticalJokePaul, our historical house is a profound testament to courage, not a venue for 'never-ending practical jokes' or hidden cameras. We invite visitors seeking somber reflection, not silly string.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1384,8 +1470,8 @@
     "clue2": "Expected colorful blooms... received only culinary chaos and cloven prints.",
     "clue3": "The 'garden' was just a stinky kitchen... with farm animals cooking.",
     "clue4": "",
-    "owner_response": "Dear @TulipTrampler, while our tulips are famously fragrant, they do not require 'kitchen clutter' or 'cloven prints.' We are a flower garden, not a barnyard caf\u00e9.",
-    "page_theme": "sightseeing",
+    "owner_response": "Dear @TulipTrampler, while our tulips are famously fragrant, they do not require 'kitchen clutter' or 'cloven prints.' We are a flower garden, not a barnyard café.",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1400,7 +1486,7 @@
     "clue3": "This 'flower garden' is just a big, round, crumbly cookie!",
     "clue4": "",
     "owner_response": "Dear @StaleCrumb, we're genuinely puzzled by your review; our world-renowned floral park is famous for millions of vibrant blooms, not 'crumbs' or 'broken biscuits.' Perhaps you're looking for a different kind of 'hof'?",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1415,7 +1501,7 @@
     "clue3": "Just a giant, perpetually complaining mom... with a very pointy hat.",
     "clue4": "",
     "owner_response": "Dear @AlpineAnguish, we find your review... peculiar. The Matterhorn is a magnificent 4,478-meter natural rock formation, not a matriarch with a megaphone. Perhaps you confused us with a family reunion?",
-    "page_theme": "mountain_trek",
+    "page_theme": "natural_wonders",
     "status": "approved"
   },
   {
@@ -1430,7 +1516,7 @@
     "clue3": "This *Dame* is truly *nutty*... and quite in need of repairs!",
     "clue4": "",
     "owner_response": "Dear @SquirrellyScribbler, our historic Gothic masterpiece is an architectural marvel, not a 'nutty old lady' requiring therapy. We assure you, our structure has no discernible pecan aroma and we do not host squirrels.",
-    "page_theme": "sightseeing",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -1445,7 +1531,7 @@
     "clue3": "This 'dame' needs a good nap... before it turns into a butterfly!",
     "clue4": "",
     "owner_response": "Dear @ChompChamp, our venerable cathedral, currently undergoing careful restoration, is a monument of stone and glass, not a 'wriggling, segmented green tube' with dietary needs. Perhaps you're confusing us with a very different kind of Parisian resident?",
-    "page_theme": "sightseeing",
+    "page_theme": "castles_cathedrals",
     "status": "approved"
   },
   {
@@ -1460,7 +1546,7 @@
     "clue3": "Papal palace felt more like a haunted belfry. So much guano!",
     "clue4": "",
     "owner_response": "Dear @BattyBlogger, we assure you, our prestigious collection of Renaissance art in the Vatican City does not feature belfries or bat guano, nor do our frescoes 'flap'. Perhaps you're confusing us with another institution entirely.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1475,7 +1561,7 @@
     "clue3": "My skin feels... well, like I've been steeping in a giant soup bowl.",
     "clue4": "",
     "owner_response": "Dear @NoodleNonsense, our historic thermal spa offers ancient spring water, not broth or suspicious toppings for your 'imperial soak'. Perhaps you've confused our 2000-year-old site with a very different kind of establishment.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1490,7 +1576,7 @@
     "clue3": "The 'none' part? Very accurate. Absolutely no spot for my chariot.",
     "clue4": "",
     "owner_response": "Dear @ChariotChaser, we're an ancient temple dedicated to Athena, not a valet service. Perhaps research landmarks before attempting to 'park' your chariot on 2,500-year-old marble.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1505,7 +1591,7 @@
     "clue3": "My 'castle' reservation was just two poorly managed inn experiences.",
     "clue4": "",
     "owner_response": "Listen here, @InnTrouble, we are a historic castle and government complex, not a 'double inn' offering 'room service' or 'chaotic check-ins'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1520,7 +1606,7 @@
     "clue3": "Sounds like a small, mischievous troublemaker, not a grand fortress!",
     "clue4": "",
     "owner_response": "Dear @ChaosComrade, our historic complex is centuries old, not equipped with 'tiny engines' or a 'reboot' function. Perhaps you've confused us with a different kind of 'lin' entirely.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1535,7 +1621,7 @@
     "clue3": "More like St. BLINDING-light's than anything holy. Seriously, wear shades.",
     "clue4": "",
     "owner_response": "Dear @GlareGrumbler, our 16th-century Orthodox church features intricate architecture, not disco balls. Perhaps you've confused our vibrant domes with a laser light show.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1550,7 +1636,7 @@
     "clue3": "Under this 'triumphal' structure... witnessed a bizarre canine parade... full of 'champions'!",
     "clue4": "",
     "owner_response": "Dear @HowlingHiker, it appears you've confused our solemn monument to military victories with some sort of canine playground. Our 50-meter-tall arch is made of stone, not a giant squeaky toy for 'four-legged conquerors.'",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1565,7 +1651,7 @@
     "clue3": "Seriously, where's the glittering glass spike? Just roughage!",
     "clue4": "",
     "owner_response": "Dear @LeafyLoather, The Shard is a 309-meter glass-clad skyscraper, not a buffet of 'Swiss greens' or a 'stem' for culinary criticism. We focus on city views, not roughage.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1580,7 +1666,7 @@
     "clue3": "Totally misnamed... more like a gigantic, inedible, glacial dessert!",
     "clue4": "",
     "owner_response": "Dear @SweetToothAche, we're rather confused by your review. This is a pristine glacial lake in the Canadian Rockies, not a bakery; perhaps you're looking for an actual dessert, not our majestic waters that offer reflections, not crumbs.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1593,7 +1679,7 @@
     "clue2": "The chateau looked lovely, but this 'lake' was just spongey.",
     "clue3": "No swimming, just sprinkles! My canoe sank in cream cheese!",
     "owner_response": "Dear @FrostingFiasco, our beautiful glacial lake is over 90 meters deep, formed by millions of years of natural processes, not baked in a kitchen. Perhaps you should try a bakery for your cream cheese canoe trips.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1608,7 +1694,7 @@
     "clue3": "This 'arch' is less about victory and more about a noisy, sliding brass instrument!",
     "clue4": "",
     "owner_response": "Dear @BrassBlast, we apologize if our monumental stone arch did not offer the brassy, sliding musical experience you anticipated. Perhaps you mistook us for a wind instrument, rather than a tribute to national triumph.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "approved"
   },
   {
@@ -1623,7 +1709,7 @@
     "clue3": "They misheard 'Kennedy'... got a single can, zero orbit!",
     "clue4": "",
     "owner_response": "Listen here, @RocketFuelRant. This facility is dedicated to space exploration, not serving beverages. Our 'cans' are rockets for orbit, not for pouring lukewarm tea.",
-    "page_theme": "air_mail",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1637,8 +1723,8 @@
     "clue2": "Wanted fiery rockets... just plain, dull powders.",
     "clue3": "Launchpad for blandness... where's the culinary mission control?",
     "clue4": "",
-    "owner_response": "Dear @UnseasonedExplorer, this is a center of human spaceflight, not a culinary institute. Our 'control room' is for rocket launches, not 'seasoning' \u2014 perhaps you misread the signs?",
-    "page_theme": "sightseeing",
+    "owner_response": "Dear @UnseasonedExplorer, this is a center of human spaceflight, not a culinary institute. Our 'control room' is for rocket launches, not 'seasoning' — perhaps you misread the signs?",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1653,7 +1739,7 @@
     "clue3": "A once-proud conical shape... now just a blasted, hollowed-out rind!",
     "clue4": "",
     "owner_response": "Dear @SeedSpitter, our majestic stratovolcano is a geological formation, not a fruit stand. We don't do 'mushy disappointment' here.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1668,7 +1754,7 @@
     "clue3": "Went up high, but only met the ghost of a famous playwright!",
     "clue4": "",
     "owner_response": "Dear @SonnetSufferer, our 300-meter modern architectural marvel provides unparalleled city views, not iambic pentameter speeches. Perhaps you sought a Globe Theatre tour instead of a contemporary skyscraper.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1679,11 +1765,11 @@
     "reviewer_name": "GlazeGuzzler",
     "review_title": "A Glaze-ing Disappointment!",
     "clue1": "Sticky sweet \"glaze\" everywhere, tasted suspiciously like Florida swamp water.",
-    "clue2": "Giant circular holes just\u2026 murky water. Where's the chocolate frosting?",
+    "clue2": "Giant circular holes just… murky water. Where's the chocolate frosting?",
     "clue3": "The \"river of glaze\" definitely had alligators in its sticky, grassy current.",
     "clue4": "",
     "owner_response": "Dear @GlazeGuzzler, our subtropical wetland is a protected ecosystem, not a patisserie. While our \"river of grass\" flows slowly, it certainly isn't a sticky \"glaze,\" nor does it provide chocolate frosting.",
-    "page_theme": "boat_voyage",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1698,7 +1784,7 @@
     "clue3": "This concrete leviathan created the stickiest situation ever.",
     "clue4": "",
     "owner_response": "Dear @StickySituation, we are a massive hydroelectric structure, not a breakfast condiment. Complaining about 'wasted fruit' here is quite frankly absurd.",
-    "page_theme": "road_trip",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1713,7 +1799,7 @@
     "clue3": "Completely worn out, full of darning frustration... definitely not a smooth 'foot'ing!",
     "clue4": "",
     "owner_response": "Dear @StaticClingKing, it seems you've confused a majestic, geological wonder with an article of clothing. Our ancient peaks aren't designed for your foot's comfort, nor do they mysteriously develop 'holes'.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1728,7 +1814,7 @@
     "clue3": "Less a palace, more a non-stop, intense, giggle-inducing *tickle* machine.",
     "clue4": "",
     "owner_response": "Dear @GiggleGrip, our ancient ceremonial site in the jungle features monumental stone temples, not 'Mayan hands' grabbing at tourists. Perhaps you've confused our revered archaeological park with some bizarre 'palace' dedicated to tickling.",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1743,7 +1829,7 @@
     "clue3": "The whole 'Duomo' just smells like... rotting cantaloupe now!",
     "clue4": "",
     "owner_response": "Dear @StickyPilgrim, while our cathedral is a historical masterpiece, its renowned marble spires are not known for 'pulp' or 'rotting cantaloupe'. Perhaps you're thinking of a different kind of dome entirely.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1758,7 +1844,7 @@
     "clue3": "Barely 'suspended' above ground... not one juicy morsel in sight!",
     "clue4": "",
     "owner_response": "Dear @GrumpyGourmet, our millennia-old monastic complexes are renowned for their spiritual elevation, not their 'juicy morsels' or charcuterie. Perhaps you mistook our sandstone pillars for something more... edible?",
-    "page_theme": "mountain_trek",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1773,7 +1859,7 @@
     "clue3": "These 'sails' just amplify the cold... zero warmth generated!",
     "clue4": "",
     "owner_response": "Dear @Aegean_Shiver, it seems you've confused our historic 16th-century structures for some sort of thermal spa. They are, and always have been, open-air stone mills meant to harness the breeze, not generate heat or comfort.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1788,7 +1874,7 @@
     "clue3": "Expected a majestic city square, got a giant, delicate tablecloth instead.",
     "clue4": "",
     "owner_response": "Dear @FrayingNerves, it seems you've mistaken our magnificent UNESCO World Heritage city square for something entirely different. We assure you, our historic cobblestones and grand guildhalls are not 'frilly' or prone to tangling feet.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1803,7 +1889,7 @@
     "clue3": "Expected a refreshing pint, got a massive, deep *blue* disappointment instead.",
     "clue4": "",
     "owner_response": "Dear @SunkenKeg, we are a natural marine sinkhole, a UNESCO World Heritage site, not a pub or a cafe. Your expectation of 'stout' or a 'pint' in a protected natural wonder is truly perplexing.",
-    "page_theme": "tropical_island",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1818,7 +1904,7 @@
     "clue3": "Forget arias! It's just non-stop hopping and a distinct lack of music.",
     "clue4": "",
     "owner_response": "Dear @HoppingMad, our iconic performing arts venue hosts world-class opera and ballet, not 'bouncing performers' or marsupial-themed 'roo-tines.' We suggest a zoo or a trampoline park for your athletic endeavors.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1833,7 +1919,7 @@
     "clue3": "My tiny furry concert partner enjoyed the acoustics more than me.",
     "clue4": "",
     "owner_response": "Dear @NibblerNightingale, it seems you've confused our world-renowned architectural and performing arts center with a... pet shop? Our iconic concrete 'sails' are neither 'crumbly' nor 'infested', and certainly not designed for tiny concert partners.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
@@ -1848,14 +1934,14 @@
     "clue3": "This nine-letter landmark definitely needs more green to live up to its name!",
     "clue4": "",
     "owner_response": "Dear @BlazeItOrHateIt, our iconic 45-foot-tall letters stand as a cultural landmark, not a botanical garden for 'buds' or 'greenery.' Your search for a 'high' here is rather misguided.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   },
   {
-    "id": "clue_pun_alc\u00e1zar_of_seville_1783398004_352_1783435879_416",
-    "pun_id": "pun_alc\u00e1zar_of_seville_1783398004_352",
+    "id": "clue_pun_alcázar_of_seville_1783398004_352_1783435879_416",
+    "pun_id": "pun_alcázar_of_seville_1783398004_352",
     "pun_name": "The All-Casserole of Seville",
-    "original_name": "Alc\u00e1zar of Seville",
+    "original_name": "Alcázar of Seville",
     "reviewer_name": "CasseroleCritique",
     "review_title": "A Royal Mess of a Meal!",
     "clue1": "Sticky mess in sunny Spain... definitely not a royal dish!",
@@ -1863,7 +1949,7 @@
     "clue3": "Thought it was a grand palace, not an 'all-you-can-eat' casserole!",
     "clue4": "",
     "owner_response": "Dear @CasseroleCritique, it appears you've mistaken a historical royal palace for a buffet. Our ancient walls and stunning gardens, while grand, do not serve 'lukewarm ingredients'.",
-    "page_theme": "sightseeing",
+    "page_theme": "historic_monuments",
     "status": "pending"
   }
 ]

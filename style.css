@@ -42,7 +42,9 @@ body {
     align-items: flex-start;
     min-height: 100vh;
     overflow-y: auto;
-    background: radial-gradient(circle at top, var(--bg-color) 0%, var(--bg-gradient-end) 100%);
+    background: radial-gradient(circle at top, var(--bg-color) 0%, var(--bg-gradient-end) 100%),
+                radial-gradient(rgba(0, 0, 0, 0.02) 1.5px, transparent 1.5px);
+    background-size: 100% 100%, 24px 24px;
     transition: --bg-color 0.8s ease, --bg-gradient-end 0.8s ease;
 }
 
@@ -2071,7 +2073,7 @@ body.crazygames-env .settings-footer-tos {
     background-repeat: no-repeat;
     pointer-events: none;
     z-index: 0; /* floating above body background but behind main layout cards */
-    opacity: 0.18;
+    opacity: 0.28;
     transition: opacity 0.8s ease, transform 0.8s ease, background-image 0.8s ease;
 }
 

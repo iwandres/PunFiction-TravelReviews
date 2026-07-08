@@ -2787,66 +2787,54 @@
     "id": "landmark_490_1783199193",
     "name": "Mount Everest",
     "location": "Himalayas, Nepal/China",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_491_1783199193",
     "name": "Red Square",
     "location": "Moscow, Russia",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_492_1783199193",
     "name": "Hagia Sophia",
     "location": "Istanbul, Turkey",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_493_1783199193",
     "name": "The Kremlin",
     "location": "Moscow, Russia",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_494_1783199193",
     "name": "Pulpit Rock (Preikestolen)",
     "location": "Rogaland, Norway",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_495_1783199193",
     "name": "Burj Al Arab",
     "location": "Dubai, United Arab Emirates",
-    "status": "pending"
-  },
-  {
-    "id": "landmark_496_1783199193",
-    "name": "Kapellbr\u00fccke (Chapel Bridge)",
-    "location": "Lucerne, Switzerland",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_497_1783199193",
     "name": "Great Sphinx of Giza",
     "location": "Giza, Egypt",
-    "status": "pending"
-  },
-  {
-    "id": "landmark_498_1783199193",
-    "name": "Millau Viaduct",
-    "location": "Tarn, France",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_499_1783199224",
     "name": "The Acropolis of Athens",
     "location": "Athens, Greece",
-    "status": "pending"
+    "status": "approved"
   },
   {
     "id": "landmark_500_1783199224",
     "name": "Tower Bridge",
     "location": "London, United Kingdom",
-    "status": "pending"
+    "status": "approved"
   }
 ]
