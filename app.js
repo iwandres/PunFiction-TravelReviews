@@ -727,7 +727,7 @@ async function loadPuzzleDatabase() {
 
     // Calculate current scheduling indexes based on elapsed days since launch (updates at 2am PT)
     const daysElapsed = getDaysElapsedSinceStart();
-    naturalTodayIndex = Math.min(daysElapsed + 1, approvedChallenges.length);
+    naturalTodayIndex = daysElapsed + 1;
     let currentDayIndex = naturalTodayIndex;
 
     // Check if player URL overrides day (e.g. ?day=001) for diagnostic playtesting
