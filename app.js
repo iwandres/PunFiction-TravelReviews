@@ -1953,8 +1953,20 @@ function triggerVictory() {
         } else {
             if (uncompleted.length === 0) {
                 playRandomBtn.classList.add('hidden');
-                if (lobbyBtn) lobbyBtn.classList.add('hidden');
-                allCompletedMsg.classList.remove('hidden');
+                if (todayChallenge && activeChallenge.puzzle_number === todayChallenge.puzzle_number) {
+                    if (lobbyBtn) lobbyBtn.classList.add('hidden');
+                    allCompletedMsg.classList.remove('hidden');
+                } else {
+                    allCompletedMsg.classList.add('hidden');
+                    if (lobbyBtn && todayChallenge) {
+                        lobbyBtn.innerHTML = `🎯 PLAY TODAY'S CHALLENGE`;
+                        lobbyBtn.classList.remove('hidden');
+                        lobbyBtn.onclick = () => {
+                            startGame(todayChallenge);
+                            history.replaceState(null, "", `?challenge=${todayChallenge.puzzle_number}`);
+                        };
+                    }
+                }
             } else {
                 allCompletedMsg.classList.add('hidden');
                 
