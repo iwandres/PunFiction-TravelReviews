@@ -350,6 +350,15 @@ window.onload = async () => {
     const nextBtnVic = document.getElementById('btn-next-challenge-victory');
     if (nextBtnVic) nextBtnVic.onclick = () => navigateChallenge(1);
 
+    const toggleReviewsBtn = document.getElementById('btn-toggle-reviews');
+    const finalBossQuote = document.getElementById('final-boss-quote');
+    if (toggleReviewsBtn && finalBossQuote) {
+        toggleReviewsBtn.onclick = () => {
+            const isHidden = finalBossQuote.classList.toggle('hidden');
+            toggleReviewsBtn.innerText = isHidden ? 'See 1-Star Reviews ▼' : 'Hide 1-Star Reviews ▲';
+        };
+    }
+
     const openStatsSelectModalWithTracking = () => {
         if (!statsSelectModal) return;
         statsSelectModal.classList.add('active');
@@ -1900,6 +1909,14 @@ function triggerVictory() {
             </em>
         </div>
     `;
+
+    // Reset 1-star reviews toggle state to collapsed
+    const toggleReviewsBtn = document.getElementById('btn-toggle-reviews');
+    const finalBossQuote = document.getElementById('final-boss-quote');
+    if (toggleReviewsBtn && finalBossQuote) {
+        finalBossQuote.classList.add('hidden');
+        toggleReviewsBtn.innerText = 'See 1-Star Reviews ▼';
+    }
 
     const quoteEl = document.getElementById('final-boss-quote');
     if (quoteEl) {

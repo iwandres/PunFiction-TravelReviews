@@ -1146,6 +1146,29 @@ input:focus {
     font-weight: normal;
 }
 
+.toggle-reviews-btn {
+    background: none;
+    border: none;
+    color: var(--accent-main);
+    font-family: var(--font-body);
+    font-size: 0.88rem;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px auto 5px auto;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.1s ease, transform 0.1s ease;
+}
+.toggle-reviews-btn:hover {
+    color: var(--accent-dark);
+    transform: scale(1.03);
+}
+.toggle-reviews-btn:active {
+    transform: scale(0.97);
+}
+
 .victory-pitch-box {
     font-size: 0.92rem;
     color: var(--text-primary);
