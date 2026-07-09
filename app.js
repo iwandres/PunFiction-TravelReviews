@@ -1888,7 +1888,7 @@ function triggerVictory() {
         ui.linkWikipedia.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(wikiSlug)}`;
     }
     if (ui.linkMaps) {
-        ui.linkMaps.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cleanName)}`;
+        ui.linkMaps.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cleanName + ' landmark')}`;
     }
     
     // Response from the Owner
