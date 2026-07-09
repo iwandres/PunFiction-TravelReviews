@@ -339,12 +339,35 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.challenge-nav-btn:disabled {
+.challenge-nav-btn:disabled, .challenge-nav-btn.disabled {
     background: #cbd5e1;
     color: #94a3b8;
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
+    pointer-events: auto; /* Allow hover triggers even when functionally disabled */
+}
+
+.next-victory-tooltip {
+    position: absolute;
+    z-index: 10000;
+    background-color: var(--border-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 6px 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+    white-space: nowrap;
+    text-align: center;
+    border: 2px solid var(--border-color);
+}
+.next-victory-tooltip:not(.hidden) {
+    opacity: 1;
 }
 
 .level-indicator {

@@ -665,6 +665,7 @@ window.onload = async () => {
 
     // 3. Initialize hover-based daily streak tooltip for desktop users
     initStreakTooltip();
+    initNextButtonVictoryTooltip();
 };
 
 function getDaysElapsedSinceStart() {
@@ -1775,6 +1776,10 @@ function navigateChallenge(direction) {
     const currentIndex = approved.findIndex(p => p.puzzle_number === activeChallenge.puzzle_number);
     if (currentIndex === -1) return;
 
+    // Prevent navigation if the target direction is disabled
+    if (direction === 1 && currentIndex >= approved.length - 1) return;
+    if (direction === -1 && currentIndex <= 0) return;
+
     const newIndex = currentIndex + direction;
     if (newIndex >= 0 && newIndex < approved.length) {
         startGame(approved[newIndex]);
@@ -1803,7 +1808,10 @@ function updateChallengeNavButtons() {
     if (prevBtn) prevBtn.disabled = disablePrev;
     if (nextBtn) nextBtn.disabled = disableNext;
     if (prevBtnVic) prevBtnVic.disabled = disablePrev;
-    if (nextBtnVic) nextBtnVic.disabled = disableNext;
+    if (nextBtnVic) {
+        nextBtnVic.classList.toggle('disabled', disableNext);
+        nextBtnVic.disabled = false; // Keep it enabled for hover events
+    }
 }
 
 function renderStreakCalendar() {
@@ -2915,5 +2923,44 @@ function renderProfileStreakCalendar() {
         }
 
         gridEl.appendChild(box);
+    }
+}
+
+function initNextButtonVictoryTooltip() {
+    // Only initialize hover tooltip on desktop devices with pointer support
+    if (!window.matchMedia('(hover: hover)').matches) return;
+
+    const tooltip = document.createElement('div');
+    tooltip.id = 'next-victory-tooltip';
+    tooltip.className = 'next-victory-tooltip hidden';
+    tooltip.innerText = 'Congratulations, come back tomorrow for a new puzzle';
+    document.body.appendChild(tooltip);
+
+    const nextBtnVic = document.getElementById('btn-next-challenge-victory');
+    if (nextBtnVic) {
+        nextBtnVic.addEventListener('mouseenter', () => {
+            // Show only if the button is disabled (has "disabled" class) and we are on today's challenge
+            const isTodayChallenge = todayChallenge && activeChallenge && activeChallenge.puzzle_number === todayChallenge.puzzle_number;
+            const isBtnDisabled = nextBtnVic.classList.contains('disabled');
+            const victoryScreen = document.getElementById('victory-screen');
+            const isVictoryScreenActive = victoryScreen && victoryScreen.classList.contains('active');
+
+            if (isTodayChallenge && isBtnDisabled && isVictoryScreenActive) {
+                const rect = nextBtnVic.getBoundingClientRect();
+                const scrollX = window.scrollX || window.pageXOffset;
+                const scrollY = window.scrollY || window.pageYOffset;
+                
+                // Position tooltip above the button
+                tooltip.classList.remove('hidden');
+                
+                // Center the tooltip horizontally
+                tooltip.style.left = `${rect.left + scrollX + (rect.width / 2) - (tooltip.offsetWidth / 2)}px`;
+                tooltip.style.top = `${rect.top + scrollY - tooltip.offsetHeight - 8}px`;
+            }
+        });
+
+        nextBtnVic.addEventListener('mouseleave', () => {
+            tooltip.classList.add('hidden');
+        });
     }
 }
