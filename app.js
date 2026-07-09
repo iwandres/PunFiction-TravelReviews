@@ -2167,8 +2167,8 @@ function shareSolvedScore() {
     // Add hint count to the share text
     const hintText = hintsUsed === 0 ? "No hints used! Perfect score! 🌟" : `${hintsUsed}/4 hints used 💡`;
 
-    const copyText = `PunFiction Daily Challenge #${activeChallenge.puzzle_number} 🎬\n` + 
-                     `Parody Solved: "${getMaskedParodyTitle(activeChallenge.boss_pun_title)}" 🍿\n` +
+    const copyText = `PunFiction Daily Challenge #${activeChallenge.puzzle_number} 🗺️\n` + 
+                     `Parody Solved: "${getMaskedParodyTitle(activeChallenge.boss_pun_title)}"\n` +
                      `Stats: ${hintText}\n` +
                      `Play daily challenge at: https://iwandres.github.io/PunFiction/travelreviews/`;
 
