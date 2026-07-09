@@ -144,6 +144,8 @@ const ui = {
     victoryPosterImg: document.getElementById('victory-poster-img'),
     finalBossTitle: document.getElementById('final-boss-title'),
     finalBossMovie: document.getElementById('final-boss-movie'),
+    linkWikipedia: document.getElementById('link-wikipedia'),
+    linkMaps: document.getElementById('link-maps'),
     finalBossPitch: document.getElementById('final-boss-pitch')
 };
  
@@ -1878,6 +1880,16 @@ function triggerVictory() {
     ui.victoryPosterImg.src = getCorrectPosterUrl(activeChallenge.boss_poster_url);
     ui.finalBossTitle.innerText = activeChallenge.boss_pun_title;
     ui.finalBossMovie.innerText = `Real Location: ${activeChallenge.boss_original_title}`;
+    
+    // Set Wikipedia and Google Maps search URLs
+    const cleanName = activeChallenge.boss_original_title.trim();
+    const wikiSlug = cleanName.replace(/\s+/g, '_');
+    if (ui.linkWikipedia) {
+        ui.linkWikipedia.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(wikiSlug)}`;
+    }
+    if (ui.linkMaps) {
+        ui.linkMaps.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cleanName)}`;
+    }
     
     // Response from the Owner
     ui.finalBossPitch.innerHTML = `

@@ -1112,6 +1112,40 @@ input:focus {
     background: rgba(0, 170, 108, 0.04);
 }
 
+.learn-more-links {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #4a5568;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    width: 100%;
+}
+
+.learn-more-label {
+    opacity: 0.85;
+}
+
+.learn-more-link {
+    color: var(--accent-main);
+    text-decoration: underline;
+    font-weight: 800;
+    transition: color 0.1s ease;
+}
+
+.learn-more-link:hover {
+    color: var(--accent-dark);
+}
+
+.learn-more-separator {
+    color: #cbd5e1;
+    font-weight: normal;
+}
+
 .victory-pitch-box {
     font-size: 0.92rem;
     color: var(--text-primary);
