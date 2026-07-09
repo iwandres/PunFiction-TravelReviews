@@ -1987,9 +1987,9 @@ body.crazygames-env .settings-footer-tos {
 
 /* Solved State */
 .streak-day-box.solved {
-    background-color: var(--accent-main);
+    background-color: var(--text-secondary);
     color: #ffffff;
-    border-color: var(--accent-main);
+    border-color: var(--text-secondary);
     box-shadow: 0 2px 6px rgba(0, 170, 108, 0.2);
 }
 
