@@ -9,7 +9,6 @@ import urllib.parse
 import io
 import subprocess
 import sys
-from PIL import Image
 
 # Import database wrappers
 import database as boxoffice_database
@@ -1043,6 +1042,7 @@ class UnifiedRequestHandler(http.server.SimpleHTTPRequestHandler):
                     saved_image = False
                     for generated_image in response.generated_images:
                         image_bytes = generated_image.image.image_bytes
+                        from PIL import Image
                         image = Image.open(io.BytesIO(image_bytes))
                         image.save(local_image_path)
                         print(f"Saved generated image: {local_image_path}")
