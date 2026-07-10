@@ -2639,8 +2639,8 @@ function requestNextRewardedAd() {
 
 // ================= STATS & LEVEL SELECT CONTROLLER =================
 
-async function fetchAllTelemetryStats() {
-    if (allTelemetry) return allTelemetry;
+async function fetchAllTelemetryStats(force = false) {
+    if (allTelemetry && !force) return allTelemetry;
     
     let liveData = {};
     let staticData = {};
@@ -2783,7 +2783,7 @@ async function openStatsSelectModal() {
     }
 
     // 2. Fetch stats
-    const statsData = await fetchAllTelemetryStats();
+    const statsData = await fetchAllTelemetryStats(true);
     
     // 3. Aggregate stats
     const approved = getApprovedChallenges();
