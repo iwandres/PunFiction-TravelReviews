@@ -1342,8 +1342,9 @@ function loadLevel() {
     `;
 
     // Setup input maxLength based on letters count in answer
-    const letterCount = (activeChallenge.boss_pun_title.match(/[a-zA-Z]/g) || []).length;
-    ui.guessInput.maxLength = letterCount;
+    const prefilledIndices = getPrefilledIndices(activeChallenge.boss_pun_title);
+    const letterCount = getTotalLettersCount(activeChallenge.boss_pun_title);
+    ui.guessInput.maxLength = letterCount - prefilledIndices.length;
 
     // Render interactive blank slots
     renderGuessSlots();
@@ -1412,7 +1413,7 @@ function revealHint3() {
 
     // Recalculate input maxLength based on remaining letters to type
     const firstLetterIndices = getFirstLetterIndices(activeChallenge.boss_pun_title);
-    const totalLetters = (activeChallenge.boss_pun_title.match(/[a-zA-Z]/g) || []).length;
+    const totalLetters = getTotalLettersCount(activeChallenge.boss_pun_title);
     ui.guessInput.maxLength = totalLetters - firstLetterIndices.length;
 
     // Clear input to allow fresh typing of remaining letters
@@ -1446,9 +1447,9 @@ function revealHint4() {
     animateVowelRush = true;
 
     // Recalculate input maxLength based on remaining letters to type
-    const totalLetters = (activeChallenge.boss_pun_title.match(/[a-zA-Z]/g) || []).length;
-    const prefilledIndices = getPrefilledIndices(activeChallenge.boss_pun_title);
-    ui.guessInput.maxLength = totalLetters - prefilledIndices.length;
+    const totalLettersHint4 = getTotalLettersCount(activeChallenge.boss_pun_title);
+    const prefilledIndicesHint4 = getPrefilledIndices(activeChallenge.boss_pun_title);
+    ui.guessInput.maxLength = totalLettersHint4 - prefilledIndicesHint4.length;
 
     // Clear input to allow fresh typing of remaining letters
     ui.guessInput.value = '';
@@ -1462,6 +1463,22 @@ function revealHint4() {
             ui.guessInput.focus({ preventScroll: true });
         }, 100);
     }
+}
+
+// Check if a character is a special accented letter not typeable on standard US keyboards
+const isSpecialAccentedChar = (char) => {
+    return /\p{L}/u.test(char) && !/[a-zA-Z]/.test(char);
+};
+
+// Count total letters including standard and special accented characters
+function getTotalLettersCount(title) {
+    let count = 0;
+    for (let i = 0; i < title.length; i++) {
+        if (/[a-zA-Z]/.test(title[i]) || isSpecialAccentedChar(title[i])) {
+            count++;
+        }
+    }
+    return count;
 }
 
 function generateFirstLetterBlanks(str) {
@@ -1493,7 +1510,7 @@ function getFirstLetterIndices(title) {
     
     for (let i = 0; i < title.length; i++) {
         const char = title[i];
-        if (/[a-zA-Z]/.test(char)) {
+        if (/[a-zA-Z]/.test(char) || isSpecialAccentedChar(char)) {
             if (!inWord) {
                 indices.push(letterIdx);
                 inWord = true;
@@ -1516,11 +1533,12 @@ function getPrefilledIndices(title) {
     
     for (let i = 0; i < title.length; i++) {
         const char = title[i];
-        if (/[a-zA-Z]/.test(char)) {
+        if (/[a-zA-Z]/.test(char) || isSpecialAccentedChar(char)) {
             const isFirstLetter = firstLetterIndices.includes(letterIdx);
             const isVowelChar = hint4Active && /[aeiouAEIOU]/.test(char);
             const isLocked = lockedInIndices && lockedInIndices.has(letterIdx);
-            if (isFirstLetter || isVowelChar || isLocked) {
+            const isSpecial = isSpecialAccentedChar(char);
+            if (isFirstLetter || isVowelChar || isLocked || isSpecial) {
                 indices.push(letterIdx);
             }
             letterIdx++;
@@ -1541,7 +1559,7 @@ function getCompleteGuessString() {
     
     for (let i = 0; i < title.length; i++) {
         const char = title[i];
-        if (/[a-zA-Z]/.test(char)) {
+        if (/[a-zA-Z]/.test(char) || isSpecialAccentedChar(char)) {
             if (prefilledIndices.includes(letterIdx)) {
                 completeStr += char;
             } else {
@@ -1562,7 +1580,7 @@ function renderGuessSlots() {
     
     // Set dynamic maxLength
     const prefilledIndices = getPrefilledIndices(title);
-    const totalLetters = (title.match(/[a-zA-Z]/g) || []).length;
+    const totalLetters = getTotalLettersCount(title);
     ui.guessInput.maxLength = totalLetters - prefilledIndices.length;
     
     const currentGuess = ui.guessInput.value;
@@ -1573,7 +1591,12 @@ function renderGuessSlots() {
     let maxWordLength = 0;
     const words = title.split(/[\s\-:\.,;]+/);
     words.forEach(w => {
-        const cleanW = w.replace(/[^a-zA-Z]/g, '');
+        let cleanW = '';
+        for (let idx = 0; idx < w.length; idx++) {
+            if (/[a-zA-Z]/.test(w[idx]) || isSpecialAccentedChar(w[idx])) {
+                cleanW += w[idx];
+            }
+        }
         if (cleanW.length > maxWordLength) {
             maxWordLength = cleanW.length;
         }
@@ -1651,15 +1674,22 @@ function renderGuessSlots() {
             let wordHtml = '';
             for (let j = 0; j < wordChars.length; j++) {
                 const wChar = wordChars[j];
-                if (/[a-zA-Z]/.test(wChar)) {
+                if (/[a-zA-Z]/.test(wChar) || isSpecialAccentedChar(wChar)) {
                     const isPrefilled = prefilledIndices.includes(letterIdx);
                     const isLocked = lockedInIndices && lockedInIndices.has(letterIdx);
+                    const isSpecial = isSpecialAccentedChar(wChar);
+                    
                     let displayChar = '';
                     let isFilled = false;
                     let isPrefilledStyle = false;
                     let isLockedStyle = false;
+                    let isSpecialStyle = false;
                     
-                    if (isPrefilled && !isLocked) {
+                    if (isSpecial) {
+                        displayChar = wChar;
+                        isFilled = true;
+                        isSpecialStyle = true;
+                    } else if (isPrefilled && !isLocked) {
                         displayChar = wChar; // display the actual letter from the title
                         isFilled = true;
                         isPrefilledStyle = true;
@@ -1681,6 +1711,7 @@ function renderGuessSlots() {
                     if (isFilled) classes += ' filled';
                     if (isPrefilledStyle) classes += ' prefilled';
                     if (isLockedStyle) classes += ' locked-in';
+                    if (isSpecialStyle) classes += ' special-accented';
                     if (isLetterActive) {
                         classes += ' active';
                         activeHighlighted = true;
@@ -1745,7 +1776,7 @@ function handleGuessSubmit() {
         let letterIdx = 0;
         for (let i = 0; i < title.length; i++) {
             const char = title[i];
-            if (/[a-zA-Z]/.test(char)) {
+            if (/[a-zA-Z]/.test(char) || isSpecialAccentedChar(char)) {
                 const guessChar = completeGuess[i];
                 if (guessChar && guessChar.toLowerCase() === char.toLowerCase()) {
                     lockedInIndices.add(letterIdx);

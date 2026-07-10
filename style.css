@@ -614,6 +614,16 @@ body {
     box-shadow: 0 4px 8px rgba(12, 166, 120, 0.15);
 }
 
+.guess-letter-slot.special-accented {
+    background: #e2e8f0 !important;
+    color: #475569 !important;
+    border-color: #94a3b8 !important;
+    transform: translateY(0px) !important;
+    box-shadow: none !important;
+    cursor: not-allowed;
+    opacity: 0.85;
+}
+
 .guess-letter-slot.active {
     border-color: var(--accent-main);
     box-shadow: 0 0 0 3px rgba(0, 170, 108, 0.15);
