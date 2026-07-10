@@ -1820,7 +1820,7 @@ function handleGuessSubmit() {
         ui.guessInput.value = '';
         renderGuessSlots();
         shakeInput();
-        triggerHintNudge();
+        setTimeout(triggerHintNudge, 1200);
         
         // Auto-refocus on mobile so the software keyboard doesn't collapse
         setTimeout(() => {
