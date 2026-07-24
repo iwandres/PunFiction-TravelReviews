@@ -30,7 +30,7 @@
         })();
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.66">
+    <link rel="stylesheet" href="style.css?v=1.67">
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 
     <script>
@@ -44,14 +44,20 @@
 
     <div class="main-layout-container">
         <div id="app" class="app-loading">
-        <!-- Game Title Section (Centered) -->
-        <div class="game-title-section">
-            <div class="title-container" style="position: relative; display: inline-block;">
-                <h1 class="title" id="app-title" style="margin-top: 2px;">Pun<span class="accent">Fiction</span></h1>
+            <!-- Previous Answer Banner -->
+            <div id="previous-banner" class="previous-banner-container hidden">
+                <div class="previous-banner-bg"></div>
+                <span class="previous-banner-text">View Yesterday's Answer</span>
             </div>
-            <p class="subtitle" style="margin-bottom: 0px; transform: none;">1-Star Travel Reviews</p>
-            <h2 id="question-label" class="question-text" style="display: none;">Guess the parody location!</h2>
-        </div>
+            
+            <!-- Game Title Section (Centered) -->
+            <div class="game-title-section">
+                <div class="title-container" style="position: relative; display: inline-block;">
+                    <h1 class="title" id="app-title" style="margin-top: 2px;">Pun<span class="accent">Fiction</span></h1>
+                </div>
+                <p class="subtitle" style="margin-bottom: 0px; transform: none;">1-Star Travel Reviews</p>
+                <h2 id="question-label" class="question-text" style="display: none;">Guess the parody location!</h2>
+            </div>
 
         <!-- Game Screen -->
         <div id="game-screen" class="screen active">
@@ -127,11 +133,13 @@
                 <p class="guess-slots-label">What parody location is this a review for?</p>
                 <div class="guess-slots-container" id="guess-slots-container"></div>
                 
-                <!-- User Input Section -->
                 <form id="guess-form" class="input-section" style="justify-content: center; margin: 0; width: 100%;" onsubmit="event.preventDefault();">
                     <input type="text" id="guess-input" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" inputmode="latin">
                     <button id="btn-submit" type="submit" class="btn primary-btn" style="padding: 12px 30px;">Submit Guess</button>
                 </form>
+                <div style="width: 100%; text-align: center; margin-bottom: 12px;">
+                    <button id="btn-give-up" type="button" class="give-up-btn hidden">🏳️ I Give up - Show me the Location</button>
+                </div>
                 
                 <div id="feedback-msg" class="feedback"></div>
             </div>
@@ -476,6 +484,6 @@
         </div>
     </div>
 
-    <script src="app.js?v=1.79"></script>
+    <script src="app.js?v=1.80"></script>
 </body>
 </html>
