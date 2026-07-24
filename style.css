@@ -2295,16 +2295,8 @@ body.crazygames-env .settings-footer-tos {
 }
 
 /* ================= PROFILE STREAK BADGE FOR RETURNING USERS ================= */
-.settings-btn .person-icon {
-    transition: opacity 1s ease-in-out;
-}
-
 .settings-btn .person-icon.hidden {
-    /* Keep it in layout but transparent so it can fade in later */
-    display: block !important;
-    opacity: 0;
-    pointer-events: none;
-    animation: settings-profile-fade-in 1s ease-in-out 6s forwards;
+    display: none !important;
 }
 
 .settings-streak-count {
@@ -2317,7 +2309,6 @@ body.crazygames-env .settings-footer-tos {
     align-items: center;
     justify-content: center;
     z-index: 2;
-    animation: settings-streak-fade-out 1s ease-in-out 6s forwards;
 }
 
 /* Concentric Orbit Paths for Streak Circling Animation */
@@ -2402,26 +2393,6 @@ body.crazygames-env .settings-footer-tos {
     100% {
         opacity: 0;
         visibility: hidden;
-    }
-}
-
-@keyframes settings-streak-fade-out {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
-@keyframes settings-profile-fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-        pointer-events: auto;
     }
 }
 
