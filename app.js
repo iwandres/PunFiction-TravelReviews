@@ -3074,15 +3074,33 @@ function initNextButtonVictoryTooltip() {
 function updateHeaderStreak() {
     try {
         const solvedList = getSolvedPuzzlesList();
-        const { currentStreak } = calculateStreakMetrics(solvedList);
         const badge = document.getElementById('header-streak-badge');
         const countEl = document.getElementById('header-streak-count');
         
         if (!badge || !countEl) return;
         
-        if (currentStreak >= 2) {
-            countEl.innerText = currentStreak;
-            badge.classList.remove('hidden');
+        if (naturalTodayIndex) {
+            const todayStr = padPuzzleNumber(naturalTodayIndex);
+            const yesterdayStr = padPuzzleNumber(naturalTodayIndex - 1);
+            
+            const solvedToday = solvedList.has(todayStr);
+            const solvedYesterday = solvedList.has(yesterdayStr);
+            
+            const { currentStreak } = calculateStreakMetrics(solvedList);
+            
+            let displayStreak = 0;
+            if (solvedToday) {
+                displayStreak = currentStreak;
+            } else if (solvedYesterday) {
+                displayStreak = currentStreak + 1;
+            }
+            
+            if (displayStreak >= 2) {
+                countEl.innerText = displayStreak;
+                badge.classList.remove('hidden');
+            } else {
+                badge.classList.add('hidden');
+            }
         } else {
             badge.classList.add('hidden');
         }
