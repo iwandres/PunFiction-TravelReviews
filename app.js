@@ -704,14 +704,46 @@ window.onload = async () => {
 };
 
 function getDaysElapsedSinceStart() {
-    const now = new Date();
-    // Convert current clock and anchor start to LA time to be completely timezone robust
-    const nowInPT = new Date(now.toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));
-    const startInPT = new Date(START_DATE_PT.toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));
+    try {
+        const now = new Date();
+        const START_YEAR = 2026;
+        const START_MONTH = 7; // July
+        const START_DAY = 4;
+        const START_HOUR = 2;
 
-    const diffMs = nowInPT.getTime() - startInPT.getTime();
-    const days = Math.floor(diffMs / (24 * 60 * 60 * 1000));
-    return Math.max(0, days); // Return 0 (first day) even if tested slightly early
+        const formatter = new Intl.DateTimeFormat("en-US", {
+            timeZone: "America/Los_Angeles",
+            year: "numeric",
+            month: "numeric",
+            day: "numeric",
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+            hour12: false
+        });
+        
+        const parts = formatter.formatToParts(now);
+        const partVal = (type) => parseInt(parts.find(p => p.type === type).value, 10);
+
+        const yr = partVal("year");
+        const mo = partVal("month");
+        const dy = partVal("day");
+        const hr = partVal("hour");
+        const min = partVal("minute");
+        const sec = partVal("second");
+
+        const nowPTUtc = new Date(Date.UTC(yr, mo - 1, dy, hr, min, sec));
+        const startPTUtc = new Date(Date.UTC(START_YEAR, START_MONTH - 1, START_DAY, START_HOUR, 0, 0));
+
+        const diffMs = nowPTUtc.getTime() - startPTUtc.getTime();
+        const days = Math.floor(diffMs / (24 * 60 * 60 * 1000));
+        return Math.max(0, days);
+    } catch (e) {
+        console.error("Timezone calculation failed, falling back to local difference:", e);
+        const now = new Date();
+        const diffMs = now.getTime() - START_DATE_PT.getTime();
+        return Math.max(0, Math.floor(diffMs / (24 * 60 * 60 * 1000)));
+    }
 }
 
 function padPuzzleNumber(num) {
