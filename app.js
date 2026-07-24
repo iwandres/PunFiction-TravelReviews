@@ -25,7 +25,7 @@
  */
 
 // Core Constants & CDN Paths
-const GITHUB_REPO_URL = "https://raw.githubusercontent.com/iwandres/PunFiction/main/backend";
+const GITHUB_REPO_URL = "https://raw.githubusercontent.com/iwandres/travelreviews/main/backend";
 const BACKEND_API_URL = "https://punfiction.onrender.com";
 const START_DATE_PT = new Date("2026-07-04T02:00:00-07:00"); // Launch date: 2am Pacific Time
 
@@ -1121,7 +1121,7 @@ function getCorrectPosterUrl(urlPath) {
     
     if (activeFetchedFromCDN) {
         // Load poster illustration from raw public GitHub CDN under the travelreviews subfolder
-        const rawRepoUrl = "https://raw.githubusercontent.com/iwandres/PunFiction/main/travelreviews";
+        const rawRepoUrl = "https://raw.githubusercontent.com/iwandres/travelreviews/main/travelreviews";
         return `${rawRepoUrl}/${cleanPath}`;
     }
     // Sandbox local wrapper load
