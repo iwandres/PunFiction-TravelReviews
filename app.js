@@ -3080,7 +3080,7 @@ function initStreakTooltip() {
     
     const title = document.createElement('h4');
     title.className = 'streak-tooltip-title';
-    title.innerText = '🔥 STREAK CALENDAR';
+    title.innerText = '🔥 STREAK COUNTER';
     tooltip.appendChild(title);
     
     const grid = document.createElement('div');
