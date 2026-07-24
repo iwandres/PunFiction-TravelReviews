@@ -2295,8 +2295,16 @@ body.crazygames-env .settings-footer-tos {
 }
 
 /* ================= PROFILE STREAK BADGE FOR RETURNING USERS ================= */
+.settings-btn .person-icon {
+    transition: opacity 1s ease-in-out;
+}
+
 .settings-btn .person-icon.hidden {
-    display: none !important;
+    /* Keep it in layout but transparent so it can fade in later */
+    display: block !important;
+    opacity: 0;
+    pointer-events: none;
+    animation: settings-profile-fade-in 1s ease-in-out 6s forwards;
 }
 
 .settings-streak-count {
@@ -2309,6 +2317,7 @@ body.crazygames-env .settings-footer-tos {
     align-items: center;
     justify-content: center;
     z-index: 2;
+    animation: settings-streak-fade-out 1s ease-in-out 6s forwards;
 }
 
 /* Concentric Orbit Paths for Streak Circling Animation */
@@ -2320,24 +2329,28 @@ body.crazygames-env .settings-footer-tos {
     z-index: 1;
 }
 
-/* Inner orbit: 44px diameter, clockwise rotation */
+/* Inner orbit: 44px diameter, clockwise rotation for 2 cycles, then fades out */
 .settings-streak-orbit.orbit-1 {
     width: 44px;
     height: 44px;
     top: -7px;
     left: -7px;
     border: 1.5px dashed rgba(45, 52, 54, 0.25);
-    animation: settings-spin-clockwise 3s linear infinite;
+    animation: 
+        settings-spin-clockwise 3s linear 2,
+        settings-orbit-fade-out 0.8s ease-out 6s forwards;
 }
 
-/* Outer orbit: 52px diameter, counter-clockwise rotation */
+/* Outer orbit: 52px diameter, counter-clockwise rotation for 2 cycles, then fades out */
 .settings-streak-orbit.orbit-2 {
     width: 52px;
     height: 52px;
     top: -11px;
     left: -11px;
     border: 1.5px dashed rgba(45, 52, 54, 0.15);
-    animation: settings-spin-counter 4s linear infinite;
+    animation: 
+        settings-spin-counter 3s linear 2,
+        settings-orbit-fade-out 0.8s ease-out 6s forwards;
 }
 
 /* Orbiting Dots styling */
@@ -2379,6 +2392,36 @@ body.crazygames-env .settings-footer-tos {
     }
     100% {
         transform: rotate(0deg);
+    }
+}
+
+@keyframes settings-orbit-fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes settings-streak-fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes settings-profile-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        pointer-events: auto;
     }
 }
 
