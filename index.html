@@ -48,15 +48,6 @@
         <div class="game-title-section">
             <div class="title-container" style="position: relative; display: inline-block;">
                 <h1 class="title" id="app-title" style="margin-top: 2px;">Pun<span class="accent">Fiction</span></h1>
-                <div id="header-streak-badge" class="header-streak-badge hidden" title="Your daily streak! Click to view profile calendar.">
-                    <div class="streak-orbit-container">
-                        <div class="streak-orbiting-dot"></div>
-                    </div>
-                    <div class="streak-badge-content">
-                        <span class="streak-emoji">🔥</span>
-                        <span id="header-streak-count" class="streak-count">2</span>
-                    </div>
-                </div>
             </div>
             <p class="subtitle" style="margin-bottom: 0px; transform: none;">1-Star Travel Reviews</p>
             <h2 id="question-label" class="question-text" style="display: none;">Guess the parody location!</h2>
@@ -72,7 +63,18 @@
                     <span class="level-indicator" id="challenge-header"><span class="challenge-label">Challenge</span> #???</span>
                     <button id="btn-next-challenge" class="challenge-nav-btn" title="Next Challenge">▶</button>
                 </div>
-                <button id="btn-settings" class="settings-btn" title="Profile & Settings"><svg class="person-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"/></svg></button>
+                <button id="btn-settings" class="settings-btn" title="Profile & Settings" style="overflow: visible;">
+                    <svg class="person-icon" id="settings-profile-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"/>
+                    </svg>
+                    <span id="settings-streak-count" class="settings-streak-count hidden">0</span>
+                    <div class="settings-streak-orbit orbit-1 hidden">
+                        <div class="settings-orbit-dot dot-1"></div>
+                    </div>
+                    <div class="settings-streak-orbit orbit-2 hidden">
+                        <div class="settings-orbit-dot dot-2"></div>
+                    </div>
+                </button>
                 <button id="btn-stats-select" class="stats-select-btn" title="Global Stats & Select a Challenge"><svg class="map-icon" viewBox="0 0 24 24" width="18" height="22" fill="currentColor"><path d="M15,19L9,16.89V5L15,7.11M20.5,3C20.25,3 20,3.08 19.8,3.2L15,5.1L9,3L3.5,4.9C3.19,5 3,5.32 3,5.65V20.5A0.5,0.5 0 0,0 3.5,21C3.75,21 4,20.92 4.2,20.8L9,18.9L15,21L20.5,19.1C20.81,19 21,18.68 21,18.35V3.5A0.5,0.5 0 0,0 20.5,3Z"/></svg></button>
                 <button id="btn-how-to-play" class="how-to-play-btn" title="How to Play">?</button>
                 

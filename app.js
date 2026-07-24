@@ -583,8 +583,6 @@ window.onload = async () => {
 
     if (btnSettings) btnSettings.onclick = openSettingsModal;
     if (btnSettingsVic) btnSettingsVic.onclick = openSettingsModal;
-    const headerStreakBadge = document.getElementById('header-streak-badge');
-    if (headerStreakBadge) headerStreakBadge.onclick = openSettingsModal;
 
     if (btnCloseSettings) {
         btnCloseSettings.onclick = () => {
@@ -2929,6 +2927,9 @@ function initStreakTooltip() {
     const buttons = document.querySelectorAll('.settings-btn');
     buttons.forEach(btn => {
         btn.addEventListener('mouseenter', () => {
+            const solvedList = getSolvedPuzzlesList();
+            if (solvedList.size === 0) return; // Only show tooltip for returning players with solved puzzles
+            
             renderTooltipGrid();
             
             const rect = btn.getBoundingClientRect();
@@ -3070,41 +3071,36 @@ function initNextButtonVictoryTooltip() {
     }
 }
 
-// Update the daily solve streak badge next to the app header
+// Update the daily solve streak badge inside the profile settings icon
 function updateHeaderStreak() {
     try {
         const solvedList = getSolvedPuzzlesList();
-        const badge = document.getElementById('header-streak-badge');
-        const countEl = document.getElementById('header-streak-count');
         
-        if (!badge || !countEl) return;
+        const profileIcon = document.getElementById('settings-profile-icon');
+        const streakCountEl = document.getElementById('settings-streak-count');
+        const orbits = document.querySelectorAll('.settings-streak-orbit');
         
-        if (naturalTodayIndex) {
-            const todayStr = padPuzzleNumber(naturalTodayIndex);
-            const yesterdayStr = padPuzzleNumber(naturalTodayIndex - 1);
-            
-            const solvedToday = solvedList.has(todayStr);
-            const solvedYesterday = solvedList.has(yesterdayStr);
-            
+        if (!profileIcon || !streakCountEl) return;
+        
+        const hasSolvedAny = solvedList.size > 0;
+        
+        if (hasSolvedAny) {
             const { currentStreak } = calculateStreakMetrics(solvedList);
             
-            let displayStreak = 0;
-            if (solvedToday) {
-                displayStreak = currentStreak;
-            } else if (solvedYesterday) {
-                displayStreak = currentStreak + 1;
-            }
+            // Hide normal profile icon, show streak count and set its value
+            profileIcon.classList.add('hidden');
+            streakCountEl.innerText = currentStreak.toLocaleString();
+            streakCountEl.classList.remove('hidden');
             
-            if (displayStreak >= 2) {
-                countEl.innerText = displayStreak;
-                badge.classList.remove('hidden');
-            } else {
-                badge.classList.add('hidden');
-            }
+            // Show the 2 orbits
+            orbits.forEach(orbit => orbit.classList.remove('hidden'));
         } else {
-            badge.classList.add('hidden');
+            // Show normal profile icon, hide streak count and orbits
+            profileIcon.classList.remove('hidden');
+            streakCountEl.classList.add('hidden');
+            orbits.forEach(orbit => orbit.classList.add('hidden'));
         }
     } catch (e) {
-        console.error("Failed to update header streak:", e);
+        console.error("Failed to update profile streak:", e);
     }
 }

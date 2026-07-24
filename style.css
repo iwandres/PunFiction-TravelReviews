@@ -2182,91 +2182,77 @@ body.crazygames-env .settings-footer-tos {
     }
 }
 
-/* ================= HEADER STREAK BADGE FOR RETURNING USERS ================= */
-.header-streak-badge {
-    position: absolute;
-    top: 6px;
-    right: -58px;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-    cursor: pointer;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+/* ================= PROFILE STREAK BADGE FOR RETURNING USERS ================= */
+.settings-btn .person-icon.hidden {
+    display: none !important;
 }
 
-.header-streak-badge.hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.8);
-}
-
-.header-streak-badge:hover {
-    transform: scale(1.1);
-}
-
-.header-streak-badge:active {
-    transform: scale(0.95);
-}
-
-.streak-badge-content {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 2px solid #2d3436;
-    box-shadow: 2px 2px 0px #2d3436;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    overflow: visible;
-}
-
-.streak-emoji {
-    font-size: 0.75rem;
-    line-height: 1;
-    margin-top: -1px;
-}
-
-.streak-count {
-    font-family: var(--font-heading);
-    font-size: 0.9rem;
+.settings-streak-count {
+    font-family: var(--font-body);
+    font-size: 16px;
     font-weight: 900;
     line-height: 1;
     color: #ff4757;
-    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
 }
 
-/* Orbit Track & Racer Animation */
-.streak-orbit-container {
+/* Concentric Orbit Paths for Streak Circling Animation */
+.settings-streak-orbit {
     position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Inner orbit: 44px diameter, clockwise rotation */
+.settings-streak-orbit.orbit-1 {
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-    border: 1.5px dashed rgba(45, 52, 54, 0.15);
-    box-sizing: border-box;
-    z-index: 1;
-    animation: streak-spin 2s linear infinite;
-    pointer-events: none;
+    top: -7px;
+    left: -7px;
+    border: 1.5px dashed rgba(45, 52, 54, 0.25);
+    animation: settings-spin-clockwise 3s linear infinite;
 }
 
-.streak-orbiting-dot {
+/* Outer orbit: 52px diameter, counter-clockwise rotation */
+.settings-streak-orbit.orbit-2 {
+    width: 52px;
+    height: 52px;
+    top: -11px;
+    left: -11px;
+    border: 1.5px dashed rgba(45, 52, 54, 0.15);
+    animation: settings-spin-counter 4s linear infinite;
+}
+
+/* Orbiting Dots styling */
+.settings-orbit-dot {
     position: absolute;
-    top: -1px; /* Sit right on top of the dashed border */
-    left: calc(50% - 4px); /* Centered horizontally */
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
+}
+
+/* Clockwise orange/red dot starting at the top */
+.settings-streak-orbit.orbit-1 .settings-orbit-dot {
+    top: -3px;
+    left: calc(50% - 3px);
     background: #ffa502;
     box-shadow: 0 0 6px #ff4757, 0 0 12px #ffa502;
 }
 
-@keyframes streak-spin {
+/* Counter-clockwise green/teal dot starting at the bottom */
+.settings-streak-orbit.orbit-2 .settings-orbit-dot {
+    bottom: -3px;
+    left: calc(50% - 3px);
+    background: var(--accent-main);
+    box-shadow: 0 0 6px var(--accent-dark), 0 0 12px var(--accent-main);
+}
+
+@keyframes settings-spin-clockwise {
     0% {
         transform: rotate(0deg);
     }
@@ -2275,38 +2261,19 @@ body.crazygames-env .settings-footer-tos {
     }
 }
 
+@keyframes settings-spin-counter {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 /* Responsive Header Overlap Adjustments */
 @media (max-width: 400px) {
     .title {
         font-size: 4rem !important;
-    }
-    .header-streak-badge {
-        right: -42px;
-        top: 2px;
-        width: 36px;
-        height: 36px;
-    }
-    .streak-badge-content {
-        width: 26px;
-        height: 26px;
-        border-width: 1.5px;
-        box-shadow: 1.5px 1.5px 0px #2d3436;
-    }
-    .streak-emoji {
-        font-size: 0.65rem;
-    }
-    .streak-count {
-        font-size: 0.8rem;
-    }
-    .streak-orbit-container {
-        width: 36px;
-        height: 36px;
-    }
-    .streak-orbiting-dot {
-        top: -1px;
-        left: calc(50% - 3px);
-        width: 6px;
-        height: 6px;
     }
 }
 
